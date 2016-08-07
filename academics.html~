@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>Swaprava Nath - Activities</title>
+<meta name="description" content="My website template">
+<meta name="keywords" content="">
+
+<!-- Mobile viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<link rel="shortcut icon" href="Photos/favicon-2.ico"  type="image/x-icon">
+
+<!-- CSS-->
+<!-- Google web fonts. You can get your own bundle at http://www.google.com/fonts. Don't forget to update the CSS accordingly!-->
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Ubuntu' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="js/flexslider/flexslider.css">
+<link rel="stylesheet" href="css/basic-style.css">
+
+<!-- end CSS-->
+    
+<!-- JS-->
+<script src="js/libs/modernizr-2.6.2.min.js"></script>
+<!-- end JS-->
+
+
+</head>
+
+<body id="home">
+  
+<!-- header area -->
+    <header class="wrapper clearfix">
+		       
+        
+        
+        <!-- main navigation -->
+        <nav id="topnav" role="navigation">
+          <div class="menu-toggle">Menu</div>  
+          <ul class="srt-menu" id="menu-main-navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="publications.html">Publications</a></li>
+              <li>
+                  <a href="#">Academics</a>
+                  <ul>
+                      <li><a href="achievements.html">Achievements</a></li>
+                      <li><a href="education.html">Education</a></li>
+                      <li class="current"><a href="academics.html">Activities</a></li>
+                      <li><a href="others.html">Others</a></li>
+                  </ul>
+              </li>
+              <li>
+                  <a href="contact.html">Contact</a>
+              </li>	
+          </ul>     
+		</nav><!-- end main navigation -->
+  
+    </header><!-- end header -->
+ 
+ 
+<!-- hero area (the grey one with a slider -->
+    <section id="hero" class="clearfix">    
+    <!-- responsive FlexSlider image slideshow -->
+    <div class="wrapper">
+       <div class="row"> 
+        <div class="grid_7">
+            <h1>Academic and Professional Activities</h1>
+        </div><!-- end row -->
+       </div><!-- end wrapper -->
+    </section><!-- end hero area -->
+
+
+
+
+
+<!-- main content area -->   
+<div id="main" class="wrapper">
+    
+    
+<!-- content area -->    
+	<section id="content" class="wide-content">
+<div class="row">	
+        <div class="grid_8">
+<h2>Softwares and Scripts</h2>
+<p>I have written a <a href="http://matching-gs.host-ed.me/cgi-bin/advisor_matching_cgi.py">Python script</a> that runs the Gale-Shapley deferred acceptance algorithm to match students to advisors. It can as well be used for matching students to schools / departments having a fixed capacity. A sample output is <a href="Photos/deferred_acceptance_matching.html">here</a>. The whole project is on <a href="https://github.com/swaprava/matching">GitHub</a>. The Facebook <a href="https://www.facebook.com/adstudmatch">page</a> for this app.</p>
+</div>
+</div>
+      <div class="row">	
+        <div class="grid_10">
+<h2>Other</h2>
+<div class="paragraph" style="text-align:left;display:block;">
+<ul style=""><li style=""><strong style="">Organizer</strong>, <a href="http://www.isid.ac.in/~epu/acegd2014">10th Annual Conference on Economic Growth and Development</a>, Indian Statistical Institute, Delhi, December 2014</li></ul>
+<ul style=""><li style=""><strong style="">Reviewing Service</strong></li></ul>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Program Committee, IJCAI 2016. Additional Reviewer, COMSOC 2016, WINE 2012, 2015.<br />
+<ul style=""><li style="">&nbsp;<strong style="">Student Organizer</strong>, <a href="http://www.ece.iisc.ernet.in/~divsymposium/" style="" title="">The Fourth Electrical Sciences Divisional Symposium</a>, Indian Institute of Science, Bangalore, January 31 - February 1, 2013.</li></ul>
+<ul style=""><li style="">Completed&nbsp;<strong style="">fall internship</strong>&nbsp;at the&nbsp;<a href="http://www.econcs.seas.harvard.edu/" style="" title="">School Engineering and Applied Sciences, Harvard University</a>, Cambridge, Massachusetts, August - December, 2011.</li></ul>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Worked on&nbsp;<em>Crowdsourcing Networks.</em><br />
+<ul style=""><li style="">Completed&nbsp;<strong style="">summer internship</strong>&nbsp;at&nbsp;<a href="http://xrce.xerox.com/" style="" title="">Xerox Research Centre Europe</a>, Grenoble, France, June - August, 2010.</li></ul>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Worked on&nbsp;<em>Incentive Compatible Learning.</em><br /><ul style=""><li style="">Attended Summer School on&nbsp;<strong style="">Algorithmic Game Theory</strong>&nbsp;in&nbsp;<strong style="">Max Planck Institut Informatik, Saarbr&uuml;cken</strong>, Germany, August, 2010.</li></ul>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Details available at the&nbsp;<a href="http://www.mpi-inf.mpg.de/conference/adfocs10/" title="">workshop webpage</a>.<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Wrote a very small summary of the event which appears in Noam Nisan's&nbsp;<a href="http://agtb.wordpress.com/2010/08/18/swaprava-nath-reports-on-saarbrucken-agt-course/" title="">blog</a>.<br /><ul style=""><li style=""><strong style="">Teaching Assistant</strong></li></ul>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://lcm.csa.iisc.ernet.in/esc101/index.html" title="">Algorithms and Programming</a>, August - December, 2012. (Level: Undergraduate).<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://lcm.csa.iisc.ernet.in/gametheory/index.html" title="">Game Theory</a>, January - April, 2010, 2011, 2012, 2013. (Level: Graduate).<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://clweb.csa.iisc.ernet.in/linear_algebra2010/" title="">Linear Algebra</a>, August - December, 2010. (Level: Graduate).<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://clweb.csa.iisc.ernet.in/mathfoundations2011/" title="">Mathematical Foundations for Modern Computing</a>, January - April, 2011. (Level: Graduate).<br /><ul><li style="">Worked as Software Engineer in the Mid-range Routing Team in&nbsp;<a href="http://www.cisco.com/web/IN/index.html" style="" title="">Cisco Systems (India) Private Limited</a>, 2008-2009.</li></ul><br /><br /><strong><font color="#993300">Graduate Coursework*</font></strong><ul style=""><em style=""><strong style="">Core Mathematical Courses</strong></em><li style="">Real Analysis</li><li style="">Linear Algebra</li><li style="">Random Processes, Probability Theory</li><li style="">Stochastic Approximation Algorithms</li><li style="">Stochastic Processes and Queueing Theory</li><br /><em style=""><strong style="">Application Oriented Courses</strong></em><li style=""><a href="http://www.seas.harvard.edu/courses/cs186/" style="" title="">Economics and Computation</a>&nbsp;(Harvard. Instructor: Prof. David C. Parkes)</li><li style="">Resilient Mechanism Design (MIT. Instructor: Prof. Silvio Micali)</li><li style=""><a href="http://www.eecs.harvard.edu/cs286r/" style="" title="">Computational Social Choice</a>&nbsp;(Harvard. Instructor: Prof. Yiling Chen)</li><li style="">Game Theory and Mechanism Design</li><li style="">Linear and Nonlinear Optimization</li><li style="">Detection and Estimation Theory</li><li style="">Data Mining</li><li style="">Probabilistic Graphical Models</li><li style="">Communication Networks</li><li style="">Digital Communication</li><li style="">Information Theory and Coding</li><li style="">CDMA and Multiuser Detection</li><li style="">Wireless Mobile Communication Networks</li></ul><br /><br />&lowast; Some courses were done when I was an intern at&nbsp;<a href="http://www.seas.harvard.edu/" style="" title="">SEAS</a>, Harvard University. The corresponding information is within parentheses. The other courses are done at IISc.<br /><br /><font color="#993300"><strong>Undergraduate Coursework</strong></font><br /><br /><ul style=""><li style="">VLSI Circuits (Analog &amp; Digital).</li><li style="">Linear Algebra.</li><li style="">Abstract Algebra.</li><li style="">Circuit Theory.</li></ul></div></div>
+
+  </div><!-- #end div #main .wrapper -->
+
+<div class="grid_5">
+<!--You can NOT remove this attribution statement from any page, unless you get the permission from prowebdesign.ro--><div id="attribution" class="wrapper clearfix" style="color:#666; font-size:11px;">Site built with <a href="http://www.prowebdesign.ro/simple-responsive-template/" target="_blank" title="Simple Responsive Template is a free software by www.prowebdesign.ro" style="color:#777;">Simple Responsive Template</a></div><!--end attribution-->
+</div>
+
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.0.min.js">\x3C/script>')</script>
+
+<script defer src="js/flexslider/jquery.flexslider-min.js"></script>
+
+<!-- fire ups - read this file!  -->   
+<script src="js/main.js"></script>
+
+</body>
+</html>

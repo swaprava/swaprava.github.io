@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>Swaprava Nath - Application</title>
+<meta name="description" content="My website template">
+<meta name="keywords" content="">
+
+<!-- Mobile viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<link rel="shortcut icon" href="Photos/favicon-2.ico"  type="image/x-icon">
+
+<!-- CSS-->
+<!-- Google web fonts. You can get your own bundle at http://www.google.com/fonts. Don't forget to update the CSS accordingly!-->
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Ubuntu' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="js/flexslider/flexslider.css">
+<link rel="stylesheet" href="css/basic-style.css">
+
+<!-- end CSS-->
+    
+<!-- JS-->
+<script src="js/libs/modernizr-2.6.2.min.js"></script>
+<!-- end JS-->
+
+<!-- My collapsomatic magic -->
+
+<link rel='stylesheet' id='collapseomatic-css-css'  href='support/plugins/jquery-collapse-o-matic/dark_style.css?ver=1.5.4' type='text/css' media='all' />
+
+<script type='text/javascript' src='support/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='support/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='support/plugins/collapse-o-matic/collapse.js?ver=1.5.4'></script>
+<script type='text/javascript' src='support/theme/tinynav.js?ver=3.7.1'></script>
+<script type='text/javascript' src='support/theme/backtotop.js?ver=3.7.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="support/extras/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="support/extras/wlwmanifest.xml" /> 
+
+<!--
+<link rel='stylesheet' type='text/css' href='http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1349896606' />
+<link rel='stylesheet' href='http://cdn1.editmysite.com/editor/images/common/common-v2.css?buildTime=1349896606' type='text/css' />
+<link rel='stylesheet' type='text/css' href='files/main_style.css?1349985140' title='wsite-theme-css' />
+<link href='http://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Gudea:400,700,400italic' rel='stylesheet' type='text/css' />
+<link rel="shortcut icon" type="image/ico" href="Photos/favicon-2.ico">
+-->
+
+<script type='text/javascript'>
+var colomatduration = 'fast';
+var colomatslideEffect = 'slideFade';
+</script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- end of collapsomatic -->
+
+</head>
+
+<body id="home">
+  
+<!-- header area -->
+    <header class="wrapper clearfix">
+		       
+        
+        
+        <!-- main navigation -->
+        <nav id="topnav" role="navigation">
+          <div class="menu-toggle">Menu</div>  
+          <ul class="srt-menu" id="menu-main-navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="publications.html">Publications</a></li>
+              <li>
+                  <a href="#">Academics</a>
+                  <ul>
+                      <li><a href="achievements.html">Achievements</a></li>
+                      <li><a href="education.html">Education</a></li>
+                      <li class="current"><a href="academics.html">Activities</a></li>
+                      <li><a href="others.html">Others</a></li>
+                  </ul>
+              </li>
+              <li>
+                  <a href="contact.html">Contact</a>
+              </li>	
+          </ul>     
+		</nav><!-- end main navigation -->
+  
+    </header><!-- end header -->
+ 
+ 
+<!-- hero area (the grey one with a slider -->
+    <section id="hero" class="clearfix">    
+    <!-- responsive FlexSlider image slideshow -->
+    <div class="wrapper">
+       <div class="row"> 
+        <div class="grid_7">
+            <h1>Application Materials</h1>
+        </div><!-- end row -->
+       </div><!-- end wrapper -->
+    </section><!-- end hero area -->
+
+
+
+
+
+<!-- main content area -->   
+<div id="main" class="wrapper">
+    
+    
+<!-- content area -->    
+	<section id="content" class="wide-content">
+<div class="row">	
+        <div class="grid_8">
+
+<h2><a href="application/candidate_profile_at_a_glance.pdf">Candidate Profile</a></h2>
+
+<p>A one page summary of my research, teaching, and professional accomplishments.</p>
+
+
+<h2><a href="application/CV_Swaprava_Nath.pdf">Curriculum Vitae</a></h2>
+
+<p>Includes details of publications, awards, education, research guidance, academic services (e.g., serving in the conference program committees), employments, invited talks, and references.</p>
+
+<h2><a href="application/research_statement_swaprava_nath.pdf">Research Statement</a></h2>
+
+<p>A  research plan  highlighting  my  current  and  past research interests and achievements, as well as future plans in the short and long terms.</p>
+
+<h2><a href="application/teaching_statement_swaprava_nath.pdf">Teaching Statement</a></h2>
+
+<p>Details about my teaching experience, philosophy and future plan.</p>
+
+<h2>Selected Publications</h2>
+
+<!--
+<pre><code>if requisite_number < 5:
+  pick from top until requisite_number
+</code></pre>
+-->
+
+<!--
+<a name="ns16green-laffont"></a><font color="#000099"><strong>Efficiency and Budget Balance</strong></font><br />Swaprava Nath and Tuomas Sandholm
+<br /><em>Technical Report.&nbsp;</em>
+<br />
+
+<span class="collapseomatic " id="idns16green-laffont"  title="Green-Laffont">Abstract and Full Paper</span><div id="target-idns16green-laffont" class="collapseomatic_content ">
+<p>We study efficiency and budget balance in mechanism design in the quasi-linear domain. Green and Laffont [1979] proved that one cannot generically achieve both. We consider strategyproof budget-balanced mechanisms that are approximately efficient. For deterministic mechanisms, we show that a strategyproof and budget-balanced mechanism must have a sink agent whose valuation function is ignored in selecting an alternative, and she is given the payments made by the other agents. We assume the valuations of the agents are drawn from a bounded open interval. This result strengthens Green and Laffont’s impossibility result by showing that even in a restricted domain of valuations, there does not exist a mechanism that is strategyproof, budget balanced, and takes every agent’s valuation into consideration -- a corollary of which is that it cannot be efficient. Using this result, we find a tight lower bound on the inefficiencies of strategyproof, budget-balanced mechanisms in this domain. The bound shows that the inefficiency asymptotically disappears when the number of agents is large -- a result close in spirit to Green and Laffont [1979, Theorem 9.4]. However, our results provide worst-case bounds and the best possible rate of convergence.
+<br />Next, we consider minimizing any convex combination of inefficiency and budget imbalance. We show that no deterministic mechanism can do asymptotically better than minimizing inefficiency alone.
+<br />Finally, we investigate randomized mechanisms and provide improved lower bounds on expected inefficiency. We give a tight lower bound for an interesting class of strategyproof, budget-balanced, randomized mechanisms. We also use an optimization-based approach --in the spirit of automated mechanism design-- to provide a lower bound on the minimum achievable inefficiency of any randomized mechanism.</p> 
+[<a href="papers/approx-eff-green-laffont.pdf" title="">PDF</a>] [<a href="codes/regret_bound_randomized_optimal_gurobi.py" title="">code</a>]
+</div>
+<br /><br />
+-->
+
+<a name="nath-sen14roberts"></a><font color="#000099"><strong>Affine Maximizers in Domains with Selfish Valuations&nbsp;</strong></font><br />Swaprava Nath and Arunava Sen&nbsp;<br /><em>ACM Transactions on Economics and Computation (TEAC), 3(4), 2015, article 26, pp 26:1-19.</em><br />
+
+
+<span class="collapseomatic " id="idnath-sen14roberts"  title="Roberts">Abstract and Full Paper</span><div id="target-idnath-sen14roberts" class="collapseomatic_content ">
+<p>We consider the domain of <i>selfish</i> and <i>continuous</i> preferences over a "rich" allocation space and show that onto, strategyproof and <i>non-bossy</i> social choice functions are affine maximizers. Roberts (1979) proves this result for a finite set of alternatives and an unrestricted valuation space. In this paper, we show that in a sub-domain of the unrestricted valuations with the additional assumption of <i>non-bossiness</i>, using the richness of the allocations, the strategyproof social choice functions can be shown to be affine maximizers. This work serves as an example that an affine maximizer result needs certain amount of richness split across valuations and allocations.</p> 
+
+[<a href="papers/nath-sen-roberts.pdf" title="">PDF</a>] [<a href="http://dl.acm.org/citation.cfm?id=2786014">Journal Link</a>]
+</div>
+<br /><br />
+
+<a name="nath-etal13dmd"></a><font color="#000099"><strong>Dynamic Mechanism Design with Interdependent Valuations&nbsp;</strong></font><br />Swaprava Nath, Onno Zoeter, Y. Narahari, and Chris Dance&nbsp;<br /><em>Review of Economic Design (ROED), 19(3), 2015, pp 211-228.</em><br />
+
+<span class="collapseomatic " id="idnath-etal13dmd"  title="DMD">Abstract and Full Paper</span><div id="target-idnath-etal13dmd" class="collapseomatic_content ">
+<p>We consider an infinite horizon dynamic mechanism design problem with interdependent valuations. In this setting the types of the agents are assumed to be evolving according to a first order Markov process and the types are independent across agents in every round and across rounds. However, the valuations of the agents are functions of the types of all the agents, which makes the problem fall into an interdependent value model. Designing mechanisms in this setting is non-trivial in view of an impossibility result which says that for interdependent valuations, any efficient and ex-post incentive compatible mechanism must be a constant mechanism, even if the mechanism is static. Mezzetti circumvents this problem by splitting the decisions of allocation and payment into two stages. However, Mezzetti's result is limited to static setting and moreover in the second stage of that mechanism, agents are weakly indifferent about reporting their valuations truthfully.
+This paper provides a first attempt at designing a dynamic mechanism which is <i>strict</i> ex-post incentive compatible and efficient in interdependent value setting with Markovian type evolution. In a restricted domain, which appears often in real-world scenarios, we show that our mechanism is ex-post individually rational as well.</p> 
+
+[<a href="papers/nath-etal14ROED-final-auth-copy.pdf" title="">PDF</a>] [<a href="http://link.springer.com/article/10.1007/s10058-015-0177-6">Journal Link</a>]
+</div>
+<br /><br />
+
+<a name="nath-etal12red-balloon"></a><font color="#000099"><strong>Mechanism Design for Time Critical and Cost Critical Task Execution via Crowdsourcing</strong></font><br />Swaprava Nath, Pankaj Dayama, Dinesh Garg, Y. Narahari, and James Zou&nbsp;<br /><em>Web and Internet Economics (WINE), December 9 - 12, 2012, Liverpool, UK, pp 212-226.</em><br />
+<!--A non-archived version was presented in the <em>11th Meeting of Society for Social Choice and Welfare (SSCW), August 17-20, 2012, New Delhi, India.</em><br /> -->
+
+<span class="collapseomatic " id="idnath-etal12red-balloon" >Abstract and Full Paper</span><div id="target-idnath-etal12red-balloon" class="collapseomatic_content ">
+<p>In recent times, crowdsourcing over social networks has emerged as an active tool for complex task execution. In this paper,
+we address the problem faced by a planner to incentivize agents in the network to execute a task
+and also help in recruiting other agents for this purpose. We study this mechanism design problem under 
+two natural resource optimization settings: (1) cost critical tasks, where the planner's goal is to minimize the total cost, and (2) time critical tasks, where the goal is to minimize the total time elapsed before the task
+is executed. We define a set of fairness properties that should be ideally satisfied by a 
+crowdsourcing mechanism. We prove that no mechanism can satisfy all these properties simultaneously. 
+We relax some of these properties and define their approximate counterparts. 
+Under appropriate approximate fairness criteria, we obtain a non-trivial family of 
+payment mechanisms. Moreover, we provide precise characterizations of cost critical and time critical mechanisms.</p>
+
+[<a href="http://arxiv.org/pdf/1208.1676v1.pdf" title="">PDF</a>] [<a href="papers/sybilproof.pdf" title="">slides</a>]
+</div>
+<br /><br />
+
+
+<a name="nath-zoeter13EconLet"></a><font color="#000099"><strong>A Strict Ex-post Incentive Compatible Mechanism for Interdependent Valuations&nbsp;</strong></font><br />Swaprava Nath and Onno Zoeter&nbsp;<br />
+<em>Economics Letters, 121(2), 2013, pp 321-325.</em>
+<br />
+<span class="collapseomatic " id="idnath-zoeter13EconLet" >Abstract and Full Paper</span><div id="target-idnath-zoeter13EconLet" class="collapseomatic_content ">
+<p>The impossibility result by Jehiel and Moldovanu says that in a setting with interdependent valuations, any efficient and ex-post incentive compatible mechanism must be a constant mechanism. 
+Mezzetti circumvents this problem by designing a two stage mechanism where the decision of allocation and payment are split over the two stages. This mechanism is elegant, however keeps a major weakness. In the second stage, agents are weakly indifferent about reporting their valuations truthfully: an agent's payment is independent of her reported valuation and truthtelling for this stage is by assumption. We propose a modified mechanism which makes truthful reporting in the second stage a strict equilibrium.</p>
+
+[<a href="papers/nath-zoeter13EconLet.pdf" title="">PDF</a>] [<a href="http://authors.elsevier.com/sd/article/S0165176513004060">Journal Link</a>]
+</div>
+<br /><br />
+
+<a name="nath-etal13effort-net"></a><font color="#000099"><strong>Productive Output in Hierarchical Crowdsourcing</strong></font><br />Swaprava Nath and Balakrishnan Narayanaswamy&nbsp;<br /><em>Autonomous Agents and Multi-Agent Systems (AAMAS), May 5-9, 2014, Paris, France, pp 469-476.&nbsp;</em>
+<br />
+<span class="collapseomatic " id="idnath-etal13effort-net" >Abstract and Full Paper</span><div id="target-idnath-etal13effort-net" class="collapseomatic_content ">
+<p>Organically grown crowdsourcing networks, which includes production firms and social network based crowdsourcing applications, tend to have a hierarchical structure. Considering the entire crowdsourcing system as a consolidated organization, a primary goal of a designer is to maximize the net productive output of this hierarchy using reward sharing as an incentive tool. Every individual in a hierarchy has a limited amount of effort that they can split between production and communication. Productive effort yields an agent a direct payoff, while the communication effort of an agent improves the productivity of other agents in her subtree. To understand how the net output of  the crowdsourcing network is influenced by these components, we develop a game theoretic model that helps explain how the individuals trade off these two components depending on their <em>position in the hierarchy</em> and their <em>shares of reward</em>. We provide a detailed analysis of the Nash equilibrium efforts and a design recipe of the reward sharing scheme that maximizes the net productive output. Our results show that even under strategic behavior of the agents, it is sometimes possible to achieve the optimal output and also provide bounds on the achievability when this is not the case.</p>
+
+[<a href="papers/fp372-nath.pdf" title="">PDF</a>]
+</div>
+<br /><br />
+
+<h2>List of References</h2>
+
+<h3><a href="http://lcm.csa.iisc.ernet.in/hari/"><b>Y. Narahari</b></a></h3>
+Professor (PhD Advisor) <br>
+<b>Address:</b><br>
+Computer Science and Automation<br>
+Indian Institute of Science<br>
+Bangalore 560 012, Karnataka, India<br>
+<b>Email:</b> hari@csa.iisc.ernet.in, <b>Phone:</b> +91 80 2293 2773, <b>Fax:</b> +91 80 2360 2911
+
+<h3><a href="http://www.isid.ac.in/~epu/?page_id=498"><b>Arunava Sen</b></a></h3>
+Professor (Postdoc host at ISI Delhi) <br>
+<b>Address:</b><br>
+Economics and Planning Unit<br>
+Indian Statistical Institute<br>
+7, SJS Sansanwal Marg, New Delhi 110 016, India<br>
+<b>Email:</b> asen@isid.ac.in, <b>Phone:</b> +91 11 4149 3945, <b>Fax:</b> +91 11 4149 3981
+
+<h3><a href="http://www.cs.cmu.edu/~arielpro/"><b>Ariel Procaccia</b></a></h3>
+Assistant Professor (Postdoc host at CMU) <br>
+<b>Address:</b><br>
+Computer Science Department<br>
+Carnegie Mellon University<br>
+5000 Forbes Avenue, Pittsburgh, PA 15213, USA<br>
+<b>Email:</b> arielpro@cs.cmu.edu, <b>Phone:</b> +1 412 268 5636, <b>Fax:</b> +1 412 268 5576
+
+<h3><a href="http://www.cs.cmu.edu/~sandholm"><b>Tuomas Sandholm</b></a></h3>
+Professor (Co-author and Collaborator) <br>
+<b>Address:</b><br>
+Computer Science Department<br>
+Carnegie Mellon University<br>
+5000 Forbes Avenue, Pittsburgh, PA 15213, USA<br>
+<b>Email:</b> sandholm@cs.cmu.edu, <b>Phone:</b> +1 412 268 8216, <b>Fax:</b> +1 412 268 4187
+
+</div>
+</div>
+
+  </div><!-- #end div #main .wrapper -->
+
+<!-- GoStats Simple HTML Based Code -->
+<a target="_blank" title="web analytic" href="http://gostats.com"><img alt="web analytic" 
+src="http://monster.gostats.com/bin/count/a_479224/t_5/i_1/counter.png" 
+style="border-width:0" /></a>
+<!-- End GoStats Simple HTML Based Code -->
+
+<div class="grid_5">
+<!--You can NOT remove this attribution statement from any page, unless you get the permission from prowebdesign.ro--><div id="attribution" class="wrapper clearfix" style="color:#666; font-size:11px;">Site built with <a href="http://www.prowebdesign.ro/simple-responsive-template/" target="_blank" title="Simple Responsive Template is a free software by www.prowebdesign.ro" style="color:#777;">Simple Responsive Template</a></div><!--end attribution-->
+</div>
+
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.0.min.js">\x3C/script>')</script>
+
+<script defer src="js/flexslider/jquery.flexslider-min.js"></script>
+
+<!-- fire ups - read this file!  -->   
+<script src="js/main.js"></script>
+
+</body>
+</html>
