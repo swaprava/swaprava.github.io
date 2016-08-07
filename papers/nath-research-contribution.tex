@@ -1,0 +1,232 @@
+% \documentclass[10pt,letter]{article}
+% YN - March 8, 2012
+
+\documentclass[11pt,psfig,letter]{article}
+% \usepackage{geometry}
+% %\geometry{a4paper}
+% \geometry{left=18mm,right=18mm,top=21mm,bottom=25mm}
+
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{latexsym}
+\usepackage[hang]{subfigure}
+%\usepackage{balance}
+\usepackage{mathrsfs}
+\usepackage[compact]{titlesec}
+% \titlespacing{\section}{0pt}{*0}{*0}
+% \titlespacing{\subsection}{0pt}{*0}{*0}
+% \titlespacing{\subsubsection}{0pt}{*0}{*0}
+\usepackage[small,it]{caption}
+\usepackage{mdwlist}
+\usepackage{wrapfig}
+\usepackage{tikz}
+\usepackage{varwidth}
+\usetikzlibrary{shapes,arrows, trees}
+\usepackage{cleveref}
+% \usepackage{ubuntu}
+% \usepackage{fontspec}
+% \usepackage{xunicode}
+% \usepackage{xltxtra}
+% \usepackage{mechanismalg}
+% \usepackage{algorithmic}
+% \usepackage{cancel}
+\usepackage{setspace}
+ \usepackage{color}
+\usepackage[numbers]{natbib}
+% \usepackage{hyperref}
+% \usepackage{authblk}
+% \usepackage{mathpazo}
+%\acmVolume{2}
+%\acmNumber{3}
+%\acmYear{01}
+%\acmMonth{09}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{discussion}{Discussion}
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{mechanism}{Mechanism}
+
+
+\newcommand{\pf}{\textbf{Proof: }}
+\newcommand{\epf}{\hfill $\Box$}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\no}{\nonumber}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\beqn}{\[}
+\newcommand{\eeqn}{\]}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\bean}{\begin{eqnarray*}}
+\newcommand{\eean}{\end{eqnarray*}}
+\newcommand{\re}{\mbox{$\mathfrak{Re}$}}
+\newcommand{\bit}{\begin{itemize}}
+\newcommand{\eit}{\end{itemize}}
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+\newcommand{\dham}{d_{\text{H}}}
+
+\newcommand{\squishlisttwo}{
+\begin{list}{$\bullet$}
+{ \setlength{\itemsep}{0pt}
+\setlength{\parsep}{0pt}
+\setlength{\topsep}{0pt}
+\setlength{\partopsep}{0pt}
+\setlength{\leftmargin}{1em}
+\setlength{\labelwidth}{1.5em}
+\setlength{\labelsep}{0.5em} } }
+
+\newcommand{\squishend}{
+\end{list} }
+
+\linespread{1}
+\setlength{\bibsep}{0pt}
+
+\textheight 9.5in
+\textwidth 7.0in
+\evensidemargin= -0.2in
+\oddsidemargin= -0.25in
+\topmargin= -0.75in
+\parindent 10px
+% \parskip 1.5ex
+%\def\tw{.5\textwidth}
+\def\QED{\mbox{\rule[0pt]{1ex}{1ex}}}
+\def\Q{\hspace*{\fill}~\QED\par\endtrivlist\unskip}
+
+\newtheorem{question}{Question}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\title{\vspace{-0.5in}\sc Research Contribution and Its Significance\vspace{-2mm}}
+% \title{\vspace{-0.5in}Decision Making in Strategic Outsourcing Networks{-2mm}} % for OR/optimization related stuff
+% \title{\vspace{-0.5in}Research Statement\vspace{-2mm}}
+  \author{{\bf Swaprava Nath} 
+% 	\\ \small{Advisor: Prof. Y. Narahari\vspace{-1mm}}
+% 	\\ \small{Department of Computer Science and Automation\vspace{-1mm}}
+% 	\\ \small{Indian Institute of Science, Bangalore\vspace{-1mm}} 
+	\\ \small{Email: \texttt{swaprava@gmail.com} \hspace{1cm} Web: \texttt{http://swaprava.byethost7.com}}\vspace{-0.25mm}
+% 	\\ \small{Submitted as part of the INSPIRE Faculty Scheme application, September 2013}\vspace{-0.25mm}
+% 	\\ {\bf Topical Areas: Game Theory, Optimization, Algorithms}\vspace{-3mm}
+}
+% 
+% \date{\today}
+\date{}
+% \frenchspacing
+
+% Start the document
+\begin{document}
+\maketitle
+
+\vspace{-0.25in}
+
+\noindent
+My research has contributed to the game theoretic modeling of Internet related microeconomic applications and presented mechanism design solutions. In particular, I have focused on the {\em crowdsourcing} problem. The art of aggregating information and expertise from a diverse population has been in practice since a long time.
+The Internet and the revolution in communication and computational technologies have made this task easier and given birth to a new era of online resource aggregation, which is now popularly referred to as crowdsourcing. Even though crowdsourcing had been in practice implicitly in many classic applications including the Oxford English Dictionary, it has gained much attention in recent times after the success of Wikipedia, oDesk, Amazon Mechanical Turk, InnoCentive, and several other such applications. Today, crowdsourcing is not only limited to small online games, rather it is commercially used as active means to generate revenue for organizations.
+With the proliferation of this unique tool, one has to understand two important features of this aggregation technique: (a)~crowdsourcing is always human driven, hence the participants are rational and intelligent, and they have a payoff function that they aim to maximize through their choice of actions, and (b)~the participants are connected over a social network which helps both the designer and the participants to reach out to a large set of individuals. To understand the behavior and the outcome of such a strategic crowd, we need to understand the economics of a crowdsourcing network using game theoretic modeling. This is where my research contributes significantly to the existing literature. In my thesis, I have considered the following three major aspects of the strategic crowdsourcing problem as shown in \Cref{fig:space}.
+
+% Define block styles
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, text width=2.0in, text centered, rounded corners, minimum height=4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse, fill=red!20, node distance=2cm, minimum height=3em]
+
+
+% Set the overall layout of the tree
+\tikzstyle{level 1}=[level distance=1.5cm, sibling distance=6cm]
+\tikzstyle{level 2}=[level distance=2.0cm, sibling distance=4cm]
+
+\begin{figure}[h!]
+ \begin{center}
+    \footnotesize
+\begin{tikzpicture}[grow=down, sloped, scale=1.0, every node/.style={transform shape}]
+\node[cloud] {\bf Crowdsourcing}
+    child {
+        node[cloud] {\begin{varwidth}{1in}\centering \bf Skill Elicitation\end{varwidth}}% This is the first of three "Bag 2"
+        child {
+			    node[block] {
+			    \squishlisttwo
+			     \item Static skills, interdependent values~\cite{Nath2013a}
+			     \item Stochastic skill transition, interdependent values~\cite{Nath2011}
+			    \squishend
+			    }
+            }
+    }
+    child {
+        node[cloud] {\begin{varwidth}{1in}\centering \bf Resource Critical Tasks\end{varwidth}}
+            child {
+                node[block] {%\underline{\bf Structural Manipulation} \\ \medskip
+			    \squishlisttwo
+			     \item {\em Sybilproofness}, rewarding only the winning chain~\cite{Nath2012b} 
+			     \item Rewarding all contributors, information manipulation~\cite{Nath2012a}
+			    \squishend
+			    }
+            }
+    }
+    child {
+        node[cloud] {\begin{varwidth}{1in}\centering \bf Efficient Team Formation\end{varwidth}}
+	    child {
+                node[block] {%\underline{\bf Team Formation} \\ \medskip
+			    \squishlisttwo
+			     \item Through incentive design~\cite{Nath2013b}
+			     \item Through a crowdsourcing network design~\cite{Nath2012}
+			    \squishend
+			     }
+            }
+    };
+\end{tikzpicture}
+ \caption{Research components of the crowdsourcing problem.}
+ \label{fig:space}
+ \end{center}
+\end{figure}
+
+\vspace{-0.25in}
+
+\subsection*{Eliciting Skills of the Strategic Workers}
+
+Since the crowd is heterogeneous, the skill levels of the participants is often unknown to the crowdsourcer, who wants to select an optimal subset of the participants based on that skill. However, the participants may perfectly know their individual skills (hidden from the crowdsourcer) and this induces a game between the crowdsourcer and the participants. We designed mechanisms that help elicit the skills truthfully from the participants ensuring their propensity to play this game. 
+\squishlisttwo
+ \item First, we addressed the mechanism design problem in a static setting, that is, the private skills are invariant over time. 
+%  It has been shown that for interdependent valuations, it is impossible to design a single stage mechanism that can ensure efficiency and truthful reports of skill by the participants~\cite{jehiel-moldovanu01efficient-dependent-valuation}. However, there is a two stage mechanism~\cite{mezzetti2004mechanism} that can mitigate this problem, but not completely. In the second stage of this mechanism, players are indifferent between truthful reporting and misreporting. 
+ We provided a mechanism that makes truthful reporting a strictly better strategy for all agents and also guarantees individual rationality under a special setting~\cite{Nath2013a}.
+ \item Next, we extended the solution to a setting where the participants' qualities vary stochastically over time according to a Markov process~\cite{Nath2011}.
+%  For the independent values, \citet{bergemann-valimaki10dynamic-pivot} have proposed an efficient mechanism called the \emph{dynamic pivot mechanism}, which is a generalization of the classic Vickrey-Clarke-Groves (VCG) mechanism. However, the problem of dynamic mechanism design with interdependent valuations has received little attention in the literature. We look into this problem and propose a mechanism that is efficient and truthful under the dynamic setting. Under certain special setting, this mechanism incentivizes the participants to voluntarily participate in the game~\cite{nath-etal11dmd-uai}.
+\squishend
+
+\subsection*{Resource Critical Task Execution via Crowdsourcing}
+
+This applies to the crowdsourcing contests like finding an object or an answer. The objective is not only to find the correct answer in a time optimal or cost minimal fashion, but also to find the right structure of the crowdsourcing network that found the solution. 
+% It is observed that a better performance is obtained by leveraging the underlying social structure of the individuals. 
+We designed mechanisms that incentivizes the individuals on the network to meet the right objectives.
+
+\squishlisttwo
+ \item We have shown that in crowdsourcing contests like the DARPA red balloon challenge, certain desirable properties are impossible to satisfy together. We introduced approximate versions of these properties and provided a first attempt in the context of crowdsourcing to design {\em approximately sybilproof mechanisms}~\cite{Nath2012b}. 
+%  Under certain resource critical paradigms, some of those properties are more preferable than the others and we characterize the space of mechanisms that satisfy those properties under {\em cost-critical} and {\em time-critical} paradigms~\cite{Nath2012b}.
+ \item In these kinds of contests, a great deal of human effort can get wasted, as people can potentially go explore the same incorrect solution already explored by someone else.
+%  A more time efficient and fair scheme could be to distribute the reward in proportion to the information contributed by each agent. For example, if an agent searches for an object in a certain part of a city and reports that the object is not present in that region, it saves a lot of time and effort for the other participants. 
+ We discussed about how a {\em synergistic} mechanism can be designed using the tools from information theory and prediction market to mitigate this problem~\cite{Nath2012a}.
+\squishend
+
+\subsection*{Efficient Team Formation from a Crowd}
+
+The third direction considers the whole crowdsourcing network as a consolidated organization, where the designer aims to maximize the net productive output of the system. We have taken two complementary approaches here.
+% The other interesting question in crowdsourcing is to understand how highly productive teams emerge from a loosely structured population. A crowdsourcing network, once formed, is very similar to an organizational network, where the reason for success (failure) is often attributed to the (im)proper {\em management} of human resources. The goal of the designer in this context is to maximize the net productive output of the networked crowdsourcing system. We build on the paper by \citet{ballester06} and develop an understanding of the effort levels in influencer-influencee networks. We address this question as follows.
+
+\squishlisttwo
+ \item First, we analyzed how individuals connected in a network trade-off between their production and communication effort given the {\em network positions} and the {\em reward sharing scheme}, and show how the reward sharing scheme can be designed optimally so as to maximize the total output of the network~\cite{Nath2013b}. 
+%  \item We then provide a condition of achievability of optimal social output for stylized networks. Our results show that the equilibrium output may not always achieve the globally optimal. However, by choosing the right reward sharing scheme we can maximize the output and we provide a recipe of such reward sharing schemes~\cite{nath2013incentives}.
+ \item On the other hand, we showed how to {\em design the network} that leads to an optimal performance~\cite{Nath2012}.
+\squishend
+
+\smallskip
+
+\noindent
+{\bf Putting everything together}, my research addressed several interesting problems on a very recent research area named crowdsourcing and provided novel solutions to its economic aspect, which makes my research clearly distinguishable in the literature that lies in the intersection of computer science and microeconomics.
+
+% \pagebreak
+\small
+
+\bibliographystyle{abbrvnat} 
+\bibliography{/home/swaprava/Documents/PhD-Work/Research/master01082013}
+
+\end{document}
