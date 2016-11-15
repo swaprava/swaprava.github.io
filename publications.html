@@ -122,17 +122,33 @@ var colomatslideEffect = 'slideFade';
 
 
 
-<a name="ns16green-laffont"></a><font color="#336600"><strong>Efficiency and Budget Balance</strong></font><br />Swaprava Nath and Tuomas Sandholm
+<a name="nnps16robot"></a><font color="#336600"><strong>A Game-Theoretic Formalism of Human Partial Adaptation: Models and Experiments</strong></font><br />Stefanos Nikolaidis, Swaprava Nath, Ariel Procaccia, and Siddhartha Srinivasa
 <br /><em>Technical Report.&nbsp;</em>
 <br />
 
-<span class="collapseomatic " id="idns16green-laffont"  title="Green-Laffont">Abstract and Full Paper</span><div id="target-idns16green-laffont" class="collapseomatic_content ">
-<p>We study efficiency and budget balance in mechanism design in the quasi-linear domain. Green and Laffont [1979] proved that one cannot generically achieve both. We consider strategyproof budget-balanced mechanisms that are approximately efficient. For deterministic mechanisms, we show that a strategyproof and budget-balanced mechanism must have a sink agent whose valuation function is ignored in selecting an alternative, and she is given the payments made by the other agents. We assume the valuations of the agents are drawn from a bounded open interval. This result strengthens Green and Laffont’s impossibility result by showing that even in a restricted domain of valuations, there does not exist a mechanism that is strategyproof, budget balanced, and takes every agent’s valuation into consideration -- a corollary of which is that it cannot be efficient. Using this result, we find a tight lower bound on the inefficiencies of strategyproof, budget-balanced mechanisms in this domain. The bound shows that the inefficiency asymptotically disappears when the number of agents is large -- a result close in spirit to Green and Laffont [1979, Theorem 9.4]. However, our results provide worst-case bounds and the best possible rate of convergence.
-<br />Next, we consider minimizing any convex combination of inefficiency and budget imbalance. We show that no deterministic mechanism can do asymptotically better than minimizing inefficiency alone.
-<br />Finally, we investigate randomized mechanisms and provide improved lower bounds on expected inefficiency. We give a tight lower bound for an interesting class of strategyproof, budget-balanced, randomized mechanisms. We also use an optimization-based approach --in the spirit of automated mechanism design-- to provide a lower bound on the minimum achievable inefficiency of any randomized mechanism.</p> 
-[<a href="papers/approx-eff-green-laffont.pdf" title="">PDF</a>] [<a href="codes/regret_bound_randomized_optimal_gurobi.py" title="">code</a>]
+<span class="collapseomatic " id="idnnps16robot"  title="Robot">Abstract and Full Paper</span><div id="target-idnnps16robot" class="collapseomatic_content ">
+<p>In human-robot collaborative tasks, humans often start with an
+inaccurate model of the robot capabilities. They then make inferences
+on what the robot can and cannot do through interaction, and update
+their strategy accordingly. This paper presents a game-theoretic
+formalism for human <i>partial adaptation</i> to the robot, which
+captures the evolution of the human strategy over time, as the human
+partner observes the outcome of the robot and their actions. The model
+allows the robot to reason in a probabilistic sense over how the human
+actions will change based on its own actions, and compute a policy
+that optimizes the tradeoff between conveying information to the human
+and maximizing the team payoff. We formally prove that under certain
+observability assumptions on the human state, the policy computation
+can be done very efficiently. Human subject experiment indicate that
+the proposed formalism can significantly improve human-robot team
+performance, compared to policies that assume complete adaptation of
+the human to the robot.</p> 
+<!--[<a href="papers/BNPS-participatory-budgeting.pdf" title="">PDF</a>] -->
 </div>
 <br /><br />
+
+
+
 
 <a name="mnr15separability"></a><font color="#336600"><strong>Separability and Decomposition in Mechanism Design with Transfers</strong></font><br />Debasis Mishra, Swaprava Nath, and Souvik Roy
 <br /><em>Technical Report.&nbsp;</em>
@@ -214,6 +230,29 @@ self-localization.</p>
 
 
 <font size="4" color="#990000"><strong>Conference</strong></font><br /><br />
+
+<a name="bnps16pb"></a><font color="#990000"><strong>Preference Elicitation For Participatory Budgeting</strong></font><br />Gerdus Benade, Swaprava Nath, Ariel Procaccia, and Nisarg Shah
+<br /><em>Association for Advancement of Artificial Intelligence (AAAI), February 4 - 9, 2017, San Francisco, California, USA, to appear.</em>
+<br />
+
+<span class="collapseomatic " id="idbnps16pb"  title="PB">Abstract and Full Paper</span><div id="target-idbnps16pb" class="collapseomatic_content ">
+<p>Participatory budgeting enables the allocation of public funds by collecting and aggregating individual preferences; it has
+already had a sizable real-world impact. But making the most of this new paradigm requires a rethinking of some of the basics of computational social choice, including the very way in  which  individuals  express  their  preferences.  We  analytically compare four preference elicitation methods -- knapsack votes, rankings by value or value for money, and threshold approval votes -- through the lens of implicit utilitarian voting, and find that threshold approval votes are qualitatively superior. This conclusion is supported by experiments using data from real participatory budgeting elections</p> 
+[<a href="papers/BNPS-participatory-budgeting.pdf" title="">PDF</a>]
+</div>
+<br /><br />
+
+<a name="ns16green-laffont"></a><font color="#990000"><strong>Efficiency and Budget Balance</strong></font><br />Swaprava Nath and Tuomas Sandholm
+<br /><em>Web and Internet Economics (WINE), December 11 - 14, 2016, Montreal, Canada, to appear.</em>
+<br />
+
+<span class="collapseomatic " id="idns16green-laffont"  title="Green-Laffont">Abstract and Full Paper</span><div id="target-idns16green-laffont" class="collapseomatic_content ">
+<p>We study efficiency and budget balance in mechanism design in the quasi-linear domain. Green and Laffont [1979] proved that one cannot generically achieve both. We consider strategyproof budget-balanced mechanisms that are approximately efficient. For deterministic mechanisms, we show that a strategyproof and budget-balanced mechanism must have a sink agent whose valuation function is ignored in selecting an alternative, and she is given the payments made by the other agents. We assume the valuations of the agents are drawn from a bounded open interval. This result strengthens Green and Laffont’s impossibility result by showing that even in a restricted domain of valuations, there does not exist a mechanism that is strategyproof, budget balanced, and takes every agent’s valuation into consideration -- a corollary of which is that it cannot be efficient. Using this result, we find a tight lower bound on the inefficiencies of strategyproof, budget-balanced mechanisms in this domain. The bound shows that the inefficiency asymptotically disappears when the number of agents is large -- a result close in spirit to Green and Laffont [1979, Theorem 9.4]. However, our results provide worst-case bounds and the best possible rate of convergence.
+<br />Next, we consider minimizing any convex combination of inefficiency and budget imbalance. We show that no deterministic mechanism can do asymptotically better than minimizing inefficiency alone.
+<br />Finally, we investigate randomized mechanisms and provide improved lower bounds on expected inefficiency. We give a tight lower bound for an interesting class of strategyproof, budget-balanced, randomized mechanisms. We also use an optimization-based approach --in the spirit of automated mechanism design-- to provide a lower bound on the minimum achievable inefficiency of any randomized mechanism.</p> 
+[<a href="https://arxiv.org/pdf/1610.01443v1.pdf" title="">PDF</a>] [<a href="codes/regret_bound_randomized_optimal_gurobi.py" title="">code</a>]
+</div>
+<br /><br />
 
 <a name="cnps16subset"></a><font color="#990000"><strong>Subset Selection Via Implicit Utilitarian Voting</strong></font><br />Ioannis Caragiannis, Swaprava Nath, Ariel Procaccia, and Nisarg Shah
 <br /><em>International Joint Conference on Artificial Intelligence (IJCAI), July 9-15, 2016, New York, USA.</em>
