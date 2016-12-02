@@ -254,7 +254,7 @@ This is for mobile devices with a bit larger screens.
 #banner{
 	float:left;
 	text-align:left;
-	margin-bottom:-20px;/*this depends on the height of the logo*/
+	margin-bottom:-10px;/*this depends on the height of the logo*/
 }
 .menu-toggle{/*make menu float right, instead of sitting under the logo*/
 	margin-top:10px; /*this depends on the height of the logo*/
@@ -283,6 +283,14 @@ But I think that some more breathing space is good:)
 header{
 	padding:0;
 }
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+	font-family:'Droid Serif', Arial, Helvetica, sans-serif; 
+	line-height:1.5em;
+	margin:.45em 0;
+	padding:0;
+} 
+
 #content {  
 	float:left;
 	width:65%;
@@ -415,7 +423,6 @@ ul.srt-menu li li li.sfHover ul {
 	color:#fff;
 	background:#0099ff;
 }
-
 
 
 /*GRID*/
