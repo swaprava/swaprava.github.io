@@ -1,0 +1,243 @@
+% \documentclass[10pt,letter]{article}
+% YN - March 8, 2012
+% YN - June 22, 2013
+
+\documentclass[11pt,psfig]{article}
+\usepackage{geometry}
+%\geometry{a4paper}
+\geometry{left=18mm,right=18mm,top=20mm,bottom=20mm}
+
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{latexsym}
+\usepackage[hang]{subfigure}
+%\usepackage{balance}
+\usepackage{mathrsfs}
+\usepackage[compact]{titlesec}
+\usepackage{wasysym}
+% \titlespacing{\section}{0pt}{*0}{*0}
+% \titlespacing{\subsection}{0pt}{*0}{*0}
+% \titlespacing{\subsubsection}{0pt}{*0}{*0}
+\usepackage[small,it]{caption}
+\usepackage{mdwlist}
+\usepackage{enumerate}
+\usepackage{wrapfig}
+\usepackage{tikz}
+\usepackage{varwidth}
+\usetikzlibrary{shapes,arrows, trees}
+% \usepackage{ubuntu}
+% \usepackage{fontspec}
+% \usepackage{xunicode}
+% \usepackage{xltxtra}
+% \usepackage{mechanismalg}
+% \usepackage{algorithmic}
+% \usepackage{cancel}
+\usepackage{cleveref}
+\usepackage{setspace}
+ \usepackage{color}
+\usepackage[numbers]{natbib}
+% \usepackage{hyperref}
+% \usepackage{authblk}
+% \usepackage{mathpazo}
+%\acmVolume{2}
+%\acmNumber{3}
+%\acmYear{01}
+%\acmMonth{09}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{discussion}{Discussion}
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{mechanism}{Mechanism}
+
+
+\newcommand{\pf}{\textbf{Proof: }}
+\newcommand{\epf}{\hfill $\Box$}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\no}{\nonumber}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\beqn}{\[}
+\newcommand{\eeqn}{\]}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\bean}{\begin{eqnarray*}}
+\newcommand{\eean}{\end{eqnarray*}}
+\newcommand{\re}{\mbox{$\mathfrak{Re}$}}
+\newcommand{\bit}{\begin{itemize}}
+\newcommand{\eit}{\end{itemize}}
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+\newcommand{\dham}{d_{\text{H}}}
+
+\newcommand{\squishlisttwo}{
+\begin{list}{$\bullet$}
+{ \setlength{\itemsep}{0pt}
+\setlength{\parsep}{0pt}
+\setlength{\topsep}{0pt}
+\setlength{\partopsep}{0pt}
+\setlength{\leftmargin}{2em}
+\setlength{\labelwidth}{1.5em}
+\setlength{\labelsep}{0.5em} } }
+
+\newcommand{\squishend}{
+\end{list} }
+
+\crefname{observation}{observation}{observations}
+\crefname{algorithm}{algorithm}{algorithms}
+\crefname{align}{equation}{equations}
+\crefname{eqnarray}{equation}{equations}
+
+\setlength{\bibsep}{2.75pt}
+
+\textheight 8.5in
+\textwidth 7.0in
+\evensidemargin= -0.0in
+\oddsidemargin= -0.25in
+\topmargin= -0.25in
+\parindent 10px
+% \parskip 1.5ex
+%\def\tw{.5\textwidth}
+\def\QED{\mbox{\rule[0pt]{1ex}{1ex}}}
+\def\Q{\hspace*{\fill}~\QED\par\endtrivlist\unskip}
+
+\newtheorem{question}{Question}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+% \title{\vspace{-0.5in}Mechanism Design for Strategic Crowdsourcing\vspace{-2mm}}
+% % \title{\vspace{-0.5in}Economics of Crowdsourcing Networks\vspace{-2mm}}
+% % \title{\vspace{-0.5in}Decision Making in Strategic Outsourcing Networks{-2mm}} % for OR/optimization related stuff
+% % \title{\vspace{-0.5in}Research Statement\vspace{-2mm}}
+% 
+%   \author{
+% %      {\footnotesize \em A synopsis submitted for the partial fulfillment of the requirements of the Doctor of Philosophy in Engineering} \vspace{2mm}\\
+% 	{\bf Swaprava Nath} 
+% 	\\ \small{Advisor: \bf Prof. Y. Narahari}
+% 	\\ \small{Department of Computer Science and Automation}
+% 	\\ \small{Indian Institute of Science, Bangalore} 
+% % 	\\ \small{Email: \texttt{swaprava@gmail.com}\vspace{0.2mm}; Web: \texttt{http://swaprava.byethost7.com}; Voice: +91 944 841 9311}
+% % 	\\ \small{Application towards Caltech CMI Postdoctoral Fellowship Program}\vspace{-0.25mm}
+% % 	\\ {\bf Topical Areas: Game Theory, Optimization, Algorithms}\vspace{-3mm}
+% }
+% % 
+% % \date{\today}
+% \date{}
+% \frenchspacing
+
+% Start the document
+\begin{document}
+% \maketitle
+
+\centerline{\Large \bf \sc SYNOPSIS}
+
+\begin{center}
+\begin{tabular}[t]{ll}
+% \hline \hline
+\medskip
+Name of the Candidate &  {\bf Your Name} \\ \medskip
+SR Number &  {\bf 1234-5678-91011} \\ \medskip
+Title of the Thesis & {\bf  Title of Your Thesis} \\ \medskip
+% & {\bf A Cooperative Game Theoretic approach} \\
+Research Supervisor &  {\bf Prof. Your Professor}\\ \medskip
+Degree Registered  & {\bf Doctor of Philosophy}\\ \medskip
+Department & {\bf Computer Science and Automation}\\ \medskip
+Institute & {\bf Indian Institute of Science, Bangalore}
+\end{tabular}
+\end{center}
+
+\section{Introduction}
+You can organize your synopsis in any way you want. As far as I know, there is no fixed template. However, you need to introduce the problem that you addressed with a few motivating examples, and then the following section should be the contributions you made, followed by the chapter-wise details of the thesis. You can cite your own papers as well as the ones that are very relevant for your thesis. Do not put all the references that you have in the thesis. A typical length for a synopsis is 10 pages for PhD, and perhaps 5 pages for MSc. Again, I am not sure if there is any standard for the length of the synopsis. Just make sure it is not too long.
+
+
+% % Define block styles
+% \tikzstyle{decision} = [diamond, draw, fill=blue!20, text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+% \tikzstyle{block} = [rectangle, draw, fill=blue!20, text width=2.0in, text centered, rounded corners, minimum height=4em]
+% \tikzstyle{line} = [draw, -latex']
+% \tikzstyle{cloud} = [draw, ellipse, fill=red!20, node distance=2cm, minimum height=3em]
+% 
+% 
+% % Set the overall layout of the tree
+% \tikzstyle{level 1}=[level distance=1.5cm, sibling distance=6cm]
+% \tikzstyle{level 2}=[level distance=2.2cm, sibling distance=4cm]
+% 
+% \begin{figure}[h!]
+%  \begin{center}
+%     \footnotesize
+% \begin{tikzpicture}[grow=down, sloped, scale=1.0, every node/.style={transform shape}]
+% \node[cloud] {\bf Crowdsourcing}
+%     child {
+%         node[cloud] {\begin{varwidth}{1in}\centering \bf Skill Elicitation\end{varwidth}}% This is the first of three "Bag 2"
+%         child {
+% 			    node[block] {
+% 			    \squishlisttwo
+% 			     \item Static skills, interdependent values~\cite{Nath2013}
+% 			     \item Stochastic skill transition, interdependent values~\cite{nath-etal11dmd-uai}
+% 			    \squishend
+% 			    }
+%             }
+%     }
+%     child {
+%         node[cloud] {\begin{varwidth}{1in}\centering \bf Resource Critical Tasks\end{varwidth}}
+%             child {
+%                 node[block] {%\underline{\bf Structural Manipulation} \\ \medskip
+% 			    \squishlisttwo
+% 			     \item {\em Sybilproofness}, rewarding only the winning chain~\cite{Nath2012a} 
+% 			     \item Rewarding all contributors, information manipulation~\cite{Nath2012c}
+% 			    \squishend
+% 			    }
+%             }
+%     }
+%     child {
+%         node[cloud] {\begin{varwidth}{1in}\centering \bf Efficient Team Formation\end{varwidth}}
+% 	    child {
+%                 node[block] {%\underline{\bf Team Formation} \\ \medskip
+% 			    \squishlisttwo
+% 			     \item Through incentive design~\cite{nath2013incentives}
+% 			     \item Through a crowdsourcing network design~\cite{Nath2012b}
+% 			    \squishend
+% 			     }
+%             }
+%     };
+% \end{tikzpicture}
+%  \caption{Research components of the crowdsourcing problem.}
+%  \label{fig:space}
+%  \end{center}
+% \end{figure}
+
+\section{Contributions of the Thesis}
+
+This thesis considers three related problem domains in crowdsourcing as given in Figure (feel free to put a figure to explain the problems). In the following, we discuss our major findings and summarize our contributions to the space of crowdsourcing mechanisms.
+
+\subsection{Problem 1}
+
+Say how you solved it.
+
+\subsection{Problem 2}
+
+Same here.
+
+\subsection{Problem 3}
+
+Do not stretch beyond what you have done in the thesis \smiley
+
+\section{Outline of the Thesis}
+
+In this section, we provide a brief description of each chapter of the thesis.
+
+\subsection*{Chapter 1: Introduction}
+
+A brief overview of the chapter.
+
+\subsection*{Chapter 2: Game Theory and Mechanism Design: A Quick Review}
+
+$\vdots$
+
+\subsection*{Chapter 6: Conclusions}
+
+
+
+% \bibliographystyle{abbrvnat} 
+% \bibliography{location_of_your_bib_file}
+
+\end{document}
