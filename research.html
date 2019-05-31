@@ -21,6 +21,12 @@
 <script src="js/libs/modernizr-2.6.2.min.js"></script>
 <!-- end JS-->
 
+<!-- MathJax Magic -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+</script>
+<!-- End MathJax Magic -->
+
 <!-- My collapsomatic magic -->
 
 <link rel='stylesheet' id='collapseomatic-css-css'  href='support/plugins/jquery-collapse-o-matic/dark_style.css?ver=1.5.4' type='text/css' media='all' />
@@ -86,6 +92,20 @@ var colomatslideEffect = 'slideFade';
 <ol reversed style="padding-left:1em">
 
 <li style="padding-left:1em">
+<a name="dns19robot"></a><strong><span style="color: #336600;">Dynamic Multi-Robot Collision Avoidance Via Spot Auction</span></strong><br />Sankar Das, Swaprava Nath, and Indranil Saha
+<br /><em>Technical Report.</em>
+<br />
+
+<span class="collapseomatic " id="iddns19robot"  title="Expert">Abstract and Full Paper</span><div id="target-iddns19robot" class="collapseomatic_content ">
+<p>We propose a collision-avoiding decentralized mechanism for a group of robots moving on a shared workspace. Existing algorithms solve this problem either (a) in a centralized setting or (b) in a decentralized setting with <em>collaborative</em> environment. We take a paradigm shift to the setting with <em>competitive</em> robots, which may strategically reveal their information to get priority by the collision avoidance scheme.
+ We propose a mechanism SPARCAS in this setting that uses principles of economic theory and ensures truthful revelation of the robots' private information and provides locally efficient movement of the robots. It is free from collisions and deadlocks, and handles dynamic arrival of robots. In practice, this mechanism scales well for large number of robots where the optimal collision-avoiding path-finding algorithm (M*) does not scale. Yet, SPARCAS does not compromise the path optimality too much. Our mechanism uses <em>monetary transfers</em> which is small enough compared to the <em>value</em> received by the robots.
+</p> 
+[<a href="papers/collision.pdf" title="">PDF</a>]
+</div>
+<br /><br />
+</li>
+
+<li style="padding-left:1em">
 <a name="cfnv18expert"></a><strong><span style="color: #336600;">Truthful mechanisms for ownership transfer with expert advice</span></strong><br />Ioannis Caragiannis, Aris Filos-Ratsikas, Swaprava Nath, and Alexandros A. Voudouris
 <br /><em>Technical Report.</em>
 <br />
@@ -98,43 +118,28 @@ var colomatslideEffect = 'slideFade';
 <br /><br />
 </li>
 
-<li style="padding-left:1em">
-<a name="dkn17surprise"></a><strong><span style="color: #336600;">Surprise in Elections</span></strong><br />Palash Dey, Pravesh K. Kothari, and Swaprava Nath
-<br /><em>Technical Report.</em>
-<br />
 
-<span class="collapseomatic " id="iddkn17surprise"  title="Surprise">Abstract and Full Paper</span><div id="target-iddkn17surprise" class="collapseomatic_content ">
-<p>Elections involving a very large voter population often lead to outcomes that surprise many.
-This is particularly important for the elections in which results affect the economy of a sizable
-population. A better prediction of the true outcome helps reduce the surprise (or shock) and
-keeps the voters prepared. This paper starts from the basic observation that individuals in the
-underlying population build estimates of the distribution of preferences of the whole population
-based on their local neighborhoods. The outcome of the election leads to a surprise/shock if
-these local estimates contradict the outcome of the election for some fixed voting rule. To get
-a quantitative understanding, we propose a simple mathematical model of the setting where
-the individuals in the population and their connections (through geographical proximity, social
-networks etc.) are described by a random graph with connection probabilities that are biased
-based on the preferences of the individuals. Each individual also has some estimate of the bias
-in their connections.<br />
-We show that the election outcome leads to a surprise if the discrepancy between the esti-
-mated bias and the true bias in the local connections exceeds a certain threshold, and confirm
-the phenomenon that surprising outcomes are associated only with <em>closely contested elections</em>.
-We compare standard voting rules based on their performance on surprise and show that they
-have different behavior for different parts of the population. It also hints at an impossibility that
-a single voting rule will be less surprising for <em>all</em> parts of a population. Finally, we experiment
-with the UK-EU referendum (a.k.a. Brexit) dataset to see a real-world effect of estimation errors
-on surprise.
-</p> 
-[<a href="papers/surprise.pdf" title="">PDF</a>]
-</div>
-<br /><br />
-</li>
 
 </ol>
 
 <font size="4"><strong><span style="color: #000099">Journal</span></strong></font><br /><br />
 
 <ol reversed style="padding-left:1em">
+
+<li style="padding-left:1em">
+<a name="ns18green-laffont"></a><strong><span style="color: #000099">Efficiency and Budget Balance in General Quasi-linear Domains</span></strong><br />Swaprava Nath and Tuomas Sandholm
+<br /><em>Games and Economic Behavior (<a href="https://www.journals.elsevier.com/games-and-economic-behavior/">GEB</a>), Volume 113, 2019, pp. 673-693.</em> [supersedes the <a href="#ns16green-laffont">previous version</a>]
+<br />
+
+<span class="collapseomatic " id="idns18green-laffont"  title="Green-Laffont">Abstract and Full Paper</span><div id="target-idns18green-laffont" class="collapseomatic_content ">
+<p>We study efficiency and budget balance in mechanism design in the quasi-linear domain. Green and Laffont [1979] proved that one cannot generically achieve both. We consider strategyproof budget-balanced mechanisms that are approximately efficient. For deterministic mechanisms, we show that a strategyproof and budget-balanced mechanism must have a sink agent whose valuation function is ignored in selecting an alternative, and she is given the payments made by the other agents. We assume the valuations of the agents are drawn from a bounded open interval. This result strengthens Green and Laffont’s impossibility result by showing that even in a restricted domain of valuations, there does not exist a mechanism that is strategyproof, budget balanced, and takes every agent’s valuation into consideration -- a corollary of which is that it cannot be efficient. Using this result, we find a tight lower bound on the inefficiencies of strategyproof, budget-balanced mechanisms in this domain. The bound shows that the inefficiency asymptotically disappears when the number of agents is large -- a result close in spirit to Green and Laffont [1979, Theorem 9.4]. However, our results provide worst-case bounds and the best possible rate of convergence.
+<br />Next, we consider minimizing any convex combination of inefficiency and budget imbalance. We show that no deterministic mechanism can do asymptotically better than minimizing inefficiency alone.
+<br />Finally, we investigate randomized mechanisms and provide improved lower bounds on expected inefficiency. We give a tight lower bound for an interesting class of strategyproof, budget-balanced, randomized mechanisms. We also use an optimization-based approach --in the spirit of automated mechanism design-- to provide a lower bound on the minimum achievable inefficiency of any randomized mechanism.
+<br />Experiments with real data from two applications show that the inefficiency for a simple randomized mechanism is 5--100 times smaller than the worst case. This relative difference increases with the number of agents.</p> 
+[<a href="papers/efficiency-BB.pdf" title="">PDF</a>] [<a href="https://www.sciencedirect.com/science/article/pii/S0899825618301854">Journal Link</a>] [<a href="codes/regret_bound_randomized_optimal_gurobi.py" title="">code</a>]
+</div>
+<br /><br />
+</li>
 
 <li style="padding-left:1em">
 <a name="mnr15separability"></a><strong><span style="color: #000099;">Separability and Decomposition in Mechanism Design with Transfers</span></strong><br />Debasis Mishra, Swaprava Nath, and Souvik Roy
@@ -243,6 +248,67 @@ self-localization.</p>
 <font size="4"><strong><span style="color: #990000">Conference and Workshop</span></strong></font><br /><br />
 
 <ol reversed style="padding-left:1em">
+
+<li style="padding-left:1em">
+<a name="dmns19optcontrol"></a><strong><span style="color: #990000;">A Parameterized Perspective on Protecting Elections</span></strong><br />Palash Dey, Neeldhara Misra, Swaprava Nath, and Garima Shakya
+<br /><em>International Joint Conference on Artificial Intelligence (<a href="https://www.ijcai19.org/">IJCAI</a>), 2019, to appear.</em>
+<br />
+
+<span class="collapseomatic " id="iddmns19optcontrol"  title="OptControl">Abstract and Full Paper</span><div id="target-iddmns19optcontrol" class="collapseomatic_content ">
+<p>We study the parameterized complexity of the optimal defense and optimal attack problems in voting. In both the problems, the input is a set of voter groups (every voter group is a set of votes) and two integers \(k_a\) and \(k_d\) corresponding to respectively the number of voter groups the attacker can attack and the number of voter groups the defender can defend. A voter group gets removed from the election if it is attacked but not defended. In the optimal defense problem, we want to know if it is possible for the defender to commit to a strategy of defending at most \(k_d\) voter groups such that, no matter which \(k_a\) voter groups the attacker attacks, the outcome of the election does not change. In the optimal attack problem, we want to know if it is possible for the attacker to commit to a strategy of attacking \(k_a\) voter groups such that, no matter which \(k_d\) voter groups the defender defends, the outcome of the election is always different from the original (without any attack) one. 
+We show that both the optimal defense problem and the optimal attack problem are computationally intractable for every scoring rule and the Condorcet voting rule even when we have only \(3\) candidates. We also show that the optimal defense problem for every scoring rule and the Condorcet voting rule is \(W[2]-hard\) for both the parameters \(k_a\) and \(k_d\), while it admits a fixed parameter tractable algorithm parameterized by the combined parameter \((k_a,k_d)\). The optimal attack problem for every scoring rule and the Condorcet voting rule turns out to be much harder -- it is \(W[1]-hard\) even for the combined parameter \((k_a,k_d)\). We propose two greedy algorithms for the OPTIMAL-DEFENSE problem and empirically show that they perform effectively on reasonable voting profiles.
+</p> 
+[<a href="papers/optcontrol.pdf" title="">PDF</a>]
+</div>
+<br /><br />
+</li>
+
+<li style="padding-left:1em">
+<a name="dns19testing"></a><strong><span style="color: #990000;">Testing Preferential Domains Using Sampling</span></strong><br />Palash Dey, Swaprava Nath, and Garima Shakya
+<br /><em>International Conference on Autonomous Agents and Multiagent Systems (<a href="http://aamas2019.encs.concordia.ca/">AAMAS</a>), 2019, to appear.</em>
+<br />
+
+<span class="collapseomatic " id="iddns19testing"  title="Testing">Abstract and Full Paper</span><div id="target-iddns19testing" class="collapseomatic_content ">
+<p>A preferential domain is a collection of sets of preferences which are linear orders over a set of alternatives. These domains have been studied extensively in social choice theory due to both its practical importance and theoretical elegance. Examples of some extensively studied preferential domains include single peaked, single crossing, Euclidean, etc. In this paper, we study the sample complexity of testing whether a given preference profile is close to some specific domain. We consider two notions of closeness: (a) closeness via preferences, and (b) closeness via alternatives. We further explore the effect of assuming that the <em>outlier</em> preferences/alternatives to be random (instead of arbitrary) on the sample complexity of the testing problem. In most cases, we show that the above testing problem can be solved with high probability for all commonly used domains by observing only a small number of samples (independent of the number of preferences, \(n\), and often the number of alternatives, \(m\)). In the remaining few cases, we prove either impossibility results or \(\Omega(n)\) lower bound on the sample complexity. We complement our theoretical findings with extensive simulations to figure out the actual constant factors of our asymptotic sample complexity bounds.
+</p> 
+[<a href="papers/testing.pdf" title="">PDF</a>]
+</div>
+<br /><br />
+</li>
+
+<li style="padding-left:1em">
+<a name="dkn17surprise"></a><strong><span style="color: #990000;">The Social Network Effect on Surprise in Elections
+</span></strong><br />Palash Dey, Pravesh K. Kothari, and Swaprava Nath
+<br /><em>ACM India Joint International Conference on Data Science & Management of Data (<a href="http://cods-comad.in/2019/index.html">CoDS-COMAD</a>), pp. 1-9, ACM, 2019 [finalist for the best paper].</em> [<a href="https://researchmatters.in/news/social-networks-spoilers-%E2%80%98surprise%E2%80%99-element-election-results" title="">Press coverage</a>]
+<br />
+
+<span class="collapseomatic " id="iddkn17surprise"  title="Surprise">Abstract and Full Paper</span><div id="target-iddkn17surprise" class="collapseomatic_content ">
+<p>Elections involving a very large voter population often lead to outcomes that surprise many.
+This is particularly important for the elections in which results affect the economy of a sizable
+population. A better prediction of the true outcome helps reduce the surprise (or shock) and
+keeps the voters prepared. This paper starts from the basic observation that individuals in the
+underlying population build estimates of the distribution of preferences of the whole population
+based on their local neighborhoods. The outcome of the election leads to a surprise/shock if
+these local estimates contradict the outcome of the election for some fixed voting rule. To get
+a quantitative understanding, we propose a simple mathematical model of the setting where
+the individuals in the population and their connections (through geographical proximity, social
+networks etc.) are described by a random graph with connection probabilities that are biased
+based on the preferences of the individuals. Each individual also has some estimate of the bias
+in their connections.<br />
+We show that the election outcome leads to a surprise if the discrepancy between the esti-
+mated bias and the true bias in the local connections exceeds a certain threshold, and confirm
+the phenomenon that surprising outcomes are associated only with <em>closely contested elections</em>.
+We compare standard voting rules based on their performance on surprise and show that they
+have different behavior for different parts of the population. It also hints at an impossibility that
+a single voting rule will be less surprising for <em>all</em> parts of a population. Finally, we experiment
+with the UK-EU referendum (a.k.a. Brexit) dataset to see a real-world effect of estimation errors
+on surprise.
+</p> 
+[<a href="papers/surprise.pdf" title="">Full paper</a>] [<a href="papers/surprise_cods2019.pdf" title="">Conf ver</a>]
+</div>
+<br /><br />
+</li>
+
 <li style="padding-left:1em">
 <a name="cfnv18expert1"></a><strong><span style="color: #990000;">Truthful mechanisms for ownership transfer with expert advice</span></strong><br />Ioannis Caragiannis, Aris Filos-Ratsikas, Swaprava Nath, and Alexandros A. Voudouris
 <br /><em>Workshop on Opinion Aggregation, Dynamics, and Elicitation (<a href="https://sites.google.com/view/wade-workshop/home">WADE</a>)<br>In conjunction with ACM Conference on Economics and Computation (<a href="http://www.sigecom.org/ec18/">EC</a>), 2018.</em>
