@@ -1,0 +1,499 @@
+Myerson on Network
+
+
+
+auction of single indivisible item is  of most celebrated s in mechanism design with transfers. Despite its simplicity, it provides arguably cleanest most insightful s in literature. When information of auction is available to  participant, Myerson [17] provided seminal  to characterize incentive-compatible auctions along with revenue optimality. However, such  does not hold in auction on network, where information of auction is spread viagents, they need incentives to forward information. In recent times, few auctions (e.g., [10, 15]) were designed that appropriately incentivize intermediate nodes on network to promulgate information to potentially more valuable bidders. In this paper, we provide Myerson-like characterization of incentive-compatible auctions on network  that currently known auctions fall within this larger class of randomized auctions. We obtain structure of revenue optimal auction for i.i.d. bidders on arbitrary trees. We discuss possibilities of addressing more general s. Through experiments, we  that auctions following this characterization cprovide higher revenue thcurrently known auctions on networks.
+
+
+
+
+Truthful Fair Lateral Transshipment in Multi-Retailer Systems
+
+
+
+We  multi-retailer system where sellers are connected with each other over network transactions with consumers happen on platform. Since demands supplies to sellers (e.g., retailers on platform) are stochastic in nature, supplies either in excess or in deficit. Lateral transshipment of such products is beneficial for retailers since otherwise, excess supply leads to wastage deficit in bad reputation. Only sellers know their excess (which salvaged at price or transshipped to another seller) deficit (which directly procured from supplier or transshipped from another seller), both of which have information that is private. We propose model that allows lateral transshipment at price design mechanisms such that sellers are incentivized to voluntarily participate be truthful. Experimenting on different types of network topologies, we find that sellers who are at more central locations in network get unfair advantage in classical mechanism that aims for economic efficiency. We, therefore, propose modified mechanism with tunable parameters which censure that mechanism is more equitable for non-central retailers. Our synthetic datexperiments  that such mechanisms do not compromise too much on efficiency, also reduce budget imbalance.
+
+
+
+
+Incentivizing Effort Precision in Peer-grading
+
+
+
+Most peer-evaluation practices rely on peer evaluator's goodwill for accurate evaluation. what if graders are competitive, i.e., enjoy higher utility when their peers get lower scores? We introduce new mechanism, PEQA, that uses score-assignment rule grading performance score to incentivize such graders. score-assignment rule aggregates multiple peer-evaluations to assign final score that is free from grader-bias. rule performance score also guarantee that any grader's utility increases monotonically with her grading precision. In class of assignment rules that generalize over least squares estimator, our assignment rule uniquely satisfies this utility-precision monotonicity while allowing flexibility in how large performance scores need to be. PEQimplements socially optimal effort-choices in equilibrium of peer-evaluation game among co-graders. Datfrom our classroom experiments confirm our theoretical assumptions  that PEQoutperforms popular medimechanism.
+
+
+
+
+Journal
+
+Algorithmic Mechanism Design for EgalitariCongestion Aware Airport Slot Allocation
+
+Transportation Research Part E (2023): Volume 169, January 2023, 102971.
+
+We propose mechanism to allocate slots fairly at congested airports. This mechanism: (a) ensures that slots are allocated according to true valuations of airlines, (b) provides fair opportunities to flights connecting remote cities to large airports, (c) controls number of flights in each slot to minimize congestion. mechanism draws inspiration from economic theory. It allocates slots based on affine maximizer allocation rule charges payments to airlines such that they are incentivized to reveal their true valuations. allocation is also fair in providing more importance to flights originating from cities with low-volume of air traffic. allocation also optimizes occupancy of  slot to keep them as uncongested as possible. formulation solves optimal integral solution in strongly polynomial time. We conduct experiments on datcollected from two major airports in India. We also compare our s with existing allocations also with allocations based on International Air Transport Association (IATA) guidelines. computational s  that social utility generated  our mechanism is 20-30% higher thIATcurrent allocations.
+
+
+
+
+Truthful ownership transfer with expert advice
+
+Mathematical Programming (2022): 1-30.
+
+When company undergoes merger or transfers its ownership, existing governing body has opinion on which buyer should take over as new owner. Similar situations occur while assigning host of big sports tournaments, like World Cup or Olympics. In all these s, values of external bidders are as important as opinions of internal experts. Motivated by such scenarios, we  social welfare maximizing  to design analyze truthful mechanisms in hybrid social choice s, where payments imposed to bidders, not to experts. Since this  is combination of mechanism design with without mtary transfers, classical solutions like VCG cannot be applied, making this novel mechanism design . We  scenario with  expert two bidders, provide tight approximation guarantees of optimal social welfare. We distinguish between mechanisms that use ordinal cardinal information, as well as between mechanisms that base their decisions on  of two sides (either bidders or expert) or both. Our analysis s that cardinal  is quite rich admits several non-trivial randomized truthful mechanisms, also allows for closer-to-optimal-welfare guarantees.
+
+ 
+
+
+Parameterized Perspective on Protecting Elections
+
+Theoretical Computer Science (TCS), Jun 12, 2021; 874:15-31.
+
+We study parameterized complexity of OPTIMAL-DEFENSE OPTIMAL-ATTACK s in voting. In both s, input is set of voter groups ( voter group is set of votes) two integers 
+k
+a
+ 
+k
+d
+ corresponding to respectively number of voter groups attacker cattack number of voter groups defender cdefend. voter group gets removed from election if it is attacked not defended. In OPTIMAL-DEFENSE , we want to know if it is possible for defender to commit to strategy of defending at most 
+k
+d
+ voter groups such that, no matter which 
+k
+a
+ voter groups attacker attacks, outcome of election does not change. In OPTIMAL-ATTACK , we want to know if it is possible for attacker to commit to strategy of attacking 
+k
+a
+ voter groups such that, no matter which 
+k
+d
+ voter groups defender defends, outcome of election is always different from original (without any attack) . We  that both OPTIMAL-DEFENSE  OPTIMAL-ATTACK  are computationally intractable for  scoring rule Condorcet voting rule even when we have only 
+3
+ candidates. We also  that OPTIMAL-DEFENSE  for  scoring rule Condorcet voting rule is 
+W
+[
+2
+]
+−
+h
+a
+r
+d
+ for both parameters 
+k
+a
+ 
+k
+d
+, while it admits fixed parameter tractable algorithm parameterized by combined parameter 
+(
+k
+a
+,
+k
+d
+)
+. OPTIMAL-ATTACK  for  scoring rule Condorcet voting rule turns out to be much harder -- it is 
+W
+[
+1
+]
+−
+h
+a
+r
+d
+ even for combined parameter 
+(
+k
+a
+,
+k
+d
+)
+. We propose two greedy algorithms for OPTIMAL-DEFENSE  empirically  that they perform effectively on reasonable voting profiles.
+
+ 
+
+
+Preference Elicitation For Participatory Budgeting
+
+Management Science (MS) 67(5), 2813-2827, Sep 23, 2020.
+
+Participatory budgeting enables allocation of public funds by collecting aggregating individual preferences; it has already had sizable real-world impact. making most of this new paradigm requires arethinking of some of basics of computational social choice, including very way in which individuals express their preferences. We analytically compare four preference elicitation methods -- knapsack votes, rankings by value or value for my, threshold approval votes -- through lens ofimplicit utilitarivoting, find that threshold approval votes are qualitatively superior. This conclusion is supported by experiments  datfrom real participatory budgeting elections.
+
+ 
+
+
+Efficiency Budget Balance in General Quasi-linear Domains
+
+Games Economic Behavior (GEB), Volume 113, 2019, 673-693.
+
+We study efficiency budget balance in mechanism design in quasi-linear domain. Green Laffont [1979] proved that  cannot generically achieve both. We  strategyproof budget-balanced mechanisms that are approximately efficient. For deterministic mechanisms, we  that strategyproof budget-balanced mechanism must have sink agent whose valuation function is ignored in selecting alternative, she is given payments made by other agents. We assume valuations of agents are drawn from bounded open interval. This  strengthens Green Laffont’s impossibility  by ing that even in restricted domain of valuations, there does not exist mechanism that is strategyproof, budget balanced, takes  agent’s valuation into ation -- corollary of which is that it cannot be efficient.  this , we find tight lower bound on inefficiencies of strategyproof, budget-balanced mechanisms in this domain. bound s that inefficiency asymptotically disappears when number of agents is large --  close in spirit to Green Laffont [1979, Theorem 9.4]. However, our s provide worst-case bounds best possible rate of convergence.
+Next, we  minimizing any convex combination of inefficiency budget imbalance. We  that no deterministic mechanism cdo asymptotically better thminimizing inefficiency al.
+Finally, we investigate randomized mechanisms provide improved lower bounds on expected inefficiency. We give tight lower bound for interesting class of strategyproof, budget-balanced, randomized mechanisms. We also use optimization-based  --in spirit of automated mechanism design-- to provide lower bound on minimum achievable inefficiency of any randomized mechanism.
+Experiments with real datfrom two applications  that inefficiency for simple randomized mechanism is 5--100 times smaller thworst case. This relative difference increases with number of agents.
+
+  
+
+
+Separability Decomposition in Mechanism Design with Transfers
+
+Games Economic Behavior (GEB), Volume 109, 2018, 240-261.
+
+In private values quasi-linear environment, we  s where allocation decisions along multiple compnts have to be made.  agent has additively separable valuation over compnts. We  that  neutral dominant strategy implementable allocation rule in this  is neutral compnt affine maximizer, which assigns non-negative weight vectors to agents in each compnt chooses alternative in each compnt by maximizing weighted sum of valuations in that compnt. corollary of our  is that  neutral dominant strategy implementable allocation rule almost decomposed (modulo tie-breaking) into dominant strategy implementable allocation rules along each compnt.
+
+ 
+
+
+Subset Selection ViImplicit UtilitariVoting
+
+Journal of Artificial Intelligence Research (JAIR), Volume 58, 2017, 123-152.
+
+How should  aggregate ordinal preferences expressed by voters into measurably superior social choice? well-established  -- which we refer to as implicit utilitarivoting -- assumes that voters have latent utility functions that induce reported rankings, seeks voting rules that approximately maximize utilitarisocial welfare. We extend this  to design of rules that select subset of alternatives. We derive analytical bounds on performance of optimal (deterministic as well as randomized) rules in terms of two measures, distortion regret. Empirical s  that regret-based rules are more compelling thdistortion-based rules, leading us to focus on developing scalable implementation for optimal (deterministic) regret-based rule. Our methods underlie design implementation of upcoming social choice website.
+
+ 
+
+
+Dynamic Mechanism Design with Interdependent Valuations
+
+Review of Economic Design (ROED), 19(3), 2015, 211-228.
+
+We  infinite horizon dynamic mechanism design  with interdependent valuations. In this  types of agents are assumed to be evolving according to first order Markov process types are independent across agents in  round across rounds. However, valuations of agents are functions of types of all agents, which makes  fall into interdependent value model. Designing mechanisms in this  is non-trivial in view of impossibility  which says that for interdependent valuations, any efficient ex-post incentive compatible mechanism must be constant mechanism, even if mechanism is static. Mezzetti circumvents this  by splitting decisions of allocation payment into two stages. However, Mezzetti's  is limited to static  moreover in second stage of that mechanism, agents are weakly indifferent about reporting their valuations truthfully. This paper provides first attempt at designing dynamic mechanism which is strict ex-post incentive compatible efficient in interdependent value  with Markovitype evolution. In restricted domain, which appears often in real-world scenarios, we  that our mechanism is ex-post individually rational as well.
+
+ 
+
+
+Affine Maximizers in Domains with Selfish Valuations
+
+ACM Transactions on Economics Computation (ACM-TEAC), 3(4), 2015, article 26, 26:1-19.
+
+We  domain of selfish continuous preferences over "rich" allocation space  that onto, strategyproof non-bossy social choice functions are affine maximizers. Roberts (1979) proves this  for finite set of alternatives unrestricted valuation space. In this paper, we  that in sub-domain of unrestricted valuations with additional assumption of non-bossiness,  richness of allocations, strategyproof social choice functions n to be affine maximizers. This work serves as example that affine maximizer  needs  amount of richness split across valuations allocations.
+
+ 
+
+
+Strict Ex-post Incentive Compatible Mechanism for Interdependent Valuations
+
+Economics Letters, 121(2), 2013, 321-325.
+
+impossibility  by Jehiel Moldovanu says that in  with interdependent valuations, any efficient ex-post incentive compatible mechanism must be constant mechanism. Mezzetti circumvents this  by designing two stage mechanism where decision of allocation payment are split over two stages. This mechanism is elegant, however keeps major weakness. In second stage, agents are weakly indifferent about reporting their valuations truthfully: agent's payment is independent of her reported valuation truthtelling for this stage is by assumption. We propose modified mechanism which makes truthful reporting in second stage strict equilibrium.
+
+ 
+
+
+Theory Algorithms for Hop-Count-Based Localization with Random Geometric Graph Models of Dense Sensor Networks
+
+ACM Transactions on Sensor Networks (ACM-TOSN), 8(4), 2012, 35:1-38.
+
+Wireless sensor networks coften be viewed in terms of uniform deployment of large number of nodes in region of Euclidespace. Following deployment, nodes self-organize into mesh topology with key aspect being self-localization. Having obtained mesh topology in dense, homogeneous deployment, frequently used approximation is to take hop distance between nodes to be proportional to Euclidedistance between them. In this work, we analyze this approximation through two complementary analyses. We assume that mesh topology is random geometric graph on nodes; that some nodes are designated as anchors with known locations. First, we obtain high probability bounds on Euclidedistances of all nodes that are h hops away from fixed anchor node. In second analysis, we provide heuristic argument that leads to direct approximation for density function of Euclidedistance between two nodes that are separated by hop distance h. This approximation is n, through simulation, to very closely match true density function.
+Localization algorithms that draw upon above analyses are then proposed n to perform better thsome of well-known algorithms present in literature. Belief-propagation based message-passing is then used to further enhance performance of proposed localization algorithms. To our knowledge, this is first usage of message-passing for hop-count-based self-localization.
+
+ 
+
+
+Conference Workshop
+
+Social Distancing viSocial Scheduling
+
+Autonomous Agents Multiagent Systems (AAMAS), 2023, to appear.
+
+Motivated by need for social distancing during pandemic, we   to schedule visitors of facility. algorithm takes input from citizens schedules time-slots of store them based on their importance to visit facility (e.g., general store). Naturally, formulation applies to several similar s. We  single slot multiple slot demof requests. salient properties of our  are: it (a) ensures social distancing by ensuring maximum population in given time-slot at facility, (b) prioritizes individuals who mark their work as important, (c) maintains truthfulness of reported importance by adding cooling off period after their allocated time-slot, during which individual cannot access same facility again, (d) guarantees voluntary participation of citizens, yet (e) is computationally tractable. We  that  becomes NP-complete as soon as multi-slot demands are indivisible, provide polynomial-time mechanism that is truthful, individually rational, approximately optimal. Experiments  that visitors with more important jobs are allocated more preferred slots, which comes at cost of longer delay to re-access store. We  that it reduces social congestion significantly  users' visit datfrom store. For multi-slot indivisible jobs, our mechanism yields reasonable approximation while reducing computation time significantly.
+
+
+
+
+OMCoRP: Online Mechanism for Competitive Robot Prioritization
+
+International Conference on Automated Planning Scheduling (ICAPS), May 17, 2021, Vol. 31, 112-121.
+
+We propose collision-avoiding mechanism for group of robots moving on shared workspace. Existing algorithms solve this  either (a) in offline manner  source-destination information of all robots or (b) in online manner with cooperative robots. We take paradigm shift to  with competitive robots, that may strategically reveal their urgency of reaching destinations design online mechanisms that take decisions on-the-fly, reducing overhead of offline planning. We propose mechanism OMCoRP in this  that ensures truthful revelation of robots' priorities  principles of economic theory provides locally efficient movement of robots. It is free from collisions deadlocks, handles dynamic arrival of robots. In practice, this mechanism gives smaller delay for robots of higher priority scales well for large number of robots without compromising on path optimality too much.
+
+ [Presentation video (10 min)]
+
+
+SkillCheck: Incentive-based Certification System  Blockchains
+
+IEEE International Conference on Blockchain Cryptocurrency (ICBC), 3-6 May, 2020, Toronto, Canada, 1-3.
+
+Skill verification is central  in workforce hiring. Companies academioften face difficulty of asing skills of applicant since certifications of skills claimed by candidate are generally not immediately verifiable costly to test. Blockchains have been proposed in literature for skill verification tamper-proof information storage in decentralized manner. However, most of these es deal with storing certificates issued by traditional universities on blockchain. Among few techniques that  certification procedure itself, questions like (a) scalability with limited staff, (b) uniformity of grades over multiple evaluators, or (c) hst effort extraction from evaluators are usually not addressed. We propose blockchain-based platform named SkillCheck, which s questions above, ensure several desirable properties. platform incentivizes effort in grading vipayments with tokens which it generates from payments of users of platform, e.g., recruiters test takers. We provide detailed description of design of platform along with provable properties of algorithm.
+
+
+
+
+SwaGrader: Hst Effort Extracting, Modular Peer-Grading Tool
+
+ACM IKDD Joint International Conference on DatScience & Management of Dat(CoDS-COMAD), 2020, 312-316.
+
+Massive open online courses pose massive challenge for grading answer scripts at high accuracy. Peer grading is often viewed as scalable solution to this challenge, which largely depends on altruism of peer graders. In this paper, we propose to demonstrate tool designed for strategic peer-grading with help of structured typical grading workflow. SwaGrader, modular, secure customizable (to any grading workflow) peer- grading tool enables instructor to handle large courses (MOOCs offline) with limited participation by teaching staff viweb- based application (extensible to any front-end framework based application) mechanism called TRUPEQA. TRUPEQ(a) uses constant number of instructor-graded answer-scripts to quantitatively measure accuracies of peer graders corrects scores accordingly, (b) penalizes deliberate underperforming. We  that this mechanism is unique in its class to satisfy  properties. Our humsubject experiments  that TRUPEQimproves grading quality over mechanisms currently used in standard MOOCs. Our mechanism outperforms several standard peer grading techniques used in practice, even at times when graders are non-manipulative.
+
+
+
+
+Parameterized Perspective on Protecting Elections
+
+International Joint Conference on Artificial Intelligence (IJCAI), 2019, 238-244.
+
+We study parameterized complexity of OPTIMAL-DEFENSE OPTIMAL-ATTACK s in voting. In both s, input is set of voter groups ( voter group is set of votes) two integers 
+k
+a
+ 
+k
+d
+ corresponding to respectively number of voter groups attacker cattack number of voter groups defender cdefend. voter group gets removed from election if it is attacked not defended. In OPTIMAL-DEFENSE , we want to know if it is possible for defender to commit to strategy of defending at most 
+k
+d
+ voter groups such that, no matter which 
+k
+a
+ voter groups attacker attacks, outcome of election does not change. In OPTIMAL-ATTACK , we want to know if it is possible for attacker to commit to strategy of attacking 
+k
+a
+ voter groups such that, no matter which 
+k
+d
+ voter groups defender defends, outcome of election is always different from original (without any attack) . We  that both OPTIMAL-DEFENSE  OPTIMAL-ATTACK  are computationally intractable for  scoring rule Condorcet voting rule even when we have only 
+3
+ candidates. We also  that OPTIMAL-DEFENSE  for  scoring rule Condorcet voting rule is 
+W
+[
+2
+]
+−
+h
+a
+r
+d
+ for both parameters 
+k
+a
+ 
+k
+d
+, while it admits fixed parameter tractable algorithm parameterized by combined parameter 
+(
+k
+a
+,
+k
+d
+)
+. OPTIMAL-ATTACK  for  scoring rule Condorcet voting rule turns out to be much harder -- it is 
+W
+[
+1
+]
+−
+h
+a
+r
+d
+ even for combined parameter 
+(
+k
+a
+,
+k
+d
+)
+. We propose two greedy algorithms for OPTIMAL-DEFENSE  empirically  that they perform effectively on reasonable voting profiles.
+
+
+
+
+Testing Preferential Domains  Sampling
+
+International Conference on Autonomous Agents Multiagent Systems (AAMAS), 2019, 855-863.
+
+preferential domain is collection of sets of preferences which are linear orders over set of alternatives. These domains have been studied extensively in social choice theory due to both its practical importance theoretical elegance. Examples of some extensively studied preferential domains include single peaked, single crossing, Euclidean, etc. In this paper, we study sample complexity of testing whether given preference profile is close to some specific domain. We  two notions of closeness: (a) closeness vipreferences, (b) closeness vialternatives. We further explore effect of assuming that outlier preferences/alternatives to be random (instead of arbitrary) on sample complexity of testing . In most cases, we  that above testing  solved with high probability for all commonly used domains by observing only small number of samples (independent of number of preferences, 
+n
+, often number of alternatives, 
+m
+). In remaining few cases, we prove either impossibility s or 
+Ω
+(
+n
+)
+ lower bound on sample complexity. We complement our theoretical findings with extensive simulations to figure out actual constant factors of our asymptotic sample complexity bounds.
+
+
+
+
+Social Network Effect on Surprise in Elections
+
+ACM IKDD Joint International Conference on DatScience & Management of Dat(CoDS-COMAD), 1-9, ACM, 2019 [finalist for best paper]. [Press coverage]
+
+Elections involving very large voter population often lead to outcomes that surprise many. This is particularly important for elections in which s affect economy of sizable population. better prediction of true outcome helps reduce surprise (or shock) keeps voters prepared. This paper starts from basic observation that individuals in underlying population build estimates of distribution of preferences of whole population based on their local neighborhoods. outcome of election leads to surprise/shock if these local estimates contradict outcome of election for some fixed voting rule. To get quantitative understanding, we propose simple mathematical model of  where individuals in population their connections (through geographical proximity, social networks etc.) are described by random graph with connection probabilities that are biased based on preferences of individuals. Each individual also has some estimate of bias in their connections.
+We  that election outcome leads to surprise if discrepancy between estimated bias true bias in local connections exceeds  threshold, confirm phenomenon that surprising outcomes are associated only with closely contested elections. We compare standard voting rules based on their performance on surprise  that they have different behavior for different parts of population. It also hints at impossibility that single voting rule will be less surprising for all parts of population. Finally, we experiment with UK-EU referendum (a.k.a. Brexit) dataset to see real-world effect of estimation errors on surprise.
+
+
+
+
+Truthful Mechanisms for Ownership Transfer with Expert Advice
+
+Workshop on Opinion Aggregation, Dynamics, Elicitation (WADE)
+In conjunction with ACM Conference on Economics Computation (EC), 2018.
+
+When company undergoes merger or transfer of its ownership, existing governing body has opinion on which buyer should take over as new owner. Similar situations occur while assigning host of big sports tournaments, e.g., World Cup or Olympics. In all these s, values of external bidders are as important as internal experts' opinions. Motivated by such questions, we  social welfare maximizing  to design analyze truthful mechanisms in these s. We   with  expert two bidders provide tight approximation guarantees of optimal social welfare. Since this  is combination of mechanism design with without mtary transfers (payments imposed to bidders not to expert), classical solutions like VCG cannot be applied, making this unique mechanism design . We distinguish between mechanisms that use ordinal cardinal information, as well as between mechanisms that base their decisions on  of two sides (either bidders or expert) or both. Our analysis s that cardinal  is quite rich admits several non-trivial randomized truthful mechanisms, also allows for closer-to-optimal-welfare guarantees.
+
+
+
+
+Game-Theoretic Formalism of HumPartial Adaptation: Models Experiments
+
+ACM/IEEE International Conference on Human-Robot Interaction (HRI), 323-331. ACM, 2017.
+
+In human-robot collaborative tasks, humans often start with inaccurate model of robot capabilities. They then make inferences on what robot ccannot do through interaction, update their strategy accordingly. This paper presents game-theoretic formalism for humpartial adaptation to robot, which captures evolution of humstrategy over time, as humpartner observes outcome of robot their actions. model allows robot to reason in probabilistic sense over how humactions will change based on its own actions, compute policy that optimizes tradeoff between conveying information to hummaximizing team payoff. We formally prove that under  observability assumptions on humstate, policy computation d very efficiently. Humsubject experiment indicate that proposed formalism csignificantly improve human-robot team performance, compared to policies that assume complete adaptation of humto robot.
+
+
+
+
+Preference Elicitation For Participatory Budgeting
+
+Association for Advancement of Artificial Intelligence (AAAI), 376-382, 2017.
+
+Participatory budgeting enables allocation of public funds by collecting aggregating individual preferences; it has already had sizable real-world impact. making most of this new paradigm requires rethinking of some of basics of computational social choice, including very way in which individuals express their preferences. We analytically compare four preference elicitation methods -- knapsack votes, rankings by value or value for my, threshold approval votes -- through lens of implicit utilitarivoting, find that threshold approval votes are qualitatively superior. This conclusion is supported by experiments  datfrom real participatory budgeting elections
+
+
+
+
+Efficiency Budget Balance
+
+Web Internet Economics (WINE), 369-383, 2016.
+
+We study efficiency budget balance in mechanism design in quasi-linear domain. Green Laffont [1979] proved that  cannot generically achieve both. We  strategyproof budget-balanced mechanisms that are approximately efficient. For deterministic mechanisms, we  that strategyproof budget-balanced mechanism must have sink agent whose valuation function is ignored in selecting alternative, she is given payments made by other agents. We assume valuations of agents are drawn from bounded open interval. This  strengthens Green Laffont’s impossibility  by ing that even in restricted domain of valuations, there does not exist mechanism that is strategyproof, budget balanced, takes  agent’s valuation into ation -- corollary of which is that it cannot be efficient.  this , we find tight lower bound on inefficiencies of strategyproof, budget-balanced mechanisms in this domain. bound s that inefficiency asymptotically disappears when number of agents is large --  close in spirit to Green Laffont [1979, Theorem 9.4]. However, our s provide worst-case bounds best possible rate of convergence.
+Next, we  minimizing any convex combination of inefficiency budget imbalance. We  that no deterministic mechanism cdo asymptotically better thminimizing inefficiency al.
+Finally, we investigate randomized mechanisms provide improved lower bounds on expected inefficiency. We give tight lower bound for interesting class of strategyproof, budget-balanced, randomized mechanisms. We also use optimization-based  --in spirit of automated mechanism design-- to provide lower bound on minimum achievable inefficiency of any randomized mechanism.
+
+ 
+
+
+Subset Selection ViImplicit UtilitariVoting
+
+International Joint Conference on Artificial Intelligence (IJCAI), July 9-15, 2016, New York, USA.
+
+How should  aggregate ordinal preferences expressed by voters into measurably superior social choice? well-established  -- which we refer to as implicit utilitarivoting -- assumes that voters have latent utility functions that induce reported rankings, seeks voting rules that approximately maximize utilitarisocial welfare. We extend this  to design of rules that select subset of alternatives. We derive analytical bounds on performance of optimal (deterministic as well as randomized) rules in terms of two measures, distortion regret. Empirical s  that regret-based rules are more compelling thdistortion-based rules, leading us to focus on developing scalable implementation for optimal (deterministic) regret-based rule. Our methods underlie design implementation of upcoming social choice website.
+
+
+
+
+Productive Output in Hierarchical Crowdsourcing
+
+Autonomous Agents Multi-Agent Systems (AAMAS), May 5-9, 2014, Paris, France, 469-476.
+
+Organically grown crowdsourcing networks, which includes production firms social network based crowdsourcing applications, tend to have hierarchical structure. ing entire crowdsourcing system as consolidated organization, primary goal of designer is to maximize net productive output of this hierarchy  reward sharing as incentive tool.  individual in hierarchy has limited amount of effort that they csplit between production communication. Productive effort yields agent direct payoff, while communication effort of agent improves productivity of other agents in her subtree. To understhow net output of crowdsourcing network is influenced by these compnts, we develop game theoretic model that helps explain how individuals trade off these two compnts depending on their position in hierarchy their shares of reward. We provide detailed analysis of Nash equilibrium efforts design recipe of reward sharing scheme that maximizes net productive output. Our s  that even under strategic behavior of agents, it is sometimes possible to achieve optimal output also provide bounds on achievability when this is not case.
+
+
+
+
+Mechanism to Optimally Balance Cost Quality of Labeling Tasks Outsourced to Strategic Agents
+
+Autonomous Agents Multi-Agent Systems (AAMAS), May 5-9, 2014, Paris, France, 917-924.
+
+We  class of crowdsourcing s where owner of task benefits from high quality opinions provided by experts. Executing task at assured quality level in cost effective manner in such situations becomes mechanism design  when individual qualities are private information of experts. ed class of task execution s falls into category of interdependent values, where  cannot simultaneously achieve truthfulness efficiency in unrestricted  due to impossibility  (Jehiel Moldovanu, 2001). We propose mechanism QUEST, that leverages structure of our special class of s guarantees allocative efficiency, ex-post incentive compatibility, ex-post individual rationality, strict budget balance, which even mechanism given by Mezzetti (2004) cannot achieve in this . ex-post individual rationality comes under tight sufficiency condition, we  that above four properties are not simultaneously satisfiable if sufficient condition is violated. To best of our knowledge, this is first attempt in developing quality assuring crowdsourcing mechanism in interdependent value  with quality levels held private by strategic agents.
+
+
+
+
+On Profit Sharing Hierarchies in Organizations
+
+AsiMeeting of Econometric Society (AMES), December 20-22, 2012, New Delhi, India, paper 119, 1-19.
+
+We study effect of hierarchies on performance of organization that exhibits both profit sharing information sharing. We adopt server-queue model of effort intra-organizational competition quantify performance of organization in terms of overall efficiency risk in meeting target production levels. On  hand, we  that profit sharing leads to free riding at Nash equilibrium reduces overall effort. Introducing form of information asymmetry, we then quantitatively establish trade-off between free riding positive effects of information sharing in hierarchies. We formulate optimal hierarchy design  that captures both effects, provide simple algorithm that gives near optimal designs. We provide analysis of productive value of optimized hierarchies, ing their ability to attain target production levels with low risk.
+
+
+
+
+Mechanism Design for Time Critical Cost Critical Task Execution viCrowdsourcing
+
+Web Internet Economics (WINE), December 9 - 12, 2012, Liverpool, UK, 212-226.
+
+In recent times, crowdsourcing over social networks has emerged as active tool for complex task execution. In this paper, we address  faced by planner to incentivize agents in network to execute task also help in recruiting other agents for this purpose. We study this mechanism design  under two natural resource optimization s: (1) cost critical tasks, where planner's goal is to minimize total cost, (2) time critical tasks, where goal is to minimize total time elapsed before task is executed. We define set of fairness properties that should be ideally satisfied by crowdsourcing mechanism. We prove that no mechanism csatisfy all these properties simultaneously. We relax some of these properties define their approximate counterparts. Under appropriate approximate fairness criteria, we obtain non-trivial family of payment mechanisms. Moreover, we provide precise characterizations of cost critical time critical mechanisms.
+
+
+
+
+Threats Trade-offs in Resource Critical Crowdsourcing Tasks over Networks (student abstract)
+
+Conference of Association for Advancement Artificial Intelligence (AAAI), July 22-26, 2012, Toronto, Canada, 2447-2448.
+
+
+Dynamic Mechanism Design for Markets with Strategic Resources
+
+Conference on Unty in Artificial Intelligence (UAI), July 14-17, 2011, Barcelona, Spain, 539-546.
+
+assignment of tasks to multiple resources becomes interesting game theoretic , when both task owner resources are strategic. In classical, non-strategic , where states of tasks resources are observable by controller, this  is that of finding optimal policy for Markov decision process (MDP). When states are held by strategic agents,  of efficient task allocation extends beyond that of solving MDP becomes that of designing mechanism. Motivated by this fact, we propose general mechanism which decides on allocation rule for tasks resources payment rule to incentivize agents' participation truthful reports.
+In contrast to related dynamic strategic control s studied in recent literature,  studied here has interdependent values: benefit of allocation to task owner is not simply function of characteristics of task itself allocation, also of state of resources. We introduce dynamic extension of Mezzetti's two phase mechanism for interdependent valuations. In this changed , proposed dynamic mechanism is efficient, within period ex-post incentive compatible, within period ex-post individually rational. It has, perhaps surprisingly, computation time that is of same order as of non-strategic equivalent.
+We demonstrate effectiveness of  with simulations, observe that  socially desirable properties may not be simultaneously satisfiable.
+
+
+
+
+Dynamic Learning-based Mechanism Design for Dependent Valued Exchange Economies (PhD proposal)
+
+International World Wide Web Conference (WWW), March 28 - April 1, 2011, Hyderabad, India, 397-402.
+
+Learning private information from multiple strategic agents poses challenge in many Internet applications. Sponsored search auctions, crowdsourcing, Amazon’s mechanical turk, various online review forums are examples where we are interested in learning true values of advertisers or true opinion of reviewers. common thread in these decision s is that optimal outcome depends on private information of all agents, while decision of outcome chosen only through reported information which may be manipulated by strategic agents. other important trait of these applications is their dynamic nature. advertisers in online auction or users of mechanical turk arrive depart, when present, interact with system repeatedly, giving opportunity to learn their types. Dynamic mechanisms, which learn from past interactions make present decisions depending on expected future evolution of game, has been n to improve performance over repeated versions of static mechanisms. In this paper, we will survey past current state-of-the-art dynamic mechanisms analyze new  where agents consist of buyers sellers, known as exchange economies, agents having value interdependency, which are relevant in applications illustrated through examples. We  that known s of dynamic mechanisms with independent value s cannot guarantee  desirable properties in this new significantly different . In future work, we propose to analyze similar s with dynamic types population.
+
+
+
+
+Performance Evaluation of Distance-Hop Proportionality on Geometric Graph Models of Dense Sensor Network
+
+International Conference on Performance EVALUation MEthodologies TOOLS (VALUETOOLS), October 21-23, 2008, Athens, Greece, 4247:1-10.
+
+Wireless sensor networks coften be viewed in terms of uniform deployment of large number of nodes on region in Euclidespace, e.g., unit square. After deployment, nodes self-organise into mesh topology. In dense, homogeneous deployment, frequently used approximation is to take hop distance between nodes to be proportional to Euclidedistance between them. In this paper, we analyse performance of this approximation. We  that nodes with  hop distance from fixed anchor node lie within  annulus with probability ing unity as number of nodes n → ∞.
+We take uniform, i.i.d. deployment of n nodes on unit square,  geometric graph on these nodes with radius r(n) = c√1n n/n. We  that, for given hop distance h of node from fixed anchor on unit square, Euclidedistance lies within [(1-ε)(h-1)r(n), hr(n)], for ε > 0, with probability ing unity as n → ∞. This  s that it is more likely to expect node, with hop distance h from anchor, to lie within this annulus centred at anchor location, of width roughly r(n), which decreases as n increases. We  that if radius r of geometric graph is fixed, convergence of probability is expntially fast. Similar s hold for randomised lattice deployment. We provide simulation s that illustrate theory, serve to  how large n needs to be for asymptotics to be useful.
+
+
+
+
+Linear AntennArray with Suppressed Sidelobe SidebLevels  Time Modulation
+
+International Conference On Computers Devices For Communication (CODEC), December 2006, Kolkata, India.
+
+In this paper, goal is to achieve ultrlow sidelobe level (SLL) sideblevels (SBL) of time modulated linear antennarray.  followed here is not to give fixed level of excitation to elements of array, to change it dynamically with time. excitation levels of different array elements over time are varied to get low sidelobe sideblevels. mathematics of getting SLL SBL furnished in detail simulation is d  mathematical s. excitation pattern over time is optimized  Genetic Algorithm (GA). Since, amplitudes of excitations of elements are varied within finite limit, s  it gives better sidelobe sidebsuppression compared to previous time modulated arrays with uniform amplitude excitations.
+
+
+
+
+
+
+TruthBot: Automated Conversational Tool for Intent Learning, Curated Information Presenting, Fake News Alerting
+
+
+
+We present TruthBot, all-in- multilingual conversational chatbot designed for seeking truth (trustworthy verified information) on specific topics. It helps users to obtain information specific to  topics, fact-check information, get recent news. chatbot learns intent of query by training deep neural network from datof previous intents responds appropriately when it classifies intent in  of classes above. Each class is implemented as separate module which uses either its own curated knowledge-base or searches web to obtain correct information. topic of chatbot is currently set to COVID-19. However, bot easily customized to any topic-specific responses. Our experimental s  that each module performs significantly better thits closest competitor, which is verified both quantitatively through several user-based surveys in multiple languages. TruthBot has been deployed in June 2020 is currently running.
+
+
+
+
+Improving Productive Output in Influencer-Influencee Networks
+
+
+
+In social or organizational networks, it is often observed that different individuals put different levels of production effort depending on their position in network.  possible reason is reward sharing, which incentivizes particular agents to spend effort in sharing information with others increasing their productivity. We model effort level in network as strategic decision made by agent on how much effort to expend on complementary tasks of information sharing production. We conduct game-theoretic analysis of incentive information sharing in both hierarchical general influencer-influencee networks. Our particular interest is in understanding how different reward structures in network influence this decision. We establish existence of unique pure-strategy Nash equilibrium in regard to choice made by each agent, study effect of quality cost of communication, reward sharing on effort levels at this equilibrium. Our s  that larger reward share from influencee incentivizes influencer to spend more effort, in equilibrium, on communication, capturing free-riding behavior of well placed agents. We also address reverse question of designing optimal reward sharing scheme that achieves effort profile which maximizes system output. In this direction, for number of stylized networks, we study Price of Anarchy for this output, interplay between information incentive sharing on mitigating loss in output due to agent self-interest.
+
+
+
+
+
+
+Mechanism Design for Strategic Crowdsourcing
+
+
+
+This thesis looks into economics of crowdsourcing  game theoretic modeling. art of aggregating information expertise from diverse population has been in practice since long time. Internet revolution in communication computational technologies have made this task easier given birth to new erof online resource aggregation, which is now popularly referred to as crowdsourcing. Two important features of this aggregation technique are: (a) crowdsourcing is always humdriven, hence participants are rational intelligent, they have payoff function that they aim to maximize, (b) participants are connected over social network which helps to reach out to large set of individuals. To understbehavior outcome of such strategic crowd, we need to understeconomics of crowdsourcing network. In this thesis, we have ed following three major facets of strategic crowdsourcing .
+(i) Elicitation of true qualities of crowd workers: As crowd is often unstructured unknown to designer, it is important to ensure if crowdsourced job is indeed performed at highest quality, this requires elicitation of true qualities which are typically participants' private information.
+(ii) Resource critical task execution ensuring authenticity of both information identity of participants: Due to diverse geographical, cultural, socio-economic reasons, crowdsourcing entails  manipulations that are unusual in classical theory. design has to be robust enough to handle fake identities or incorrect information provided by crowd while performing crowdsourcing contests.
+(iii) Improving productive output of crowdsourcing network: As designer's goal is to maximize  measurable output of crowdsourcing system, interesting question is how  cdesign incentive scheme network so that system performs at optimal level taking into account strategic nature of individuals. In thesis, we design novel mechanisms to solve s above  game theoretic modeling. Our investigation helps in understanding  limits of achievability, provides design protocols in order to make crowdsourcing more reliable, effective, productive.
+
+ 
+
+
+
+Self Organisation in Random Geometric Graph models of Wireless Sensor Networks
+
+
+We   of self-organisation in dense wireless sensor networks. Wireless sensor networks viewed in terms of deployment of large number of nodes in Euclidespace. After deployment, nodes are required to build topology to communicate among themselves also to base station. In this process they should meet some performance criteria, e.g. coverage of areto be monitored, connectivity of all nodes in network, capacity of wireless network, etc. Also, once event is detected in network, we need to localise occurrence of event with information reaching base station in energy efficient way with minimum delay. These performance objectives are issues addressed in self-organisation of wireless sensor networks (WSN).
+In this report, we first introduce  of self-organisation in general then present survey of existing literature in this area. Later we formalise very commonly used approximation of proportionality between hop-distance (minimum number of hops) Euclidedistance for three different scenarios in dense networks. Our proofs bank on  geometric construction union bound, provide sufficient condition. We provide simulation s that illustrate theoretical , serve to  how large number of nodes needs to be before asymptotics are useful. We propose localisation algorithm that uses this theory for fixed anchor random node. We also introduce another algorithm for localisation that uses empirical distribution of Euclidedistance given hop-distance, which performs better thprevious . Finally, we discuss few more issues related to non-idealities in real sensor networks that require more understanding of stochastic geometry of these networks theoretical formalisation.

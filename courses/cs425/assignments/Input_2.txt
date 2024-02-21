@@ -1,0 +1,8 @@
+7
+Add_device 01 S2,5
+Add_device 02 S5,5
+Send_frame 01 02
+Add_device 03 S4,5
+Send_frame 02 01
+Send_frame 02 03
+Remove 03

@@ -1,0 +1,159 @@
+Pell Problem [20 marks]
+----------------------------------------------------------------------
+
+Problem Statement
+You will be given an integer N.
+
+Now do the following.
+
+
+Print the sum of all the digits in N.
+Print the reverse of the number N, call it P.
+Print the sum of all the PELL numbers between N & P (including N & P) -- see the definition of PELL numbers in the note below.
+Print the sum of all the prime PELL numbers between N & P (including N & P).
+
+----------------------------------------------------------------------
+Problem-specific Note: 
+
+Pell numbers are a sequence of numbers which follow the following rule
+P(1) = 1; P(2) = 2; P(N) = 2*P(N-1) + P(N-2)
+Do not print extra spaces in the output.
+All the outputs should be in separate lines.
+
+----------------------------------------------------------------------
+INPUT FORMAT:
+N
+
+OUTPUT FORMAT:
+sum1
+P
+sum3
+sum4
+----------------------------------------------------------------------
+EXAMPLE:
+INPUT
+12
+
+OUTPUT:
+3
+21
+12
+0
+
+Explanation: Sum of digits in 12 is 3. Reverse of the integer 12 is 21. In the range 12 to 21, 12 is the only PELL number. Since 12 is the only PELL number in the range 12 to 21 and it is not prime, the sum for output 4 is 0.
+----------------------------------------------------------------------
+Grading Scheme:
+There will be partial grading in this question. There are four lines in your output. Printing each line correctly, in the correct order, carries some weightage. The first line has 10%, second line has 20%, third line has 30%  and fourth line has 40% weightage. There are 3 visible and 3 hidden test cases.
+
+Please remember, however, that when you press Submit/Evaluate, you will get a green bar only if all parts of your answer are correct. Thus, if your answer is only partly correct, Prutor will say that you have not passed that test case completely, but when we do autograding afterwards, you will get partial marks.
+----------------------------------------------------------------------
+Words of Caution
+
+Do not forget to submit your code. You can submit multiple times. Only the last submission will be graded.
+Marks will be allotted for the following
+	
+
+	
+Proper and meaningful variable names.
+	
+Nice looking and consistent indentation.
+	
+At least a couple of comments explaining to the human grader what are you doing.
+	
+
+Solutions that indulge in hard-coding will get a straight zero even if they are passing some test cases.
+Questions will be graded by the autograder as well as a human grader.
+Proportion of marks allotted to autograder and human grader will be revealed when marks and grading rubrics are released.
+You are not allowed to use libraries other than already included in the template code.
+
+======================
+Primary Solution Code
+======================
+#include<stdio.h>
+
+int sum_of_digits(int a){
+    int sum = 0;
+    while(a > 0){
+        sum += a%10;
+        a /= 10;
+    }
+    return sum;
+}
+
+int reverse(int a){
+    int rev = 0;
+    while(a > 0){
+        rev = 10*rev + a%10;
+        a /= 10;
+    }
+    return rev;
+}
+
+int isPell(int a){
+    // Base case P(1) = 1; P(2) = 2;
+    if(a == 1) {return 1;}
+    if(a == 2) {return 1;}
+    
+    int aN_1 = 2, aN_2 = 1;
+    int aN = 2*aN_1 + aN_2;
+    
+    while(aN <= a){
+        if(aN == a) {return 1;}
+        aN_2 = aN_1;
+        aN_1 = aN;
+        aN = 2*aN_1 + aN_2;
+    }
+    return 0;
+}
+
+int isPrime(int a){
+    // If a number is less than 2, not prime.
+    if(a < 2){return 0;}
+    // 2 is prime.
+    if(a == 2){return 1;}
+    // Any even number other than 2 is not prime.
+    if(a%2 == 0) {return 0;}
+    
+    // Testing divisibility of a by numbers smaller than a.
+    for(int i=3; i<a; i++){
+        if(a%i == 0){
+            return 0;
+        }
+    }
+    return 1;
+}
+
+int main()
+{
+    int num;
+    scanf("%d", &num);
+    
+    int sum_digits = sum_of_digits(num);
+    printf("%d\n", sum_digits);
+    
+    int num_rev = reverse(num);
+    printf("%d\n", num_rev);
+    
+    int sum_pell = 0;
+    int a = num < num_rev ? num : num_rev;
+    int b = num > num_rev ? num : num_rev;
+    
+    // Sum of all the pell numbers in the given range.
+    for(int i = a; i <= b; i++){
+        if(isPell(i)){
+            sum_pell += i;
+        }
+    }
+    printf("%d\n", sum_pell);
+    
+    int sum_pell_prime = 0;
+    
+    // Sum of all the numbers which are PELL as well as prime.
+    for(int i = a; i <= b; i++){
+        if(isPrime(i) && isPell(i)){
+            sum_pell_prime += i;
+        }
+    }
+    printf("%d\n", sum_pell_prime);
+    return 0;
+}

@@ -1,0 +1,93 @@
+Rectangular Grid [30 marks]
+----------------------------------------------------------------------
+Problem Statement
+Given a rectangular region with vertices at (0,0) and (0, M) and (N, 0) and (N, M) in an Electric field. The electric field density level is given by the function f(x, y) = a*x^2 + b*y^2 + c*x + d*y + e. Print the rectangular region with relevant characters at each of the lattice points following the rules below : 
+
+ If that f(x0, y0) is the maximum value in that row print 'R' at (x0, y0)
+ If that f(x0, y0) is the maximum value in that column print 'C' at (x0, y0)
+ If that f(x0, y0) is the maximum value in that row and  also in that column print 'B' at (x0, y0)
+ Otherwise print 'N' at (x0, y0)
+
+----------------------------------------------------------------------
+Problem-specific Note: 
+
+Lattice points are the integer valued co-ordinates
+N and M are positive integers and a,b,c,d,e are integer valued
+Do not print extra spaces in the output.
+All the outputs should be in separate lines.
+
+----------------------------------------------------------------------
+INPUT FORMAT:
+N M
+a b c d e
+
+OUTPUT FORMAT:
+the rectangular grid with characters (grid starts at bottom left corner)
+----------------------------------------------------------------------
+EXAMPLE:
+INPUT
+4 3
+1 1 1 1 1 
+
+OUTPUT:
+CCCCB
+NNNNR
+NNNNR
+NNNNR
+
+Explanation: In the given problem we have 20 lattice points. For the given density function the max value occurs at (4, 3) so we printed B at that position and similarly for other lattice points. 
+----------------------------------------------------------------------
+Grading Scheme:
+There will be partial grading in this question. There are M+1 lines in your output. Printing each line correctly, in the correct order, carries some weightage. There are 3 visible and 3 hidden test cases.
+
+Please remember, however, that when you press Submit/Evaluate, you will get a green bar only if all parts of your answer are correct. Thus, if your answer is only partly correct, Prutor will say that you have not passed that test case completely, but when we do autograding afterwards, you will get partial marks.
+----------------------------------------------------------------------
+Words of Caution
+
+Do not forget to submit your code. You can submit multiple times. Only the last submission will be graded.
+Marks will be allotted for the following
+	
+
+	
+Proper and meaningful variable names.
+	
+Nice looking and consistent indentation.
+	
+At least a couple of comments explaining to the human grader what are you doing.
+	
+
+Solutions that indulge in hard-coding will get a straight zero even if they are passing some test cases.
+Questions will be graded by the autograder as well as a human grader.
+Proportion of marks allotted to autograder and human grader will be revealed when marks and grading rubrics are released.
+You are not allowed to use libraries other than already included in the template code.
+
+======================
+Primary Solution Code
+======================
+#include<stdio.h>
+
+int poly(int a, int b, int c, int d, int e, int x, int y){
+    return a*x*x + b*y*y + c*x + d*y + e;
+}
+int main(){
+    int N, M, a, b, c, d, e, rm, cm, v;
+    scanf("%d %d", &N, &M);
+    scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
+    for(int i=M; i>=0; i--){
+        for(int j=0; j<=N; j++){
+            rm = cm = v = poly(a, b, c, d, e, j, i);
+            for(int k=0; k<=N; k++){
+                if(poly(a, b, c, d, e, k, i) > rm) rm = poly(a, b, c, d, e, k, i); 
+            }
+            for(int l=0; l<=M; l++){
+                if(poly(a, b, c, d, e, j, l) > cm) cm = poly(a, b, c, d, e, j, l);
+            }
+            if(v==rm && v==cm) printf("B");
+            else if(v == rm) printf("R");
+            else if(v == cm) printf("C");
+            else printf("N");
+        }
+        if(i) printf("\n");
+    }
+    return 0;
+}
