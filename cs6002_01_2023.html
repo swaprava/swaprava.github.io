@@ -1,0 +1,1468 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Swaprava Nath - CS6002</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/favicon-iitb.ico"  type="image/x-icon">
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+
+
+<!-- JS-->
+<script src="js/libs/modernizr-2.6.2.min.js"></script>
+<!-- end JS-->
+
+<!-- MathJax Magic -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async>
+</script>
+<!-- End MathJax Magic -->
+
+<!-- My collapsomatic magic -->
+
+<link rel='stylesheet' id='collapseomatic-css-css'  href='support/plugins/jquery-collapse-o-matic/dark_style.css?ver=1.5.4' type='text/css' media='all' />
+
+<script type='text/javascript' src='support/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='support/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='support/plugins/collapse-o-matic/collapse.js?ver=1.5.4'></script>
+<script type='text/javascript' src='support/theme/tinynav.js?ver=3.7.1'></script>
+<script type='text/javascript' src='support/theme/backtotop.js?ver=3.7.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="support/extras/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="support/extras/wlwmanifest.xml" /> 
+
+<!--
+<link rel='stylesheet' type='text/css' href='http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1349896606' />
+<link rel='stylesheet' href='http://cdn1.editmysite.com/editor/images/common/common-v2.css?buildTime=1349896606' type='text/css' />
+<link rel='stylesheet' type='text/css' href='files/main_style.css?1349985140' title='wsite-theme-css' />
+<link href='http://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Gudea:400,700,400italic' rel='stylesheet' type='text/css' />
+<link rel="shortcut icon" type="image/ico" href="Photos/favicon-2.ico">
+-->
+
+<script type='text/javascript'>
+var colomatduration = 'fast';
+var colomatslideEffect = 'slideFade';
+</script>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- end of collapsomatic -->
+
+
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><img src="images/iitbbluelogo.png" alt="" height="120"/> </a>
+									Computer Science and Engineering  <br />
+									Indian Institute of Technology Bombay <br />
+									Powai, Mumbai 400076, INDIA
+									
+								</header>
+
+
+							<!-- Section: Publications -->
+								<section>
+									<div class="9u 12u$(medium)">
+									<header>
+										<h2>CS 6002: Selected Areas of Mechanism Design</h2>
+									</header>
+
+<article>
+    <div class="content">
+        <h3>Goal of the course</h3>
+        <p>This course is based on selected topics in mechanism design. These topics include stable matching, fair allocation, cooperative games, selfish routing, games on networks, potential games. This is a research-oriented course, hence students are expected to read and present cutting-edge research topics in this area, and also develop writing skills towards a formal technical report.<br /><br />
+        A course like <a href="cs6001_07_2022.html" target="_blank">CS 6001</a> is a prerequisite for this course. In general, I will assume familiarity with formal mathematical reasoning, a fair amount of probability theory, basic calculus, the basics of computational complexity. I believe that one learns the concepts of an algorithm better when one codes that algorithm. Therefore, experience in programming will be useful.<br /><br />
+        <a href="https://docs.google.com/document/d/e/2PACX-1vRu0qppTVOLR9y_9CvH6E9_PsSEeAJ1ep2i-Zy4dNJWmTEhQd1idiXglRDIgxlb6wFC639ixkHzaEPu/pub" target="_blank">Detailed plan of the course</a>.</p>
+    </div>
+</article>
+
+<article>
+    <div class="content">
+        <h3>Announcements</h3>
+        <ol style="padding-left:1em">
+            <li> First meeting of the course is on Monday, January 2, 2023, at 2 PM, in CC 103 (note the unusual venue). </li>
+            <li> Get started: enroll yourself on Piazza. Moodle will NOT be used for class discussions. </li>
+			<li> <b>All class-related announcements will be made on Piazza. If you are not enrolled there, you may miss the announcements.</b></li>
+            <li> The first 9-10 weeks will be lecture-based and the remaining 2-3 weeks will be project presentations. A tentative list of probable projects are provided and you may form groups and start working on them. The project related meetings will start happening only after the first month of teaching and based on need. The group can email the instructor and schedule a time for a project meeting.</li>
+			<li> First meeting <a href="https://docs.google.com/presentation/d/1FJD_VpmY4vGnuoEwzLx7bG0SiO_ML7zoaA01HgryPeE/edit?usp=sharing" target="_blank">slides</a>. </li>
+			<li> Audit grades will be given for this course only if you fairly complete (on or above 30% score in the 45% component) the project component of this course (part 2). However, you're welcome to sit-in, attend the lectures and problem-solving sessions, and ask questions on Piazza.</li>
+			<!--<li> Exam setup details for SAFE have been posted on <a href="https://piazza.com/class/l1z9hhqxi2w64i/post/15">this piazza note</a>.</li>
+			<li> <b>Quiz 1 will be on Tue, Aug 30, 2022. Time: 4:15 - 4:45 PM</b>. All details are posted in the same note above.</li>
+			<li> <b>Midsem will be on Mon, Sep 19, 2022. Time: 6:30 - 8:30 PM</b>. All details are posted on Piazza.</li>
+			<li> <b>Quiz 2 will be on Tue, Nov 1, 2022. Time: 4:00 - 4:45 PM</b>. All details are posted on Piazza.</li> -->
+        </ol>
+    </div>
+</article>
+
+<article>
+    <div class="content">
+        <h3>Logistics</h3>
+        <ul style="padding-left:1em">
+            <li> <b>Instructor:</b> Swaprava Nath (office hours: Friday 2:30-3:30 PM at CC 209, mail at swaprava AT cse DOT iitb DOT ac DOT in with [CS6002] in the subject before coming) </li>
+            <li> <b>Teaching assistants:</b> Hyderi Narjis Asad (narjisasad@cse.iitb.ac.in), Aditya Pande (22m2108@iitb.ac.in) </li>
+			<li> <b>Classroom:</b> CC 101 (New CSE Building)</li>
+            <li> <b>Evaluation:</b> 
+                <ol>
+                    <li>One quiz -- 15% weightage</li>
+                    <li>One midsem -- 40% weightage</li>
+                    <li>No final exam</li>
+                    <li>One group miniproject (group of 3 preferably): evaluation will be based on presentation (15%) and final report (30%)</li>
+                    <li>Make your own groups. Divide tasks into: (a) contribution to technical results -- partitioned into theory and experiments, (b) writing up the report, (c) preparing the presentation. Each of these tasks may be contributed by multiple members, but the contributions must be mentioned clearly along these 3 categories at the end of the report. Note that, <b>based on these declaration, marks can be different for different members of the same group</b>.</li>
+                    <li>All exams are offline, proctored, in-classroom, pen and paper, closed book (unless otherwise mentioned). Grading is done using Gradescope. </li>
+                </ol>
+            </li>	
+            <li> <b>Attendance policy:</b> If you are in IITB and not sick, then it is recommended that you should attend the classes. This is more important since there is no videolecture or online version of this course.</li>	
+			<li> <b>Practice problems:</b> Stable matching exercises (chapter 22, MSZ). More coming soon on Piazza.</li>	
+			<li><b>Course <a href="https://calendar.google.com/calendar/u/0?cid=YjE1MGQ5MWVmMmY4NDc1ZjdjMzk4ZTBiNjFmNzM2YTE3MDc2MWY4M2QzYzBjNTM2NmJjMzgyMDY4NTZlZDhmMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank">calendar</a></b></li>
+        </ul>
+    </div>
+</article>
+
+<article>
+    <div class="content">
+        <h3>Reference texts</h3>
+
+        <p>The following books could be useful. 
+        <ol style="padding-left:1em">
+            <li> [MSZ] "Game Theory" — Michael Maschler, Eilon Solan, Shmuel Zamir, Cambridge University Press.</li>
+            <li> [SLB] "<a href="http://www.masfoundations.org/" target="_blank">Multiagent Systems</a>" — Y. Shoham and K. Leyton Brown, Cambridge University Press.</li>
+            <li> [COMSOC] <a href="https://www.cambridge.org/files/5015/1077/0783/9781107060432AR_final3.pdf" target="_blank">Handbook of computational social choice</a>.</li>
+			<li> [Mishra] Lecture <a href="https://www.isid.ac.in/~dmishra/gmdoc/mdnotes.pdf" target="_blank">notes</a> on mechanism design by Debasis Mishra.</li>
+			<li> [Myer] "Game Theory -- analysis of conflict" -- Roger B. Myerson <a href="https://www.google.co.in/books/edition/_/oGUET9JBytEC?hl=en&sa=X&ved=2ahUKEwisgZjOir39AhUGSWwGHbK5BzsQre8FegQIHBAG" target="_blank">book</a>.</li>
+        </ol>
+        </p>
+    </div>
+</article>
+
+
+<!-- VIDEOLECTURES HERE -->
+
+
+<h3>Lectures</h3>
+
+<!--
+<p><b>Dear students and viewers, <br />
+	In an attempt to make the videolectures better for self-learning, we need inputs from you. If you find errors or feel that there could be more details / clarifications in any of the videolecture modules, please enter your comments / inputs in this <a href="https://forms.gle/s6kKn5ZTFjZ1FRat8" target="_blank">form</a>. Your contribution will be gratefully acknowledged in a future version of these videolectures if you enter your name as well. <br />
+	Similarly, for the course materials, we have created <a href="http://nb.mit.edu/">NB</a> versions, where you can annotate and ask questions. Please use this tool to the fullest. The entire set of course materials, i.e., the boardwork, lecture notes, and the videolectures, is available on NB. Please subscribe via this <a href="http://nb.mit.edu/subscribe?key=z8k9XXWIhEqOL6CxkjsS8yiSJes9Znq8yxvd2Qv0dcbznTJO5R" target="_blank">link</a>.<br />
+	-- Instructor.<br /><br />
+	The entire <a href="https://youtube.com/playlist?list=PLeyWfpm2PI_ek2mCJJhjX3G6QRS7LaW9c" target="_blank">playlist</a> of lecture videos is now available.
+</b></p>
+-->
+
+<!-- <p><span class="expandall"><span style="color: blue;">Expand all details</span></span> | <span class="collapseall"><span style="color: red;">Collapse all details</span></span></p> -->
+
+
+<!--
+<font size="3"><strong><span style="color: #5b971f;">Before you start</span></strong></font><br /><br />
+
+<ul style="padding-left:1em">
+
+
+<li style="padding-left:1em">
+<a name="module00"></a><strong><span style="color: #5ba015;">Module 00: Prelude</span></strong><br /><em>A 4-minute introduction. No specific reading for this module.</em>
+<br />
+
+<span class="collapseomatic " id="idmodule00"  title="module00" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule00" class="collapseomatic_content ">
+<p>
+    <div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/i_qsDf0-Sc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</p> 
+</div>
+</li>
+
+
+
+</ul>
+-->
+
+
+<!-- <font size="5"><strong><span style="color: #000099">Week 01</span></strong></font><br /><br /> -->
+
+
+<ul style="padding-left:1em">
+
+<li style="padding-left:1em">
+<a name="module01"></a><strong><span style="color: #000099;">Lecture 01: One-sided Matching Problem</span></strong><br /><em>The setup for one-sided matching -- also known as house allocation problem. Why this setup bypasses Gibbard-Satterthwaite? Example mechanisms: serial dictatorship, top-trading cycle. Desirable properties: strategyproofness, efficiency. Do the mechanisms satisfy these properties? Reading: [Mishra] Chapter 8. [<a href="courses/cs6002/handwritten/lec-01.pdf" target="_blank">Handwritten notes</a>]</em>
+<br />
+
+<!--<span class="collapseomatic " id="idmodule01"  title="module01" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule01" class="collapseomatic_content ">
+<p>
+    <div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/ZeBTBNCYBzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/67967" target="_blank">NB version</a>
+</p> 
+</div> -->
+</li>
+
+
+<li style="padding-left:1em">
+    <a name="module02"></a><strong><span style="color: #000099;">Lecture 02: Top Trading Cycle</span></strong><br /><em>TTC is strategyproof and efficient, not a serial dictatorship. Stability, core, blocking coalition. Stability properties of TTC. Reading: [Mishra] Chapter 8. [<a href="courses/cs6002/handwritten/lec-02.pdf" target="_blank">Handwritten notes</a>] </em>
+    <br />
+    
+    <!-- <span class="collapseomatic " id="idmodule02"  title="module02" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule02" class="collapseomatic_content ">
+    <p>
+        <div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/t3ZvFCqR6U0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/67969" target="_blank">NB version</a>
+    </p> 
+    </div> -->
+</li>
+
+<li style="padding-left:1em">
+    <a name="module03"></a><strong><span style="color: #000099;">Lecture 03: Kidney Exchanges</span></strong><br /><em>An application of house allocation in the organ donation market. Kidney exchange mechanisms: advantages and disadvantages of TTC. Newer mechanisms based on graph matching. Altruistic donors. Reading: <a href="https://en.wikipedia.org/wiki/Kidney_paired_donation" target="_blank">Kidney Paired Donation</a>, <a href="https://www.sciencedirect.com/science/article/pii/S002205319992553X" target="_blank">House Allocation with Existing Tenants</a>, <a href="https://www.sciencedirect.com/science/article/pii/S089982560900205X" target="_blank">House allocation with existing tenants: A characterization</a>, <a href="https://web.stanford.edu/~alroth/papers/kidneys.JET.2005.pdf" target="_blank">Pairwise kidney exchange</a>. [<a href="courses/cs6002/handwritten/lec-03.pdf" target="_blank">Handwritten notes</a>] </em>
+    <br />
+    
+    <!-- <span class="collapseomatic " id="idmodule03"  title="module03" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule03" class="collapseomatic_content ">
+    <p>
+        <div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/HHoUhLlhTFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/67971" target="_blank">NB version</a>
+    </p> 
+    </div> -->
+</li>
+
+<li style="padding-left:1em">
+    <a name="module04"></a><strong><span style="color: #000099;">Lecture 04: Two-sided Matching</span></strong><br /><em>Blocking pairs, Gale-Shapley deferred acceptance algorithm and its properties. Stability properties: pairwise and group blocking. Structure of stable matchings -- order over the stable matchings from the men and women sides. Reading: [Mishra] Chapter 8. [<a href="courses/cs6002/handwritten/lec-04.pdf" target="_blank">Handwritten notes</a>] </em>
+    <br />
+    
+    <!-- <span class="collapseomatic " id="idmodule04"  title="module04" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule04" class="collapseomatic_content ">
+    <p>
+        <div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/ngk6FffhdBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/67973" target="_blank">NB version</a>
+    </p> 
+    </div> -->
+</li>
+
+<li style="padding-left:1em">
+    <a name="module05"></a><strong><span style="color: #000099;">Lecture 05: Structures of Stable Matchings</span></strong><br /><em>Achievability of a partner, men/women-optimal functions are matchings, DA algorithm if men/women optimal, consensus among men results in reverse consensus among women over stable matchings, generalization of the pointing function idea to get lattice-type results in stable matchings. Reading: Book on "Online and Matching-Based Market Design", by Federico Echenique, Nicole Immorlica and Vijay V. Vazirani. chapters on <a href="https://www.ics.uci.edu/~vazirani/Chapter2.pdf" target="_blank">one-sided matching</a>, <a href="https://www.ics.uci.edu/~vazirani/Chapter1.pdf" target="_blank">two-sided matching</a>. [<a href="courses/cs6002/handwritten/lec-05.pdf" target="_blank">Handwritten notes</a>] </em>
+    <br />
+    
+    <!-- <span class="collapseomatic " id="idmodule05"  title="module05" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule05" class="collapseomatic_content ">
+    <p>
+        <div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/u5qUKU1aF10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/67975" target="_blank">NB version</a>
+    </p> 
+    </div> -->
+</li>
+
+<!-- <li style="padding-left:1em">
+    <strong><a href="https://piazza.com/class/l1z9hhqxi2w64i?cid=6" target="_blank">Week 01 Q&A on Piazza</a></strong><br />
+</li>
+
+</ul> -->
+
+
+
+<!--<font size="5"><strong><span style="color: #000099">Week 02</span></strong></font><br /><br />
+
+
+<ul style="padding-left:1em"> -->
+
+<li style="padding-left:1em">
+	<a name="module06"></a><strong><span style="color: #000099;">Lecture 06: Manipulation in Stable Matchings</span></strong><br /><em>Stable roommates problem and Irving's algorithm. Strategyproofness in matching. DA algorithm is manipulable for the non-proposers, strategyproof for proposers. Structure of optimal manipulation and manipulation complexity. Stability question after manipulation. Readings: <a href="courses/cs6002/papers/irving85stable-roommates.pdf" target="_blank">Stable roommates paper (Irving 1985)</a>, <a href="https://www.youtube.com/watch?v=5QLxAp8mRKo" target="_blank">Stable roommates algorithm video</a>, <a href="courses/cs6002/papers/dubins-freedman81.pdf" target="_blank">DA is proposer strategyproof (Dubins and Freedman 1981)</a>, <a href="courses/cs6002/papers/vaish-garg17.pdf" target="_blank">structure of optimal manipulation and stability (Vaish and Garg 2017)</a>. [<a href="courses/cs6002/handwritten/lec-06.pdf" target="_blank">Handwritten notes</a>] [<a href="courses/cs6002/handwritten/optional-stable-matching.pdf" target="_blank">Optional reading on stability and strategyproofness</a>]</em>
+    <br />
+	
+	<!--<span class="collapseomatic " id="idmodule06"  title="module06" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule06" class="collapseomatic_content ">
+	<p>
+		<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/xeO_XOzXnHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68026" target="_blank">NB version</a>
+	</p> 
+	</div>-->
+</li>
+	
+<li style="padding-left:1em">
+		<a name="module07"></a><strong><span style="color: #000099;">Lecture 07: Cake Cutting</span></strong><br /><em>Allocation of a single divisible good, cake model: heterogeneous, divisible, non-identical preferred good, agent model: additive valuation, divisibility, normalization, fairness notions: proportionality, envy-freeness, Robertson-Webb query model for complexity, mechanisms: I-cut-you-choose (2 players), Dubins-Spanier algorithm (n players), Even-Paz algorithm (n players, recursive). Readings: [COMSOC] Chapter 13. [<a href="courses/cs6002/handwritten/lec-07.pdf" target="_blank">Handwritten notes</a>]</em>
+		<br />
+		
+		<!-- <span class="collapseomatic " id="idmodule07"  title="module07" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule07" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/KsEoko0sJB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href= "http://nb.mit.edu/f/68028" target="_blank">NB version</a>
+		</p> 
+		</div>-->
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module08"></a><strong><span style="color: #000099;">Lecture 08: Indivisible Item Allocation</span></strong><br /><em>Cake cutting envy-freeness question: Selfridge-Conway algorithm for EF allocation of a cake between three agents. Upper bound for n agents [<a href="https://arxiv.org/pdf/1604.03655" target="_blank">Aziz and Mackenzie, FOCS 2016</a>], lower bound for n agents [<a href="courses/cs6002/papers/procaccia09.pdf" target="_blank">Procaccia, IJCAI 2009</a>]. [<a href="https://en.wikipedia.org/wiki/Envy-free_cake-cutting" target="_blank">Wikipedia article on envy-free cake cutting</a>], [<a href="courses/cs6002/papers/procaccia13expository.pdf" target="_blank">a general audience piece</a>]. Fair allocation of indivisible goods, envy-freeness upto one good, round-robin algorithm for additive valuations. Reading (indivisible goods): <a href="courses/cs6002/papers/amanatidis-etal22survey.pdf" target="_blank">survey by Amantidis et al.</a> [<a href="courses/cs6002/handwritten/lec-08.pdf" target="_blank">Handwritten notes</a>]</em>
+		<br />
+		
+		<!-- <span class="collapseomatic " id="idmodule08"  title="module08" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule08" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/RXiDquzI4Mw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<a href="http://nb.mit.edu/f/68030" target="_blank">NB version</a>
+		</p> 
+		</div> -->
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module09"></a><strong><span style="color: #000099;">Lecture 09: Envy-freeness and Pareto Optimality</span></strong><br /><em>Envy cycle elimination algorithm for monotone valuations, Pareto optimality of an allocation. Reading: <a href="https://en.wikipedia.org/wiki/Envy-graph_procedure" target="_blank">Wikipedia page on Envy cycle elimination</a>, <a href="courses/cs6002/papers/lipton04.pdf" target="_blank">Lipton et al. paper</a>. [<a href="courses/cs6002/handwritten/lec-09.pdf" target="_blank">Handwritten notes</a>]</em>
+		<br />
+		
+		<!-- <span class="collapseomatic " id="idmodule09"  title="module09" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule09" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/5JSl9vtKINw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68032" target="_blank">NB version</a>
+		</p> 
+		</div> -->
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module10"></a><strong><span style="color: #000099;">Lecture 10: EF1 and World of 'Bad's</span></strong><br /><em>Pareto improvement of an EF1 allocation, Nash social welfare, Nash optimal allocation satisfies EF1 and PO. Fair allocation of Chores/Bads -- additive valuations, monotone valuations. Reading: <a href="courses/cs6002/papers/caragiannis-etal-nash-ec16.pdf" target="_blank">Maximum Nash Social Welfare (NSW) paper</a>, <a href="courses/cs6002/papers/lee15.pdf" target="_blank">Maximizing NSW is APX-hard</a>, <a href="courses/cs6002/papers/barman-etal18.pdf" target="_blank">Pseudopoly-time algorithm for EF1+PO</a>. [<a href="courses/cs6002/handwritten/lec-10.pdf" target="_blank">Handwritten notes</a>]</em>
+		<br />
+		
+		<!-- <span class="collapseomatic " id="idmodule10"  title="module10" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule10" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/fAbXOPekrrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68034" target="_blank">NB version</a>
+		</p> 
+		</div> -->
+	</li>
+
+	<li style="padding-left:1em">
+		<a name="module11"></a><strong><span style="color: #000099;">Lecture 11: Bads and Mixed Items</span></strong><br /><em>Monotone chores, top-trading envy-cycle elimination algorithm, mixed valuations (goods and chores), doubly round robin algorithm, doubly monotone valuations, envy-cycle top-trading envy-cycle elimination algorithm, summary. Reading: <a href="courses/cs6002/papers/bhaskar.pdf" target="_blank">Top-trading envy cycle elimination paper</a>, <a href="courses/cs6002/papers/aziz22.pdf" target="_blank">doubly round-robin algorithm</a>. [<a href="courses/cs6002/handwritten/lec-11.pdf" target="_blank">Handwritten notes</a>]</em>
+		<br />
+		
+		<!-- <span class="collapseomatic " id="idmodule11"  title="module11" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule11" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/M2hJUMBVHEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68036" target="_blank">NB version</a>
+		</p> 
+		</div> -->
+	</li>
+
+	<li style="padding-left:1em">
+		<a name="module12"></a><strong><span style="color: #000099;">Lecture 12: Bargaining Games</span></strong><br /><em>Axioms of two-player bargaining, Nash bargaining solution, existence, and uniqueness. Reading: [MSZ] Chapter 15. [<a href="courses/cs6002/handwritten/lec-12.pdf" target="_blank">Handwritten notes</a>]</em>
+		<br />
+		
+		<!-- <span class="collapseomatic " id="idmodule12"  title="module12" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule12" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/nzCBAlRFFDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68038" target="_blank">NB version</a>
+		</p> 
+		</div> -->
+	</li>
+
+	<!-- <li style="padding-left:1em">
+		<strong><a href="https://piazza.com/class/l1z9hhqxi2w64i?cid=7" target="_blank">Week 02 Q&A on Piazza</a></strong><br />
+	</li>
+
+</ul>
+-->
+
+
+<!-- <font size="5"><strong><span style="color: #000099">Week 03</span></strong></font><br /><br /> 
+
+<ul style="padding-left:1em"> -->
+
+	<li style="padding-left:1em">
+	<a name="module13"></a><strong><span style="color: #000099;">Lecture 13: Transferable Utility Games</span></strong><br /><em>Characteristic function, examples of TU games, special classes of TU games. Reading: [Myer] Chapter 9. [<a href="courses/cs6002/handwritten/lec-13.pdf" target="_blank">Handwritten notes</a>]</em>
+	<br />
+	
+	<!--<span class="collapseomatic " id="idmodule13"  title="module13" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule13" class="collapseomatic_content ">
+	<p>
+		<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/FZzlcBAglNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68098" target="_blank">NB version</a>
+	</p> 
+	</div> -->
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module14"></a><strong><span style="color: #000099;">Lecture 14: Core of TU Games</span></strong><br /><em>Solution concepts of TU games, core, Bondareva-Shapley theorem. Reading: [MSZ] Chapter 17. [<a href="courses/cs6002/handwritten/lec-14.pdf" target="_blank">Handwritten notes</a>]</em>
+		<br />
+		
+		<!-- <span class="collapseomatic " id="idmodule14"  title="module14" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule14" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/yWD14F4ScHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68100" target="_blank">NB version</a>
+		</p> 
+		</div>-->
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module15"></a><strong><span style="color: #000099;">Lecture 15: Market Games</span></strong><br /><em>Market games, non-emptiness of core, Shapley-Shubik theorem. Reading: [MSZ] Chapter 17. [<a href="courses/cs6002/handwritten/lec-15.pdf" target="_blank">Handwritten notes</a>]</em>
+		<br />
+		
+		<!-- <span class="collapseomatic " id="idmodule15"  title="module15" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule15" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/LonodKQLG6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68102" target="_blank">NB version</a>
+		</p> 
+		</div> -->
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module16"></a><strong><span style="color: #000099;">Lecture 16: Limitations of Core</span></strong><br /><em>Multiple solutions in core, single-valued solution concepts, Shapley value, Shapley axioms, Application: Shapley-Shubik power index in UN security council. Reading: [MSZ] Chapter 18. [<a href="courses/cs6002/handwritten/lec-16.pdf" target="_blank">Handwritten notes</a>]</em>
+		<br />
+		
+		<!-- <span class="collapseomatic " id="idmodule16"  title="module16" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule16" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/J74tj3UtRR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68104" target="_blank">NB version</a>
+		</p> 
+		</div>-->
+	</li>
+	
+<!--	<li style="padding-left:1em">
+		<a name="module17"></a><strong><span style="color: #000099;">Module 17: Algorithm to find MSNE</span></strong><br /><em>MSNE characterization theorem to algorithm. Existence of MSNE: Nash theorem (1951). Reading: MSZ chapter 5. [<a href="courses/cs6001/boardwork/17-algo-msne.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68111" target="_blank">Boardwork (NB version)</a>] [<a href="courses/cs6001/boardwork/nash-proof.pdf" target="_blank">Proof of Nash theorem</a>]</em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule17"  title="module17" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule17" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/QRdSpx1bZkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68106" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+
+	<li style="padding-left:1em">
+		<strong><a href="https://piazza.com/class/l1z9hhqxi2w64i?cid=10" target="_blank">Week 03 Q&A on Piazza</a></strong><br />
+	</li>
+
+</ul>
+-->
+
+<!--
+<font size="5"><strong><span style="color: #000099">Week 04</span></strong></font><br /><br />
+
+<ul style="padding-left:1em">
+
+	<li style="padding-left:1em">
+	<a name="module18"></a><strong><span style="color: #000099;">Module 18: Correlated Equilibrium</span></strong><br /><em>Correlated strategy and equilibrium: definitions, example, and discussion. Reading: MSZ chapter 8. [<a href="courses/cs6001/boardwork/18-correlated.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68136" target="_blank">Boardwork (NB version)</a>] </em>
+	<br />
+	
+	<span class="collapseomatic " id="idmodule18"  title="module18" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule18" class="collapseomatic_content ">
+	<p>
+		<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Qa27vVE4C-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68142" target="_blank">NB version</a>
+	</p> 
+	</div>
+	</li>
+	
+	<li style="padding-left:1em">
+	<a name="module19"></a><strong><span style="color: #000099;">Module 19: Computing Correlated Equilibrium</span></strong><br /><em>The two sets of constraints are to be solved to compute the CE. Comparison of CE with the previous equilibrium notions. Summary so far in this course. Reading: MSZ chapter 8. [<a href="courses/cs6001/boardwork/19-compute-corr.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68137" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule19"  title="module19" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule19" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/-JMAk9KTJTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68144" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module20"></a><strong><span style="color: #000099;">Module 20: Extensive Form Games</span></strong><br /><em>Perfect information extensive form games (PIEFGs): Example of brother-sister chocolate division, formal definition. Understanding the transformation of PIEFG into NFG with an example. Reading: MSZ chapter 3. [<a href="courses/cs6001/boardwork/20-extensive-intro.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68138" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule20"  title="module20" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule20" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/UFlU4X8uT8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68146" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module21"></a><strong><span style="color: #000099;">Module 21: Subgame Perfection</span></strong><br /><em>Equilibrium guarantees are weak in PIEFG. Subgame perfect Nash equilibrium (SPNE).  Finding SPNE using backward induction. Reading: MSZ chapter 3. [<a href="courses/cs6001/boardwork/21-subgame-perfect.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68139" target="_blank">Boardwork (NB version)</a>]</em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule21"  title="module21" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule21" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/6XuNR98TbL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68150" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module22"></a><strong><span style="color: #000099;">Module 22: Limitations of SPNE</span></strong><br /><em>The computation cost of SPNE. Advantages and disadvantages of SPNE. Centipede game. Reading: MSZ chapter 3. [<a href="courses/cs6001/boardwork/22-limitation-spne.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68140" target="_blank">Boardwork (NB version)</a>] </em>
+		</em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule22"  title="module22" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule22" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/_cVMYmewYgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68152" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+
+	<li style="padding-left:1em">
+		<strong><a href="https://piazza.com/class/l1z9hhqxi2w64i?cid=11" target="_blank">Week 04 Q&A on Piazza</a></strong><br />
+	</li>
+
+</ul>
+-->
+
+<!--
+<font size="5"><strong><span style="color: #000099">Week 05</span></strong></font><br /><br />
+
+<ul style="padding-left:1em">
+
+	<li style="padding-left:1em">
+	<a name="module23"></a><strong><span style="color: #000099;">Module 23: Imperfect Information Extensive Form Games</span></strong><br /><em>IIEFG: Games with imperfect information. Example and formal definition of IIEFG. Reading: MSZ chapter 3, SLB chapter 5. [<a href="courses/cs6001/boardwork/23-intro-iiefg.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68161" target="_blank">Boardwork (NB version)</a>] </em>
+	<br />
+	
+	<span class="collapseomatic " id="idmodule23"  title="module23" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule23" class="collapseomatic_content ">
+	<p>
+		<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/28lCiEylvNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68166" target="_blank">NB version</a>
+	</p> 
+	</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module24"></a><strong><span style="color: #000099;">Module 24: Strategies in IIEFGs</span></strong><br /><em>Randomized strategies in IIEFG. Behavioral strategy. Relation between mixed and behavioral strategies: equivalence, can we have an equivalence? Utility equivalence. Reading: MSZ chapter 3, 6. [<a href="courses/cs6001/boardwork/24-strategies-iiefg.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68162" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule24"  title="module24" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule24" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/QcuQ9Xiyr6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68168" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module25"></a><strong><span style="color: #000099;">Module 25: Equivalence of Strategies in IIEFGs</span></strong><br /><em>Why behavioral strategies are desirable? Does the equivalence always hold? The equivalence does not hold if the players are forgetful. Reading: MSZ chapter 6. [<a href="courses/cs6001/boardwork/25-equivalence-cond.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68163" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule25"  title="module25" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule25" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/QVucgcje-3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68170" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module26"></a><strong><span style="color: #000099;">Module 26: Perfect Recall</span></strong><br /><em>Forgetfulness of the players. Games with perfect recall: definition, example, the implication of perfect recall. Kuhn's theorem (1957). Reading: MSZ chapter 6. [<a href="courses/cs6001/boardwork/26-perfect-recall.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68164" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule26"  title="module26" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule26" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/U971Vuq-8a4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68174" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+
+	<li style="padding-left:1em">
+		<strong><a href="https://piazza.com/class/l1z9hhqxi2w64i?cid=16" target="_blank">Week 05 Q&A on Piazza</a></strong><br />
+	</li>
+
+</ul>
+-->
+
+<!--
+<font size="5"><strong><span style="color: #000099">Week 06</span></strong></font><br /><br />
+
+<ul style="padding-left:1em">
+
+	<li style="padding-left:1em">
+	<a name="module27"></a><strong><span style="color: #000099;">Module 27: Equilibrium in IIEFGs</span></strong><br /><em>Equilibrium notions in IIEFGs. Example and formal definitions of belief, Bayesian beliefs, and sequential rationality. Perfect Bayesian Equilibrium (PBE). Reading: MSZ chapter 6. [<a href="courses/cs6001/boardwork/27-equilibrium-iiefg.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68195" target="_blank">Boardwork (NB version)</a>] </em>
+	<br />
+	
+	<span class="collapseomatic " id="idmodule27"  title="module27" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule27" class="collapseomatic_content ">
+	<p>
+		<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/DkraWGsk6Cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/67960" target="_blank">NB version</a>
+	</p> 
+	</div>
+	</li>
+	
+	<li style="padding-left:1em">
+	<a name="module28"></a><strong><span style="color: #000099;">Module 28: Game Theory in Practice -- P2P File Sharing</span></strong><br /><em>Peer-to-peer sharing:  desired terminology, file-sharing game, New protocol (BitTorrent). BitTorrent optimistic unchoking algorithm, attacks on BitTorrent, BitThief, Strategic piece revealer. Reading: Parkes and Seuken <a href="http://economicsandcomputation.org/" target="_blank">book</a> chapter 5. [<a href="courses/cs6001/boardwork/28-p2p-lecture.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68196" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule28"  title="module28" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule28" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/MEhIS6TBwj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68204" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module29"></a><strong><span style="color: #000099;">Module 29: Bayesian Games</span></strong><br /><em>Bayesian game: definition, example, stages of a Bayesian game. Reading: MSZ chapter 9.4. [<a href="courses/cs6001/boardwork/29-bayesian-game.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68197" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule29"  title="module29" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule29" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/_Op-wvkdbJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68206" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module30"></a><strong><span style="color: #000099;">Module 30: Strategy, Utility in Bayesian Games</span></strong><br /><em>Strategy, Relationship between ex-ante utility, ex-interim utility. Example: Two-player bargaining game, sealed bid auction. Reading: MSZ chapter 9.4. [<a href="courses/cs6001/boardwork/30-strategy-utility-bg.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68198" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule30"  title="module30" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule30" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Dd4qMCYBQJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68208" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module31"></a><strong><span style="color: #000099;">Module 31: Equilibrium in Bayesian Games</span></strong><br /><em>Equilibrium concepts in Bayesian games: Nash equilibrium (NE) and Bayesian equilibrium (BE), equivalence between the two concepts. Existence of BE. Reading: MSZ chapter 9.4. [<a href="courses/cs6001/boardwork/31-equilibrium-bg.pdf" target="_blank">Boardwork</a>] [<a href="courses/cs6001/boardwork/bayesian-addendum.pdf" target="_blank">Addendum</a>] [<a href="http://nb.mit.edu/f/68199" target="_blank">Boardwork (NB version)</a>]
+		</em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule31"  title="module31" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule31" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/h_LINsTiNcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68210" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+
+	<li style="padding-left:1em">
+		<a name="module32"></a><strong><span style="color: #000099;">Module 32: Examples of Bayesian Equilibrium</span></strong><br /><em>Bayesian equilibria in Bayesian games. Examples: first-price auction, second-price auction. Reading: MSZ chapter 9.4. [<a href="courses/cs6001/boardwork/32-be-examples.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68200" target="_blank">Boardwork (NB version)</a>]
+		</em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule32"  title="module32" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule32" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/hD8sbVPoYvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68212" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+
+	<li style="padding-left:1em">
+		<strong><a href="https://piazza.com/class/l1z9hhqxi2w64i?cid=20" target="_blank">Week 06 Q&A on Piazza</a></strong><br />
+	</li> 
+</ul>
+-->
+
+<!--
+<font size="5"><strong><span style="color: #000099">Week 07</span></strong></font><br /><br />
+
+<ul style="padding-left:1em">
+
+	<li style="padding-left:1em">
+	<a name="module33"></a><strong><span style="color: #000099;">Module 33: Introduction to Mechanism Designs</span></strong><br /><em>A general model for mechanism design. Social choice function. Direct and indirect mechanisms. Dominant strategy incentive compatibility (DSIC). [<a href="courses/cs6001/boardwork/33-md-intro.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68232" target="_blank">Boardwork (NB version)</a>] </em>
+	<br />
+	
+	<span class="collapseomatic " id="idmodule33"  title="module33" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule33" class="collapseomatic_content ">
+	<p>
+		<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/yX3yoDnVrkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68238" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module34"></a><strong><span style="color: #000099;">Module 34: Revelation Principle</span></strong><br /><em>Relationship between DSI and DSIC. Bayesian implementation (BI) of a social choice function. Relationship between BI and Bayesian incentive compatibility (BIC). [<a href="courses/cs6001/boardwork/34-revelation.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68233" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule34"  title="module34" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule34" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/0i9n9eC2dVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68240" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module35"></a><strong><span style="color: #000099;">Module 35: Arrow's Impossibility Result</span></strong><br /><em>Linear or non-linear preference order and preference aggregation: social welfare function (SWF). Properties of SWF: Weak/strong Pareto, Independence of irrelevant alternatives (IIA), and Arrow's impossibility result. [<a href="courses/cs6001/boardwork/35-arrow-intro.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68234" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule35"  title="module35" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule35" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/aDFBSEd9_3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68242" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module36"></a><strong><span style="color: #000099;">Module 36: Proof of Arrow's Result</span></strong><br /><em>Decisive and almost decisive set of agents. Field expansion lemma and group contraction lemma. [<a href="courses/cs6001/boardwork/36-arrow-proof.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68235" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule36"  title="module36" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule36" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/9adEEBDf5aU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68244" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module37"></a><strong><span style="color: #000099;">Module 37: The Social Choice Setup</span></strong><br /><em>Scoring rules, Condorcent consistency. Properties of scoring rules: Pareto domination, Pareto efficient (PE), Unanimity (UN), Ontoness, Manipulability, Monotonicity. [<a href="courses/cs6001/boardwork/37-social-choice-setup.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68236" target="_blank">Boardwork (NB version)</a>]
+		</em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule37"  title="module37" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule37" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/jd6YBJK8sQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68246" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+
+	<li style="padding-left:1em">
+		<strong><a href="https://piazza.com/class/l1z9hhqxi2w64i?cid=30" target="_blank">Week 07 Q&A on Piazza</a></strong><br />
+	</li>
+
+</ul>
+-->
+
+<!--
+<font size="5"><strong><span style="color: #000099">Week 08</span></strong></font><br /><br />
+
+<ul style="padding-left:1em">
+
+	<li style="padding-left:1em">
+	<a name="module38"></a><strong><span style="color: #000099;">Module 38: The Gibbard Satterthwaite Theorem</span></strong><br /><em>An SCF f is strategyproof (SP) iff it is Monotone (MONO).  If an SCF  f is Onto and MONO then it is PE.  An SCF f is SP+PE iff f is SP+UN. An SCF f is  SP+UN iff f is SP+Onto.  Gibbard-Satterthwaite (GS) Theorem. [<a href="courses/cs6001/boardwork/38-gs-intro.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68254" target="_blank">Boardwork (NB version)</a>] </em>
+	<br />
+	
+	<span class="collapseomatic " id="idmodule38"  title="module38" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule38" class="collapseomatic_content ">
+	<p>
+		<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/ocitGXSarn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68261" target="_blank">NB version</a>
+	</p> 
+	</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module39"></a><strong><span style="color: #000099;">Module 39: Proof of GS Theorem</span></strong><br /><em>Examples of the cases when the GS theorem does not hold.  Proof for GS theorem for two agents. [<a href="courses/cs6001/boardwork/39-gs-proof.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68255" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule39"  title="module39" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule39" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/4wVNf_wmbeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68263" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module40"></a><strong><span style="color: #000099;">Module 40: Domain Restriction</span></strong><br /><em> Understanding the domain restriction with the example of single-peaked preferences. [<a href="courses/cs6001/boardwork/40-domain-restriction.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68256" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule40"  title="module40" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule40" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/BTEEFpz2WLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68273" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module41"></a><strong><span style="color: #000099;">Module 41: Median Voting Rule</span></strong><br /><em>Every median voter SCF is strategyproof. Anonymous (ANON) SCFs. [<a href="courses/cs6001/boardwork/41-median-voter.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68257" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule41"  title="module41" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule41" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/1uFupQECvr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68279" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module42"></a><strong><span style="color: #000099;">Module 42: Median Voter Theorem - Part 1</span></strong><br /><em>Median voter theorem: A strategyproof SCF f is Onto and ANON iff f is Median voter rule. Proof of the median voter theorem when the median peak is a phantom peak. [<a href="courses/cs6001/boardwork/42-moulin-1.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68258" target="_blank">Boardwork (NB version)</a>]
+		</em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule42"  title="module42" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule42" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/w2E6qveFQis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68269" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+
+	<li style="padding-left:1em">
+		<a name="module43"></a><strong><span style="color: #000099;">Module 43: Median Voter Theorem - Part 2</span></strong><br /><em>Proof of the median voter theorem when the median peak is a non-phantom/agent peak. [<a href="courses/cs6001/boardwork/43-moulin-2.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68259" target="_blank">Boardwork (NB version)</a>]
+		</em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule43"  title="module43" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule43" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/GPflRQ8xCns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68275" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+
+	<li style="padding-left:1em">
+		<strong><a href="https://piazza.com/class/l1z9hhqxi2w64i/post/32" target="_blank">Week 08 Q&A on Piazza</a></strong><br />
+	</li>
+</ul>
+-->
+
+<!--
+<font size="5"><strong><span style="color: #000099">Week 09</span></strong></font><br /><br />
+
+<ul style="padding-left:1em">
+
+	<li style="padding-left:1em">
+	<a name="module44"></a><strong><span style="color: #000099;">Module 44: The Task Sharing Domain</span></strong><br /><em>Single-peaked preferences over task share. Pareto efficiency in task-sharing setting. Some SCFs: Serial dictatorship, proportional. [<a href="courses/cs6001/boardwork/44-task-sharing.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68285" target="_blank">Boardwork (NB version)</a>] </em>
+	<br />
+	
+	<span class="collapseomatic " id="idmodule44"  title="module44" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule44" class="collapseomatic_content ">
+	<p>
+		<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/LjqvmZo0dMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68291" target="_blank">NB version</a>
+	</p> 
+	</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module45"></a><strong><span style="color: #000099;">Module 45: The Uniform Rule</span></strong><br /><em>For the task-sharing setting, a deterministic SCF f is  SP, PE, and ANON iff f is the Uniform rule. [<a href="courses/cs6001/boardwork/45-uniform-rule.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68286" target="_blank">Boardwork (NB version)</a>]  [<a href="courses/cs6001/sprumont91.pdf" target="_blank">Sprumont's paper</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule45"  title="module45" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule45" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Tcq-fRhPI_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68293" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module46"></a><strong><span style="color: #000099;">Module 46: Mechanism Design with Transfers</span></strong><br /><em> Examples of allocation problems. Valuation and payment functions. Quasi-linear utility function. [<a href="courses/cs6001/boardwork/46-md-transfers.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68287" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule46"  title="module46" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule46" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/DO-tj7uGIIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68295" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module47"></a><strong><span style="color: #000099;">Module 47: Examples of Quasi-linear Preferences</span></strong><br /><em> Examples of allocation rules: Constant rule, dictatorial rule, utilitarian rule,  affine maximizer rule, egalitarian rule. Examples of payment rules: No deficit,  no subsidy, budget balanced. Domain strategy incentive compatibility in quasi-linear setting. Properties of payment rule that implements an allocation rule. [<a href="courses/cs6001/boardwork/47-ql-examples.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68288" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule47"  title="module47" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule47" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/03gw2j1gZ8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68298" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module48"></a><strong><span style="color: #000099;">Module 48: Pareto Optimality and Groves Payments</span></strong><br /><em>A mechanism (f,p) is PE iff it is allocatively efficient. Groves payment rule to implement allocatively efficient rule.  Proving that Groves' mechanisms are DSIC. [<a href="courses/cs6001/boardwork/48-ql-pareto.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68289" target="_blank">Boardwork (NB version)</a>]
+		</em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule48"  title="module48" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule48" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/u4AyJcWlXvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68300" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+
+
+	<li style="padding-left:1em">
+		<strong><a href="https://piazza.com/class/l1z9hhqxi2w64i/post/34" target="_blank">Week 09 Q&A on Piazza</a></strong><br />
+	</li>
+</ul>
+-->
+
+<!--
+<font size="5"><strong><span style="color: #000099">Week 10</span></strong></font><br /><br />
+
+<ul style="padding-left:1em">
+
+	<li style="padding-left:1em">
+	<a name="module49"></a><strong><span style="color: #000099;">Module 49: Introduction to VCG Mechanism</span></strong><br /><em>What is the expression for the VCG? Computing the outcome and  VCG payment. [<a href="courses/cs6001/boardwork/49-vcg-intro.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68321" target="_blank">Boardwork (NB version)</a>] </em>
+	<br />
+	
+	<span class="collapseomatic " id="idmodule49"  title="module49" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule49" class="collapseomatic_content ">
+	<p>
+		<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/iwP91V--u4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68327" target="_blank">NB version</a>
+	</p> 
+	</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module50"></a><strong><span style="color: #000099;">Module 50: VCG in Combinatorial Allocations</span></strong><br /><em>Proving that the payment for an agent not getting any object is zero. Proving that for 'allocation of goods' VCG is always IR. [<a href="courses/cs6001/boardwork/50-vcg-combinatorial.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68322" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule50"  title="module50" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule50" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/T9jeM8R6Pl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68329" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module51"></a><strong><span style="color: #000099;">Module 51: Applications to Internet Advertising</span></strong><br /><em>The essence of Internet advertising. Click through rate and a foundation for the next module. [<a href="courses/cs6001/boardwork/51-inet-advertising.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68323" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule51"  title="module51" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule51" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/rM8rOuyREX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68331" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module52"></a><strong><span style="color: #000099;">Module 52: Slot Allocation and Payments in Position Auctions</span></strong><br /><em> An allocation is efficient if the allocation is by rank by the expected revenue mechanism. Calculation of total expected payment. [<a href="courses/cs6001/boardwork/52-winner-inet-auction.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68324" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule52"  title="module52" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule52" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/2jjEX2yqsYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f//68333" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module53"></a><strong><span style="color: #000099;">Module 53: Pros and Cons of VCG Mechanism</span></strong><br /><em> Pros: DSIC, no deficit if items are goods,  never charges a losing agent, etc. Cons: privacy and transparency, susceptibility to collusion, not frugal, revenue monotonicity violated, not budget-balanced. [<a href="courses/cs6001/boardwork/53-pro-con-vcg.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68325" target="_blank">Boardwork (NB version)</a>]
+		</em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule53"  title="module53" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule53" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/4eKkhMULz4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f//68335" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+
+	<li style="padding-left:1em">
+		<strong><a href="https://piazza.com/class/l1z9hhqxi2w64i/post/38" target="_blank">Week 10 Q&A on Piazza</a></strong><br />
+	</li>
+
+</ul>
+-->
+
+<!--
+<font size="5"><strong><span style="color: #000099">Week 11</span></strong></font><br /><br />
+
+<ul style="padding-left:1em">
+
+	<li style="padding-left:1em">
+	<a name="module54"></a><strong><span style="color: #000099;">Module 54: Affine Maximizers</span></strong><br /><em>Generalization of VCG mechanism. Affine maximizer allocation rule. Independence of non-influential agents (INA).  An AM rule satisfying INA is implementable in dominant strategies. Roberts theorem (1979) for characterization of the class of DSIC mechanisms in the quasi-linear domain. [<a href="courses/cs6001/boardwork/54-affine-max.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68346" target="_blank">Boardwork (NB version)</a>] </em>
+	<br />
+	
+	<span class="collapseomatic " id="idmodule54"  title="module54" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule54" class="collapseomatic_content ">
+	<p>
+		<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/MieIHHfBHdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68352" target="_blank">NB version</a>
+	</p> 
+	</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module55"></a><strong><span style="color: #000099;">Module 55: Single Object Allocation</span></strong><br /><em>Mechanism design for selling single indivisible object: setup, allocation rule, valuation, second-price auction. Observations and some standard results from convex analysis. [<a href="courses/cs6001/boardwork/55-single-object.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68347" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule55"  title="module55" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule55" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/FQILIvYPZx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68354" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module56"></a><strong><span style="color: #000099;">Module 56: Myerson's Lemma</span></strong><br /><em>Monotonicity and Myerson's lemma. An allocation rule in single object allocation is implementable in dominant strategies if it is non-decreasing. [<a href="courses/cs6001/boardwork/56-myerson-lemma.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68348" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule56"  title="module56" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule56" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/8tf4hBV87EU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68356" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module57"></a><strong><span style="color: #000099;">Module 57: Illustration of Myerson's Lemma</span></strong><br /><em>Examples of some single object allocation mechanisms. Ex-post individual rationality. Some non-Vickrey auctions. Deterministic mechanisms that redistribute the money. [<a href="courses/cs6001/boardwork/57-illustration-myerson.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68349" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule57"  title="module57" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule57" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/jU55MBjAadY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68358" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module58"></a><strong><span style="color: #000099;">Module 58: Optimal Mechanism Design</span></strong><br /><em>How to maximize the revenue earned by the auctioneer. Bayesian Incentive compatibility (BIC). Independence and characterization of BIC mechanisms. Interim individually rational (IIR) mechanism. [<a href="courses/cs6001/boardwork/58-optimal-mech.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f//68350" target="_blank">Boardwork (NB version)</a>]
+		</em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule58"  title="module58" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule58" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/oUpslXbOtF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68360" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+
+	<li style="padding-left:1em">
+		<strong><a href="https://piazza.com/class/l1z9hhqxi2w64i/post/40" target="_blank">Week 11 Q&A on Piazza</a></strong><br />
+	</li>
+
+</ul>
+-->
+
+<!--
+<font size="5"><strong><span style="color: #000099">Week 12</span></strong></font><br /><br />
+
+<ul style="padding-left:1em">
+
+	<li style="padding-left:1em">
+	<a name="module59"></a><strong><span style="color: #000099;">Module 59: Single Agent Optimal Mechanism Design</span></strong><br /><em>Optimal mechanism design for a single agent. What is the structure of an optimal mechanism? Expected revenue. Monotone hazard rate (MHR). [<a href="courses/cs6001/boardwork/59-single-agent.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68373" target="_blank">Boardwork (NB version)</a>] </em>
+	<br />
+	
+	<span class="collapseomatic " id="idmodule59"  title="module59" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule59" class="collapseomatic_content ">
+	<p>
+		<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/UHuoLnlgQMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68378" target="_blank">NB version</a>
+	</p> 
+	</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module60"></a><strong><span style="color: #000099;">Module 60: Multiple Agent Optimal Mechanism Design</span></strong><br /><em>Optimal mechanism (BIC, IIR, and maximizes revenue) design for multiple agents. Virtual valuation of a player. A 'regular' virtual valuation. [<a href="courses/cs6001/boardwork/60-multi-agent.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68374" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule60"  title="module60" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule60" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/R_NTXYEiUB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68380" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module61"></a><strong><span style="color: #000099;">Module 61: Examples of Optimal Mechanisms</span></strong><br /><em>Examples: two buyers, Symmetric bidders, Efficiency, and optimality. [<a href="courses/cs6001/boardwork/61-opt-examples.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68375" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule61"  title="module61" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule61" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/L5_EcEI8VuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68382" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<a name="module62"></a><strong><span style="color: #000099;">Module 62: Endnotes and Summary</span></strong><br /><em>The uniqueness of Groves mechanism for efficiency. No Groves mechanism is budget balanced. Weakening DSIC for positive results. In a bilateral trade, no mechanism can be simultaneously BIC, efficient, IIR, and budget balanced. Summary of the mechanisms with different combinations of properties discussed in this course. [<a href="courses/cs6001/boardwork/62-endnotes.pdf" target="_blank">Boardwork</a>] [<a href="http://nb.mit.edu/f/68376" target="_blank">Boardwork (NB version)</a>] </em>
+		<br />
+		
+		<span class="collapseomatic " id="idmodule62"  title="module62" style="color: #2a48f3;">Videolecture</span><div id="target-idmodule62" class="collapseomatic_content ">
+		<p>
+			<div class="iframe-container">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/xeIvxVJuPk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<a href="http://nb.mit.edu/f/68384" target="_blank">NB version</a>
+		</p> 
+		</div>
+	</li>
+	
+	<li style="padding-left:1em">
+		<strong><a href="https://piazza.com/class/l1z9hhqxi2w64i/post/42" target="_blank">Week 12 Q&A on Piazza</a></strong><br />
+	</li>
+
+</ul>
+-->
+
+<!-- END VIDEOLECTURES -->
+										
+									</div>
+								</section>
+
+
+<h3><a name="project"></a>Some project themes</h3>
+<p> Here some project ideas are given in a cluster. You are free to propose any other project staying within the purview of CS 6001 and 6002. <b>Projects will be evaluated based on the innovation, and if you have independently come up with the project idea, it will be weighed more.</b> Multiple teams can work on <b>different</b> projects under the same theme. It is mandatory to announce with a synopsis of your project on Piazza between January 20-31 (but not before that, use this time to read/ideate on the projects) which project (and theme) your team is working on. Only one post per team (mentioning the team members) is enough. This is to make sure that multiple teams do not start working on the same project.
+<br> <br>
+The themes contain a list of papers that belongs to the same theme. However, they can be different in their approaches. The expectation from the project will be that you read one paper in detail, do a literature survey around it (using the method in the workflow in this <a href="readme.html" target="_blank">page</a>), and attempt to make extensions (either theoretical or practical) on it.
+</p>
+
+<p><span class="expandall"><span style="color: blue;">Expand all papers</span></span> | <span class="collapseall"><span style="color: red;">Collapse all papers</span></span></p>
+
+<ul style="padding-left:1em">
+<li style="padding-left:1em">
+    <a name="project01"></a><strong><span style="color: #5ba015;">Theme 1</span></strong><br /><b>Network auction.</b>
+<br />
+
+<span class="collapseomatic " id="idproject01"  title="project01" style="color: #2a48f3;">Papers</span><div id="target-idproject01" class="collapseomatic_content ">
+<p>
+    Bin Li, Dong Hao, Dengji Zhao, and Tao Zhou. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/10605/10464" target="_blank">Mechanism design in social networks</a>. <br />
+	Wen Zhang, Dengji Zhao, and Hanyu Chen. <a href="https://arxiv.org/abs/1910.09335" target="_blank">Redistribution mechanism on networks</a>. <br />
+	Dengji Zhao, Bin Li, Junping Xu, Dong Hao, Nick Jennings. <a href="http://dengji-zhao.net/publications/AAMAS/Zhao_AAMAS2018.pdf" target="_blank">Selling Multiple Items via Social Networks</a>. <br />
+	Yao Zhang, Xiuzhen Zhang, Dengji Zhao. <a href="https://www.ijcai.org/Proceedings/2020/0059.pdf" target="_blank">Sybil-proof Answer Querying Mechanism</a>.
+</p> 
+</div>
+</li>
+
+<li style="padding-left:1em">
+    <a name="project02"></a><strong><span style="color: #5ba015;">Theme 2</span></strong><br /><b>Peer grading.</b>
+<br />
+
+<span class="collapseomatic " id="idproject02"  title="project02" style="color: #2a48f3;">Papers</span><div id="target-idproject02" class="collapseomatic_content ">
+<p>
+    Check out this course <a href="https://sites.northwestern.edu/hartline/eecs-497-peer-grading/" target="_blank">webpage</a> by Jason Hartline and find the papers therein.
+</p> 
+</div>
+</li>
+
+<li style="padding-left:1em">
+    <a name="project03"></a><strong><span style="color: #5ba015;">Theme 3</span></strong><br /><b>Fair allocation / scheduling.</b>
+<br />
+
+<span class="collapseomatic " id="idproject03"  title="project03" style="color: #2a48f3;">Papers</span><div id="target-idproject03" class="collapseomatic_content ">
+<p>
+    Ioannis Caragiannis, David Kurokawa, Hervé Moulin, Ariel D Procaccia, Nisarg Shah, and Junxing Wang. <a href="https://www.cs.toronto.edu/~nisarg/papers/mnw.ec16.pdf" target="_blank">The Unreasonable Fairness of Maximum Nash Welfare</a>. <br />
+	Rupert Freeman, Sujoy Sikdar, Rohit Vaish, and Lirong Xia. <a href="https://arxiv.org/abs/2002.11504" target="_blank">Equitable Allocations of Indivisible Chores</a>. <br />
+	Vittorio Bilò, Angelo Fanelli, Michele Flammini, Gianpiero Monaco, and Luca Moscardelli. <a href="https://link.springer.com/content/pdf/10.1007/978-3-662-44465-8_10.pdf" target="_blank">The Price of Envy-Freeness in Machine Scheduling</a>. <br />
+	Jugal Garg, Aniket Murhekar, and John Qin. <a href="https://arxiv.org/abs/2110.09601" target="_blank">Fair and Efficient Allocations of Chores under Bivalued Preferences</a>.
+</p> 
+</div>
+</li>
+
+<li style="padding-left:1em">
+    <a name="project04"></a><strong><span style="color: #5ba015;">Theme 4</span></strong><br /><b>Participatory / liquid democracy.</b>
+<br />
+
+<span class="collapseomatic " id="idproject04"  title="project04" style="color: #2a48f3;">Papers</span><div id="target-idproject04" class="collapseomatic_content ">
+<p>
+    D. Ellis Hershkowitz, Anson Kahng, Dominik Peters, and Ariel D. Procaccia. <a href="http://procaccia.info/wp-content/uploads/2020/09/districtfair.pdf" target="_blank">District-Fair Participatory Budgeting</a>. <br />
+	Gerdus Benadè, Swaprava Nath, Ariel D. Procaccia, and Nisarg Shah. <a href="http://procaccia.info/wp-content/uploads/2020/03/pb.pdf" target="_blank">Preference Elicitation for Participatory Budgeting</a>.  <br />
+	Anson Kahng, Simon Mackenzie, and Ariel D. Procaccia. <a href="http://procaccia.info/wp-content/uploads/2021/01/liquid-1.pdf" target="_blank">Liquid Democracy: An Algorithmic Perspective</a>. <br />
+	Paul Gölz, Anson Kahng, Simon Mackenzie, and Ariel D. Procaccia. <a href="http://procaccia.info/wp-content/uploads/2020/03/fluid.pdf" target="_blank">The Fluid Mechanics of Liquid Democracy</a>. <br />
+</p> 
+</div>
+</li>
+
+<li style="padding-left:1em">
+    <a name="project05"></a><strong><span style="color: #5ba015;">Theme 5</span></strong><br /><b>Divisible resource allocation under arrival-departure constraints for single peaked demands.</b>
+<br />
+
+<span class="collapseomatic " id="idproject05"  title="project05" style="color: #2a48f3;">Papers</span><div id="target-idproject05" class="collapseomatic_content ">
+<p>
+    Sebastian Stein, Enrico Gerding, Valentin Robu, and Nicholas R. Jennings. <a href="https://eprints.soton.ac.uk/273082/1/camera_ready_final.pdf" target="_blank">A Model-Based Online Mechanism with Pre-Commitment and its Application to Electric Vehicle Charging</a>. <br />
+	Enrico H. Gerding, Alvaro Perez-Diaz, Haris Aziz, Serge Gaspers, Antonia Marcu, Nicholas Mattei, and Toby Walsh. <a href="https://eprints.soton.ac.uk/432204/1/paper.pdf" target="_blank">Fair Online Allocation of Perishable Goods and its Application to Electric Vehicle Charging</a>. <br />
+	Emmanouil S. Rigas, Enrico H. Gerding, Sebastian Stein, Sarvapali D. Ramchurn, and Nick Bassiliades. <a href="https://eprints.soton.ac.uk/455806/1/energies_15_01660.pdf" target="_blank">Mechanism Design for Efficient Offline and Online Allocation of Electric Vehicles to Charging Stations</a>.
+</p> 
+</div>
+</li>
+
+<li style="padding-left:1em">
+    <a name="project06"></a><strong><span style="color: #5ba015;">Theme 6</span></strong><br /><b>Defense games.</b>
+<br />
+
+<span class="collapseomatic " id="idproject06"  title="project06" style="color: #2a48f3;">Papers</span><div id="target-idproject06" class="collapseomatic_content ">
+<p>
+    Michael L. Littman. <a href="https://courses.cs.duke.edu/spring07/cps296.3/littman94markov.pdf" target="_blank">Markov games as a framework for multi-agent reinforcement learning</a>. <br />
+	Thomas Dueholm Hansen, Peter Bro Miltersen, Uri Zwick. <a href="https://arxiv.org/pdf/1008.0530.pdf" target="_blank">Strategy iteration is strongly polynomial for 2-player	turn-based stochastic games with a constant discount factor</a>. <br />
+	Ming Tan. <a href="https://web.media.mit.edu/~cynthiab/Readings/tan-MAS-reinfLearn.pdf" target="_blank">Multi-Agent Reinforcement Learning: Independent vs Cooperative Agents</a>. <br />
+	Alexander L.Strehl, Michael L. Littman. <a href="https://www.sciencedirect.com/science/article/pii/S0022000008000767" target="_blank">An analysis of model-based Interval Estimation for Markov Decision Processes</a>.
+</p> 
+</div>
+</li>
+
+<li style="padding-left:1em">
+    <a name="project07"></a><strong><span style="color: #5ba015;">Theme 7</span></strong><br /><b>Optimal auctions of more than one object.</b>
+<br />
+
+<span class="collapseomatic " id="idproject07"  title="project07" style="color: #2a48f3;">Papers</span><div id="target-idproject07" class="collapseomatic_content ">
+<p>
+    Alejandro M Manelli and Daniel R Vincent. <a href="https://www.sciencedirect.com/science/article/pii/S0022053107000348" target="_blank">Multidimensional mechanism design: Revenue maximization and the multiple-good monopoly</a>. <br />
+	D. Thirumulanathan, R. Sundaresan, Y. Narahari. <a href="https://arxiv.org/pdf/1610.06718.pdf" target="_blank">Optimal Mechanism for Selling Two Items to a Single Buyer having Uniformly Distributed Valuations</a>. <br />
+	D. Thirumulanathan, R. Sundaresan, Y. Narahari. <a href="https://arxiv.org/pdf/1705.01821.pdf" target="_blank">On Optimal Mechanisms in the Two-Item Single-Buyer Unit-Demand Setting</a>. <br />
+	Raghuvansh R. Saxena, Ariel Schvartzman, S. Matthew Weinberg. <a href="https://arxiv.org/abs/1711.02165" target="_blank">The menu complexity of "one-and-a-half-dimensional" mechanism design</a>. <br />
+	Nikhil R. Devanur, Kira Goldner, Raghuvansh R. Saxena, Ariel Schvartzman, S. Matthew Weinberg. <a href="https://arxiv.org/abs/2002.06329" target="_blank">Optimal Mechanism Design for Single-Minded Agents</a>.
+</p> 
+</div>
+</li>
+
+<li style="padding-left:1em">
+    <a name="project08"></a><strong><span style="color: #5ba015;">Theme 8</span></strong><br /><b>House allocation with money.</b>
+<br />
+
+<span class="collapseomatic " id="idproject08"  title="project08" style="color: #2a48f3;">Papers</span><div id="target-idproject08" class="collapseomatic_content ">
+<p>
+    Ya’akov (Kobi) Gal, Moshe Mash, Ariel D. Procaccia, and Yair Zick. <a href="http://procaccia.info/wp-content/uploads/2017/11/rent.pdf" target="_blank">Which Is the Fairest (Rent Division) of Them All?</a> <br />
+	Ariel D. Procaccia, Rodrigo A. Velez, and Dingli Yu. <a href="http://procaccia.info/wp-content/uploads/2020/03/rent-budget.pdf" target="_blank">Fair Rent Division on a Budget</a>.
+</p> 
+</div>
+</li>
+
+</ul>
+
+
+<article>
+    <div class="content">
+        <h3><a name="regrading"></a>Regrading requests</h3>
+        <p>The regrading procedures in this course are intended to correct serious errors in grading. It is not intended as an opportunity to argue about each judgment call made by the graders. We will only consider a regrading request if there is a significant error in grading, and if you sincerely feel that your exam was unfairly graded, we will look it over carefully. Having said that, if there is an attempt to use this feature to raise an unnecessary regrading request, then based on the severity of the attempt, a penalty will be placed which can go as high as deducting 50% of the marks for that question (irrespective of what marks you got in that question). We are not trying to scare off students whose exams were graded incorrectly, but we are trying to avoid frivolous requests.</p>
+
+        <p><b>What Merits a Regrade:</b> The following are the usual circumstances that may lead to an increase in points:
+
+        <ul style="padding-left:1em">
+            <li> Your answer is really the same as the one on the answer key, but the grader didn’t realize it. </li>
+            <li> Your answer is different from the one provided on the answer key, but your answer is also correct. </li>
+        </ul>
+        </p>       
+                
+            
+        <p><b>What Doesn’t Merit a Regrade:</b> The following are not valid reasons for regrades:
+            
+        <ul style="padding-left:1em">
+            <li> “Most of what I wrote is correct, so I think I deserve more partial credit.”  
+                Partial credit is given equally for all students who write a particular answer, so it would not be fair to give you more points for this without adding points to all students who wrote the same answer.  </li>
+            <li> “I wrote so much, and the grader didn’t notice that the correct answer is buried somewhere within this long paragraph.”  
+                You will lose points if the correct answer is accompanied by incorrect information or by so much irrelevant information that it gives the impression that you were just writing down everything you could think of on this topic. To get full credit you must demonstrate the ability to pull out the relevant info and to exclude irrelevant info.  </li>
+            <li> “I’m just 1 point away from an A, so I thought it was worth scrounging around to find an extra point somewhere.”
+                Lobbying for grades is considered inappropriate by the institute rules, so your case may be reported to appropriate authorities.  </li>
+        </ul>
+                
+                
+        </p>
+
+    </div>
+</article>
+
+<article>
+    <div class="content">
+        <h3>Virtual Q and A</h3>
+        <p>We will be using <a href="https://piazza.com/" target="_blank">Piazza</a> for class discussion. The system is highly catered to getting help fast and efficiently from classmates, the TA, and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza.</p>
+		
+		<p>
+			<ul style="padding-left:1em">
+				<li> <a href="https://piazza.com/iit_bombay/spring2023/cs6002" target="_blank">Enrollment link</a> (students and TAs, please register yourself here) </li>
+				<li> <a href="https://piazza.com/iit_bombay/spring2023/cs6002/home" target="_blank">Class link</a> </li>
+			</ul>
+		</p>
+
+    </div>
+</article>
+
+<div ><a title="free world map tracker" href="https://smallcounter.com/vmap/1656959908/">
+	<img title="free world map counter" src="https://smallcounter.com/map/view.php?type=180&id=1656959908" border="1" alt="world map hits counter" /></a>
+		  </div>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+							<!--	<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section> -->
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Index</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li><a href="about-me.html">About Me</a></li>
+										<li><a href="research.html">Research</a></li>
+										<li><a href="group.html">Group</a></li>
+										<li><a href="academic.html">Academic</a></li>
+										<li><a href="contact.html">Contact</a></li>
+										<!-- <li>
+											<span class="opener">Submenu</span>
+											<ul>
+												<li><a href="#">Lorem Dolor</a></li>
+												<li><a href="#">Ipsum Adipiscing</a></li>
+												<li><a href="#">Tempus Magna</a></li>
+												<li><a href="#">Feugiat Veroeros</a></li>
+											</ul>
+										</li>
+										<li><a href="#work">Etiam Dolore</a></li>
+										<li><a href="#">Adipiscing</a></li>
+										<li>
+											<span class="opener">Another Submenu</span>
+											<ul>
+												<li><a href="#">Lorem Dolor</a></li>
+												<li><a href="#">Ipsum Adipiscing</a></li>
+												<li><a href="#">Tempus Magna</a></li>
+												<li><a href="#">Feugiat Veroeros</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Maximus Erat</a></li>
+										<li><a href="#">Sapien Mauris</a></li>
+										<li><a href="#">Amet Lacinia</a></li> -->
+									</ul>
+								</nav>
+
+
+							<!-- Footer -->
+                            <footer id="footer">
+                                <p class="copyright">&copy; Swaprava Nath. All rights reserved.
+                                    <br /><br />
+                                    <a href="https://www.cse.iitb.ac.in/" target="_blank"> Computer Science and Engineering </a>
+                                    <br />
+                                    <a href="https://www.iitb.ac.in/" target="_blank"> Indian Institute of Technology Bombay </a>
+                                    <br /><br />Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+                            </footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

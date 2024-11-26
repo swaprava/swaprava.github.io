@@ -1,0 +1,119 @@
+Crossing Circles [10 marks]
+----------------------------------------------------------------------
+
+Problem Statement
+You will be given a line and a circle in X-Y coordinate system. The line is of the form 
+aX+bY+c=0
+where a, b & c will be given. For the circle, you will be given coordinates (cx, cy) of the center and radius (r) of the circle.
+
+Now do the following.
+
+Print the value of slope the line, rounded off to 2 decimal places. If the line is parallel to Y-axis, print INFINITE
+Do one of the following.
+
+Print TWO if the line intersects the circle at 2 points.
+Print ONE if the line touches the circle at exactly 1 point.
+If none of the above two conditions apply, print ZERO
+
+
+----------------------------------------------------------------------
+Problem-specific Note: 
+
+For all numbers associated in this question, use double datatype.
+Do not print extra spaces in the output.
+All the outputs should be in separate lines.
+Distance of a line (ax + by + c = 0) from a point (px, py) is equal to 
+a∗px+b∗py+ca2+b2−−−−−−√
+
+Square root of a number N can be computed as sqrt(N). For this, math.h is already included in your code.
+Absolute value of a number N can be computed as fabs(N). For this, math.h is already included in your code. 
+You can consider two double numbers to be equal if the absolute difference of the two numbers is less than 0.0000001
+
+----------------------------------------------------------------------
+INPUT FORMAT:
+a1 b1 c1
+cx cy r
+
+OUTPUT FORMAT:
+slope
+TWO/ONE/ZERO
+----------------------------------------------------------------------
+EXAMPLE:
+INPUT
+1 1 0
+0 0 1
+
+OUTPUT:
+-1.00
+TWO
+
+Explanation: The line has slope equal to -1. The distance between the center of circle and the line is smaller than the radius of the circle. Therefore, it intersects at TWO points.
+----------------------------------------------------------------------
+Grading Scheme:
+There will be partial grading in this question. There are two lines in your output. Printing each line correctly, in the correct order, carries some weightage. The first line has 30% weightage and the second line has 70% weightage. There are 3 visible and 3 hidden test cases.
+
+Please remember, however, that when you press Submit/Evaluate, you will get a green bar only if all parts of your answer are correct. Thus, if your answer is only partly correct, Prutor will say that you have not passed that test case completely, but when we do autograding afterwards, you will get partial marks.
+----------------------------------------------------------------------
+Words of Caution
+
+Do not forget to submit your code. You can submit multiple times. Only the last submission will be graded.
+Marks will be allotted for the following
+	
+
+	
+Proper and meaningful variable names.
+	
+Nice looking and consistent indentation.
+	
+At least a couple of comments explaining to the human grader what are you doing.
+	
+
+Solutions that indulge in hard-coding will get a straight zero even if they are passing some test cases.
+Questions will be graded by the autograder as well as a human grader.
+Proportion of marks allotted to autograder and human grader will be revealed when marks and grading rubrics are released.
+You are not allowed to use libraries other than already included in the template code.
+
+======================
+Primary Solution Code
+======================
+#include<stdio.h>
+#include<math.h>
+
+double distance(double a, double b, double c, double x, double y){
+    double num = a*x + b*y + c;
+    double den = sqrt(a*a + b*b);
+    return fabs(num/den);
+}
+
+int main()
+{
+    double a, b, c;
+    scanf("%lf %lf %lf", &a, &b, &c);
+    
+    double x, y, r;
+    scanf("%lf %lf %lf", &x, &y, &r);
+
+    // Check for infinite slope.
+    if(b == 0){
+        printf("INFINITE\n");
+    }
+    else{
+        printf("%.2lf\n", -(a/b));
+    }
+    
+    double dist = distance(a, b, c, x, y);
+    
+    // small value for threshold.
+    double thr = 0.0000001;
+    
+    if(fabs(dist - r) < thr){
+        printf("ONE\n");
+    }
+    else if(dist > r){
+        printf("ZERO\n");
+    }
+    else if(dist < r){
+        printf("TWO\n");
+    }
+    return 0;
+}

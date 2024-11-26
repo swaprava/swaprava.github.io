@@ -1,0 +1,150 @@
+Number Nuisance [20 marks]
+----------------------------------------------------------------------
+
+Problem Statement
+You will be given a series of positive integers. The series ends with -1 (Do not include -1 in the series).
+
+Now do the following.
+
+
+Print the count of all odd numbers in the series.
+Print the count of all even numbers in the series.
+Print the count of all numbers N such that 10 <= N <= 100.
+Print the sum of all prime numbers in the series.
+Print the sum of all numbers which are integral power of 2.
+
+----------------------------------------------------------------------
+Problem-specific Note: 
+
+All the integers given in input will be separated by a single space.
+Do not print extra spaces in the output.
+All the outputs should be in separate lines.
+
+----------------------------------------------------------------------
+INPUT FORMAT:
+a1 a2 a3 .. an -1
+
+OUTPUT FORMAT:
+count1
+count2
+count3
+sum4
+sum5
+----------------------------------------------------------------------
+EXAMPLE:
+INPUT
+1 2 3 4 5 6 7 8 9 10 -1
+
+OUTPUT:
+5
+5
+1
+17
+15
+
+Explanation: (1, 3, 5, 7, 9) are odd numbers. (2, 4, 6, 8, 10) are even numbers. (10) is the only number within given inequality. (2, 3, 5, 7) are prime numbers. (1, 2, 4, 8) are exact power of 2.
+----------------------------------------------------------------------
+Grading Scheme:
+There will be partial grading in this question. There are four lines in your output. Printing each line correctly, in the correct order, carries some weightage. The first line has 10%, second line has 10%, third line has 20%, fourth line has 30% weightage and fifth line has 30% weightage. There are 3 visible and 3 hidden test cases.
+
+Please remember, however, that when you press Submit/Evaluate, you will get a green bar only if all parts of your answer are correct. Thus, if your answer is only partly correct, Prutor will say that you have not passed that test case completely, but when we do autograding afterwards, you will get partial marks.
+----------------------------------------------------------------------
+Words of Caution
+
+Do not forget to submit your code. You can submit multiple times. Only the last submission will be graded.
+Marks will be allotted for the following
+	
+
+	
+Proper and meaningful variable names.
+	
+Nice looking and consistent indentation.
+	
+At least a couple of comments explaining to the human grader what are you doing.
+	
+
+Solutions that indulge in hard-coding will get a straight zero even if they are passing some test cases.
+Questions will be graded by the autograder as well as a human grader.
+Proportion of marks allotted to autograder and human grader will be revealed when marks and grading rubrics are released.
+You are not allowed to use libraries other than already included in the template code.
+
+=====================
+Primary Solution Code
+=====================
+#include<stdio.h>
+
+int isOdd(int a){
+    return (a%2 == 1);
+}
+
+int isEven(int a){
+    return (a%2 == 0);
+}
+
+int isInRange(int a){
+    return (a >= 10 && a <= 100);
+}
+
+int isPrime(int a){
+    // If a number is less than 2, not prime.
+    if(a < 2){return 0;}
+    // 2 is prime.
+    if(a == 2){return 1;}
+    // Any even number other than 2 is not prime.
+    if(a%2 == 0) {return 0;}
+    
+    // Testing divisibility of a by numbers smaller than a.
+    for(int i=3; i<a; i++){
+        if(a%i == 0){
+            return 0;
+        }
+    }
+    return 1;
+}
+
+int isPower(int a){
+    // Any number <= 0 is not integral power of 2.
+    if(a <= 0) {return 0;}
+    // 2^0 = 1;
+    if(a == 1) {return 1;}
+    
+    while(a > 1){
+        // If odd, not an integral power.
+        if(a%2 == 1){
+            return 0;
+        }
+        a /= 2;
+    }
+    return 1;
+}
+
+int main()
+{
+    int count_odd = 0;
+    int count_even = 0;
+    int count_range = 0;
+    int sum_prime = 0;
+    int sum_power = 0;
+    
+    int a;
+    scanf("%d", &a);
+    
+    while(a != -1){
+        
+        if(isOdd(a))        {count_odd++;}
+        if(isEven(a))       {count_even++;}
+        if(isInRange(a))    {count_range++;}
+        if(isPrime(a))      {sum_prime += a;}
+        if(isPower(a))      {sum_power += a;}
+        
+        scanf("%d", &a);
+    }
+    
+    printf("%d\n", count_odd);
+    printf("%d\n", count_even);
+    printf("%d\n", count_range);
+    printf("%d\n", sum_prime);
+    printf("%d\n", sum_power);
+    
+    return 0;
+}

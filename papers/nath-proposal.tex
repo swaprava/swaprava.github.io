@@ -1,0 +1,301 @@
+% \documentclass[10pt,letter]{article}
+% YN - March 8, 2012
+
+\documentclass[10pt,psfig,letter]{article}
+% \usepackage{geometry}
+% %\geometry{a4paper}
+% \geometry{left=18mm,right=18mm,top=21mm,bottom=25mm}
+
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{latexsym}
+\usepackage[hang]{subfigure}
+%\usepackage{balance}
+\usepackage{mathrsfs}
+\usepackage[compact]{titlesec}
+% \titlespacing{\section}{0pt}{*0}{*0}
+% \titlespacing{\subsection}{0pt}{*0}{*0}
+% \titlespacing{\subsubsection}{0pt}{*0}{*0}
+\usepackage[small,it]{caption}
+\usepackage{mdwlist}
+\usepackage{wrapfig}
+\usepackage{tikz}
+\usepackage{varwidth}
+\usetikzlibrary{shapes,arrows,trees,mindmap,backgrounds}
+% \usepackage{ubuntu}
+% \usepackage{fontspec}
+% \usepackage{xunicode}
+% \usepackage{xltxtra}
+% \usepackage{mechanismalg}
+% \usepackage{algorithmic}
+% \usepackage{cancel}
+\usepackage{cleveref}
+\usepackage{setspace}
+ \usepackage{color}
+\usepackage[numbers]{natbib}
+% \usepackage{hyperref}
+% \usepackage{authblk}
+% \usepackage{mathpazo}
+%\acmVolume{2}
+%\acmNumber{3}
+%\acmYear{01}
+%\acmMonth{09}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{discussion}{Discussion}
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{mechanism}{Mechanism}
+
+
+\newcommand{\pf}{\textbf{Proof: }}
+\newcommand{\epf}{\hfill $\Box$}
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\no}{\nonumber}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\beqn}{\[}
+\newcommand{\eeqn}{\]}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\bean}{\begin{eqnarray*}}
+\newcommand{\eean}{\end{eqnarray*}}
+\newcommand{\re}{\mbox{$\mathfrak{Re}$}}
+\newcommand{\bit}{\begin{itemize}}
+\newcommand{\eit}{\end{itemize}}
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+\newcommand{\dham}{d_{\text{H}}}
+
+\newcommand{\squishlisttwo}{
+\begin{list}{$\bullet$}
+{ \setlength{\itemsep}{0pt}
+\setlength{\parsep}{0pt}
+\setlength{\topsep}{0pt}
+\setlength{\partopsep}{0pt}
+\setlength{\leftmargin}{1em}
+\setlength{\labelwidth}{1.5em}
+\setlength{\labelsep}{0.5em} } }
+
+\newcommand{\squishend}{
+\end{list} }
+
+\linespread{1}
+\setlength{\bibsep}{1.00pt}
+
+\textheight 9.0in
+\textwidth 7.0in
+\evensidemargin= -0.2in
+\oddsidemargin= -0.25in
+\topmargin= -0.6in
+\parindent 10px
+% \parskip 1.5ex
+%\def\tw{.5\textwidth}
+\def\QED{\mbox{\rule[0pt]{1ex}{1ex}}}
+\def\Q{\hspace*{\fill}~\QED\par\endtrivlist\unskip}
+
+\newtheorem{question}{Question}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\title{\vspace{-0.5in}\sc Proposed Plan of Research\vspace{-2mm}}
+% \title{\vspace{-0.5in}Decision Making in Strategic Outsourcing Networks{-2mm}} % for OR/optimization related stuff
+% \title{\vspace{-0.5in}Research Statement\vspace{-2mm}}
+  \author{{\bf Swaprava Nath} 
+% 	\\ \small{Advisor: Prof. Y. Narahari\vspace{-1mm}}
+% 	\\ \small{Department of Computer Science and Automation\vspace{-1mm}}
+% 	\\ \small{Indian Institute of Science, Bangalore\vspace{-1mm}} 
+	\\ \small{Email: \texttt{swaprava@gmail.com} \hspace{1cm} Web: \texttt{http://swaprava.byethost7.com}}
+% 	\\ \small{Application towards Caltech CMI Postdoctoral Fellowship Program}\vspace{-0.25mm}
+% 	\\ {\bf Topical Areas: Game Theory, Optimization, Algorithms}\vspace{-3mm}
+}
+% 
+\date{}
+% \date{\today}
+% \date{November 2012}
+% \frenchspacing
+
+% Start the document
+\begin{document}
+\maketitle
+
+\vspace{-0.25in}
+
+\noindent
+My research interest is in the broad area of {\em Internet economics}. In particular, I work on the theory and applications of microeconomics that actively involve computational science and the World Wide Web as a method of implementation. My research provides solutions to combat the strategic behavior of the individuals in these applications, and uses game theory and mechanism design as the solution tools. My Ph.D.\ thesis has considered one such application, namely {\em crowdsourcing}, and provided solutions to several important questions in different aspects of crowdsourcing. This proposal discusses the plan of a larger class of challenging problems in Internet economics that I would like to work on characterizing mechanisms that satisfy certain properties, e.g., truthfulness, efficiency, in those domains. My analysis techniques involve mathematical tools such as real analysis, optimization, probability theory etc. In the following sections, I am going to motivate my research agenda with suitable examples, state the research objectives and the plan of the methods to be used, and finally, present its 
+merit in the current research state-of-the-art.
+
+% \bigskip
+% To be written:
+% 
+% Proposed area of research and brief outline of proposal (under following sub-sections: Origin of the proposal, objectives, brief outline of methodology to be adopted, significance of the proposal in the context of current status in the field, prospects of this work for extending it as a long-term project beyond the tenure of the ``INSPIRE Faculty'' position)[Maximum five A4 pages in 1.5 line spacing]
+
+\section{Origin of the Proposal}
+
+Innovations in the computational and communication sciences have revolutionized the way we talk, disseminate information, aggregate our opinions or beliefs, and even do trade with the consumers. A large section of the Web today is involved in creating content by the users, outsourcing tasks to individuals in a crowd, and generating revenue through advertising. Technology has made this job easier by providing an atmosphere where these applications can run efficiently. However, one can observe that even though the applications are run by machines, the brain behind every application or web content is human. Being rational and intelligent, the human users choose their actions to optimize their individual objectives. More generally, all human driven applications on the Internet have a certain pattern and that is why it needs a detailed microeconomic study for a better performance.
+
+Game theory and mechanism design are the tools from microeconomics tailored to address the questions of this kind. My research develops theories that help explain certain phenomena on the Internet-related applications in the light of game theory and mechanism design. Before going forward, let us look at a few examples that illustrate the need for an economic insight into those applications.
+
+\subsection{Crowdsourcing: Wikipedia}
+
+\begin{wrapfigure}{r}{0.25\columnwidth}
+% \begin{figure}[h!]
+\centering
+\vspace{-0.15in}
+ \includegraphics[width=0.15\columnwidth]{../figures/wikipedia-logo.eps}
+% \end{figure}
+\vspace{-0.15in}
+\end{wrapfigure}
+Wikipedia is a classic example of harnessing the knowledge of a crowd. Conceptualized by opensource stalwart Richard Stallman in December 2000, Wikipedia was officially launched on January 15, 2001 by Jimmy Wales and Larry Sanger, using the concept and technology of a `wiki' pioneered in 1995 by Ward Cunningham. As opposed to the expert based system, the idea of letting the crowd edit and control the quality of the content revolutionized the content generation process for Wikipedia. 
+As of May 2013, Wikipedia includes over 26 million freely usable articles in 285 languages, written by over 39 million registered users and numerous anonymous contributors worldwide~\cite{Wikimedia.org2013}. Wikipedia is the world's sixth-most-popular website, visited monthly by around 11\% of all Internet users. To understand why people contribute to Wikipedia, we need to understand the behavioral economics of this domain.~\footnote{Image courtesy: http://www.wikipedia.org/}
+% 
+% Introduce with illustrative examples from Crowdsourcing, search auctions, fair division, matching etc. Diagrams are a must.
+
+\subsection{Online Advertising: Sponsored Search Auctions}
+
+
+A significant portion of today's web traffic is directed to the search operation. Google is a pioneer of the web search applications. However, a major effort goes in earning revenue from this application as the sponsored advertisements which show up during the search operation yield money to Google whenever any user clicks on those ads (see the figure). The ads are placed according to the outcome of an auction that Google runs with those advertisers. These auctions are called the {\em sponsored search auctions}. The placement of the ads and the proper payment schemes are questions that are efficiently answered by mechanism design.~\footnote{Image courtesy: http://www.google.com/}
+
+% \begin{wrapfigure}{l}{0.6\columnwidth}
+\begin{figure}[h!]
+\centering
+% \vspace{-0.15in}
+ \includegraphics[width=0.6\columnwidth]{../figures/google.ps}
+\end{figure}
+% \vspace{-0.15in}
+% \end{wrapfigure}
+
+There are several other application domains, e.g., product recommendation systems, user reviews, computational resource allocation, matching viewers to websites etc.\ that are part of the bigger class of problems called {\em Internet economics}. \Cref{fig:inet-econ-space} shows an important subset of problems in this class that motivate my research. The following section provides a little detailed description of the problems that this proposal aims to address.
+
+\begin{figure}[h!]
+ \centering
+ \begin{tikzpicture}[mindmap,
+  level 1 concept/.append style={level distance=120,sibling angle=90},
+  extra concept/.append style={color=blue!50,text=black}]
+   \begin{scope}[mindmap, concept color=blue!50!white]
+
+    \node [concept, text=white] at (0,0) 
+      {\Large \bf Internet Economics}
+      [counterclockwise from=135]
+      child [concept color=blue!20!white] 
+      {
+	node [concept] (crowd) {\bf Crowdsourcing} 
+	[counterclockwise from=60,sibling angle=40] 
+	child [concept color=green!20!white] {node [concept] (skill) {Skill Elicitation}}
+	child [concept color=green!20!white] {node [concept] (resource) {Resource Critical Tasks}}
+	child [concept color=green!20!white] {node [concept] (team) {Efficient Team Formation}}
+      }
+      child [concept color=blue!20!white] 
+        {
+        node [concept] (adver) {\bf Online Advertising}
+        [counterclockwise from=160,sibling angle=40] 
+	child [concept color=green!20!white] {node [concept] (auction) {Search Auctions}}
+	child [concept color=green!20!white] {node [concept] (recom) {Recommender Systems}}
+	child [concept color=green!20!white] {node [concept] (review) {User Review Forums}}
+        }
+      child [concept color=blue!20!white] 
+        {
+        node [concept] (division) {\bf Resource Allocation}
+        [counterclockwise from=250,sibling angle=40] 
+	child [concept color=green!20!white] {node [concept] (bandwidth) {Bandwidth Allocation}}
+	child [grow=10, concept color=green!20!white] {node [concept] (cloud) {Cloud Computing}}
+        }
+%       child [concept color=blue!20!white] 
+% 	{
+% 	node [concept] (prediction) {\bf Prediction Markets}
+% 	}
+      child [concept color=blue!20!white]
+%       [concept color=blue!50, level distance=180]
+        {
+        node [concept] (matching) {\bf Matching}
+        [clockwise from=100,sibling angle=40] 
+	child [concept color=green!20!white] {node [concept] (kidney) {Webpage to Viewer}}
+	child [concept color=green!20!white] {node [concept] (house) {House Allocation}}
+	child [concept color=green!20!white] {node [concept] (college) {College Admission}}
+% 	child [concept color=green!20!white] {node [concept] (marriage) {Stable Marriage}}
+        }
+%         child [concept color=blue!20!white, level distance=150]
+% %       [concept color=blue!50, level distance=180]
+%         {
+%         node [concept] (voting) {\bf Preference Aggregation (Voting)}
+%         }
+        ;
+  \end{scope}
+ \end{tikzpicture}
+  \caption{Graphical overview of the major research components of Internet economics.}
+ \label{fig:inet-econ-space}
+\end{figure}
+
+
+\section{Objectives}
+
+The following sub-domains of Internet economics, as shown in \Cref{fig:inet-econ-space}, offer a bunch of important questions that are the need for the hour of the Web applications. This proposal aims to address the following problem domains.
+
+\squishlisttwo
+ \item {\bf Crowdsourcing}: This domain addresses the problem of efficiently harnessing information, expertise, and labor from a diverse, unstructured, and heterogeneous {\em crowd}, often with a suitable monetary compensation. Even large companies today trust of crowdsourcing for solving problems without acquiring resources. A number of platforms have emerged, e.g., Amazon Mechanical Turk, oDesk, InnoCentive etc.\ that connect the task owners to the workers. The basic research questions in crowdsourcing are: (a)~how to pick the right set of experts as their skill set is unknown to the designer, (b)~what are the limits of achievability when the task is resource critical, (c)~how to align the incentives so that some achievable global objectives are satisfied.
+ \item {\bf Online advertising}: A major source of generating revenue in the Web is via advertising. For example, Google earns a majority of its revenue through the sponsored ads that appear in the web interface of their search engine. Ranging from (a)~sponsored search auctions to (b)~recommendation systems, the basic goal is to understand the behavior of the users and to show appropriate ads and properly charging the advertisers. A related domain is to advertise in the (c)~user review forums depending on the topics of discussion.
+ \item {\bf Resource allocation}: Allocating shared resources ``fairly'' among the shareholders is an important problem in bandwidth allocation in computer networks, mobile data communication, peer-to-peer file sharing, and cloud computing. The users of such applications often play strategically in order to scavenge more resource their way. Designing an efficient and ``fair'' mechanism using the classic economic theory of fair division forms the basis of this strand of problems that this proposal is going to address.
+%  Even though this is a classical economic problem, the bandwidth allocation problem in shared Internet access points or the resource sharing in cloud computing bring us back to the fair division problem.
+%  \item {\bf Prediction markets}: These markets allow users to buy and sell securities on potential outcomes of an uncertain event, and helps the designer determine the probability of the events by efficiently aggregating the knowledge and information of the participants. The goal here is to elicit the {\em true} information from the agents.
+ \item {\bf Matching}: Many applications in the Internet, e.g., matching the Web content providers to the consumers or job seekers to companies on professional websites like LinkedIn, involve matching a two sided market with one or both sides having preferences over the other side. The techniques used in the classical problems of matching (a)~students to colleges, (b)~houses to its potential occupants, (c)~kidney donors to its acceptors, or (d)~men with women for marriage are important to study in order to come up with efficient schemes of matching on the Internet. The ideas from the classical theory needs to be tailored to cater the requirements of the Web domain.
+%  \item {\bf Preference aggregation}: Collective decision making in the facility installation problem or in selecting the right candidate for a job is similar to the voting procedures, which is another classical area of microeconomics. The proliferation of the computer technologies helped to aggregate preferences and the subsequent computations efficiently. However, the computational aspects of voting is still a research area that is under-explored.
+\squishend
+Several problems under the areas (a-c) in the crowdsourcing sub-domain (first bullet above) has already been solved in my Ph.D.\ thesis~\cite{Nath2013thesis}. Even then, there are a few things that can add to the problems addressed there.
+
+\paragraph{Short term goals.}
+The immediate research plan of this proposal is to pursue the interesting research directions associated with the areas addressed in my thesis~\cite{Nath2013thesis}. The two major problems among them are the following. First, {\em learning} the skill of the crowd helps design an efficient outsourcing process. In most of the real-world settings, experts may not exactly {\em know} their qualities rather {\em experience} by doing it. The mechanism design question would be to make the outsourcing truthful for the experts even when the skills are unknown to both the outsourcer and the experts.
+Second, in crowdsourcing, we are actually interested in scavenging the {\em true} information from the strategic crowd in a {\em time-efficient} manner. The goal is to design (exact or approximate) sybilproof mechanisms using tools like {\em information theory} and {\em prediction markets}, so that the two above mentioned objectives can be satisfied.
+
+\paragraph{Long term goals.}
+The problems identified above are intellectually challenging as they are posed by the emerging applications on the Internet. The models, therefore, need to adapt to the actual application and provide solutions to them. In the longer run, my plan of research is to model these applications in a game theoretic framework and provide solutions to them.
+
+% {\bf SN: the following sections need to be improved}
+
+\section{The vision and methodology}
+
+A common thread in all the problems mentioned in this proposal is that it involves the Internet as a media of connecting individuals who are strategic. In the following, a few specific problems and design objectives are presented that are going to be addressed in this proposal.
+
+% \noindent
+% {\bf Desirable results:}
+\squishlisttwo
+ \item In the task crowdsourcing domain, we want to design mechanisms or algorithms that {\em learn} the skills of the agents and update the list of people for assigning a task.
+ \item In the context of time critical tasks, we want to design a mechanism such that the participants inform partial solutions as quickly as they can, and thereby inducing {\em synergy} among the people working towards a common goal.
+ \item Another goal is to {\em design the crowdsourcing network} so that it is stable, and also meets certain performance guarantees.
+ \item In online advertising, our goal is to design schemes so that (a)~sponsored search auctions can yield provable performance guarantees for multiple slots, (b)~recommendation mechanisms ensure improved revenue guarantees, and (c)~incentivizing users to put their honest efforts into reviewing a content (e.g., reviewing the food of a restaurant or technical quality of a journal paper).
+ \item Another interesting area of research is the fair division of common resources. We hope to find a mechanism design scheme that divides shared resources like bandwidth or computing power without any monetary compensation meeting some well-defined design objectives.
+\squishend
+
+\noindent
+{\bf Problem handling approach:}
+Our aim is to come up with appropriate game theoretic models of these domains and provide mechanisms that satisfy the desirable properties as mentioned earlier. In the process, we might discover certain limits of achievability and design approximately optimal schemes. We would also aim to generalize the results in order to gain a broader insight on the above mentioned problems in Internet economics. The approach to solve these problems would be mostly theoretical and the treatment would involve real analysis, logic, linear algebra, calculus, probability, and similar mathematical tools.
+
+
+\section{Significance in the context of the current state-of-the-art}
+
+Even though Internet was originally conceived as a medium of communication, in the current context, it has grown much beyond the scope of that simplicity. Today, for almost all applications including commodity purchase, knowledge dissemination, work outsourcing, or sharing resources, we use the computational and communicative power of the Internet. With the technological advances of the Internet, it is also extremely important to design the right protocols keeping in mind that the human participants, who are the end users of these online applications, could be strategic. The importance of understanding the economics behind today's Internet has been reflected in the computer science literature, e.g., in online advertising~\cite{edelman2005internet, varian2007position}, in query incentive networks~\cite{Kleinberg2005}, or in crowdsourcing~\cite{Pickard2011}. The classic economic models, given in the standard texts~\cite{MASCOLELL95, krishna2009auction}, need to be appropriately modified to adapt to the 
+challenging novel problems related to the Internet. Each of these two domains complements the needs of the other, and a prudent fusion of the two will enrich the experience of a typical user on the Internet. However, the theory in certain areas of `Internet economics' is still underdeveloped, e.g., in (a)~the broad area of crowdsourcing, (b)~matching the right viewers to websites, or (c)~fairly dividing the computational resources to its users. This proposal aims to fill the gap in these areas and thereby efficiently connecting the domains of economics and computational sciences.
+
+
+% The current literature that delves into the economic aspects of the Internet is rather thin, and therefore my research agenda is a significant value addition to understand the dynamic human behavior, the limits of achievability, and to design schemes that are strategic manipulation-proof. In particular, the plan outlined in this research proposal would:
+% \vspace{-1mm}
+% \begin{enumerate} \itemsep0pt
+%  \item yield a holistic solution to the strategic crowdsourcing problem.
+%  \item provide a generalized solution for the sponsored search auction.
+%  \item bring more credibility to the scientific and online review process.
+%  \item under suitable settings, provide efficient schemes of shared resource allocation.
+%  \item contribute to online matching, prediction markets, and voting.
+% \end{enumerate}
+% The above points distinguish this research from the current state-of-the-art in the respective domains.
+
+\section{Prospect as a long-term research agenda}
+
+The Internet is getting monetized in a much rapid fashion, and as mentioned earlier, the use of the Internet as a means to generate revenue is on the rise. It is evident that the applications of the problems outlined in this proposal would only multiply in future. Therefore, the understanding of the economics of the network is indispensable to design the next generation Web applications. Soon, these applications would pervade our everyday life through the mobile phones, tablets, and all micro-communication media. Hence, Internet economics stands to perform as a lively area of research for a significant period of time in the future.
+
+
+% \pagebreak
+\small
+
+\bibliographystyle{abbrvnat} 
+\bibliography{/home/swaprava/Documents/PhD-Work/Research/master01082013}
+
+\end{document}

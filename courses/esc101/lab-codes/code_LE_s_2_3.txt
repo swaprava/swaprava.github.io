@@ -1,0 +1,91 @@
+Rectangular Grid  [30 marks]
+----------------------------------------------------------------------
+
+Problem Statement
+Given a rectangular region with its vertices at (0, 0) and (0, M) and (N,0) and (N, M) in a Magnetic Field. Print the Intensity Level in the rectangular region at each of the lattice points. Given a point (x0, y0), its Magnetic field intensity is obtained by calculating the sum of its distances from all other lattice points inside the rectangular region and also strictly within a threshold of distance R from it. If the value of Magnetic field intensity is X, its Intensity Level is given by the following relation 
+
+ Level 'N' if X < V1
+ Level 'M' if V1 <= X < V2
+ Level 'D' if X => V2
+
+----------------------------------------------------------------------
+Problem-specific Note: 
+
+lattice points are the integer valued co-ordinates
+N, M are positive integers and R, V1, V2 are positive decimal values
+Do not print extra spaces in the output.
+All the outputs should be in separate lines.
+
+----------------------------------------------------------------------
+INPUT FORMAT:
+N M V1 V2 R
+
+OUTPUT FORMAT:
+The rectangular grid with Intensity level Characters (grid starts at bottom left corner)
+----------------------------------------------------------------------
+EXAMPLE:
+INPUT:
+3 3 15.0 20.0 3.0
+
+OUTPUT:
+NMMN
+MDDM
+MDDM
+NMMN
+
+Explanation: There are 16 lattice points for the given problem. For the point (0, 1) the magnetic field intensity is 19.37 so the corresponding level 'M' is printed. 
+----------------------------------------------------------------------
+Grading Scheme:
+There will be partial grading in this question. There are M+1 lines in your output. Printing each line correctly, in the correct order, carries some weightage. There are 3 visible and 3 hidden test cases.
+
+Please remember, however, that when you press Submit/Evaluate, you will get a green bar only if all parts of your answer are correct. Thus, if your answer is only partly correct, Prutor will say that you have not passed that test case completely, but when we do autograding afterwards, you will get partial marks.
+----------------------------------------------------------------------
+Words of Caution
+
+Do not forget to submit your code. You can submit multiple times. Only the last submission will be graded.
+Marks will be allotted for the following
+        
+
+	
+Proper and meaningful variable names.
+	
+Nice looking and consistent indentation.
+	
+At least a couple of comments explaining to the human grader what are you doing.
+	
+
+Solutions that indulge in hard-coding will get a straight zero even if they are passing some test cases.
+Questions will be graded by the autograder as well as a human grader.
+Proportion of marks allotted to autograder and human grader will be revealed when marks and grading rubrics are released.
+You are not allowed to use libraries other than already included in the template code.
+
+=======================
+Primary Solution Code
+=======================
+#include<stdio.h>
+#include<math.h>
+
+double dist(int x1, int y1, int x2, int y2){
+    return sqrt((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2));
+}
+int main(){
+    int N, M;
+    double X, R, V1, V2;
+    scanf("%d %d %lf %lf %lf", &M, &N, &V1, &V2, &R);
+    for(int i=0; i<=N; i++){
+        for(int j=0; j<=M; j++){
+            X = 0.0;
+            for(int k=0; k<=N; k++){
+                for(int l=0; l<=M; l++){
+                    if(dist(i, j, k, l) < R) 
+                        X += dist(i, j, k, l);
+                }
+            }
+            if(X < V1) printf("N");
+            else if(X < V2) printf("M");
+            else printf("D");
+        }
+        if(i<N) printf("\n");
+    }
+    return 0;
+}

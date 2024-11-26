@@ -1,0 +1,19 @@
+Paper/Project Presentation Guidelines
+=====================================
+
+The goal of these presentations is to collectively learn certain areas of research in mechanism design. So, make sure your presentation reaches out to the general audience of this class -- it is part of the lecture slots, hence the audience should learn the idea of a problem, the application domains/motivation, the main results, and the relevant literature -- in addition, some proof techniques will be useful. Please ensure that your presentations have these basic features. In the following, some helpful points are listed.
+
+-- Stick to one central paper for the presentation, however, you can spend some time in the related literature section to give an overview of the other known results.
+-- Make a clear example to motivate the problem. Often, this is available in the paper itself.
+-- Present the main model of the paper with the notation and definitions so that the later part of the presentation can easily stand on them. For experimental papers, this will be similarly the model of the experiments.
+-- Relevant literature: as mentioned before, this will help the audience understand the area of research.
+-- Present the main results. The details can be presented with one or two important but intuitive proofs. Remember, a presentation is meant to give the idea of the proof and NOT the complete details, as it is not possible to follow all details in a talk. Therefore, pick carefully which proofs you want to present: a rule of thumb is to avoid all long/tedious proofs.
+-- Summarize the results and state the open questions. If you made some initial advances in those directions, mention them as well.
+
+
+Key points
+===========
+
+The talk should be detailed enough for the paper being presented, but understandable to the general audience of this class. Finally, everyone should get the basic idea of the paper.
+
+Attendance policy as mentioned in the FCH also applies to these presentations. This is also part of the lectures, and hence extends our understanding of these selected areas of mechanism design.

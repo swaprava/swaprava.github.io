@@ -1,0 +1,14 @@
+
+This new course notification is only for UG students.
+
+The course CS 6001 (Game Theory and Algorithmic Game Theory) is now also listed as an UG elective course CS 405 (the course content remains same, the evaluation mode changes -- for CS 405 there will be 2 quizzes + midsem + endsem -- weightages and other plans as mentioned in the 2023 edition of CS 6001). UG students are advised to register only for this course and not CS 6001. Pre-registration is enforced for CS 405. Please do the needful when pre-reg opens on ASC. The list of selected students will be according to the rule below.
+
+<text> = "will be able to add this course in a descending CPI FCFS manner"
+
+    max 50 students of CSE 3rd year Btech / 4th year dual degree <text>
+    max 50 students of CSE 4th year Btech / 5th year dual degree <text>
+    max 40 students of CSE 2nd year Btech / 3rd year dual degree <text>
+    max 40 students from any batch of EE <text>
+    max 10 students from any batch of Math <text>
+    max 10 students from any batch of Economics <text>
+
